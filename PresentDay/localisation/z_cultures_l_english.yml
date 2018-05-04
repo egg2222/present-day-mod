@@ -1,10 +1,10 @@
 ﻿l_english:
  culture_group_plains:0 "Plains"
+ culture_group_great_lakes:0 "Great Lakes"
  culture_nebraskan:0 "Nebraskan"
  culture_iowan:0 "Iowan"
  culture_south_dakotan:0 "South Dakotan"
  culture_group_mountain_west:0 "Mountain West"
- culture_group_midwest:0 "Midwest"
  culture_wyomingite:0 "Wyomingite"
  culture_idahoan:0 "Idahoan"
  culture_missourian:0 "Missourian"
@@ -20,4 +20,5 @@
  culture_pd_papuan:0 "Papuan"
  culture_group_oceania:0 "Oceania"
  culture_group_spanish_south_america:0 "Spanish South America"
- culture_chilean: "Chilean"
+ culture_chilean:0 "Chilean"
+ culture_minnesotan:0 "Minnesotan"

@@ -2,7 +2,7 @@
 
 graphical_culture = westerngfx
 
-color = { 128 0 128 }
+color = { 148 0 211 }
 
 historical_idea_groups = {
 	plutocracy_ideas
@@ -43,11 +43,23 @@ monarch_names = {
 	"Al" = 25
 	"Wendell" = 25
 	"Harold" = 25
-	"Karl" = 25
+	"Elmer" = 25
+	"Luther" = 25
+	"Edward" = 25
+	"Orville" = 25
+	"Hjalmar" = 25
+	"Floyd" = 25
+	"Theodore" = 25
+	"Lisa" = -25
+	"Joan" = -25
+	"Sarah" = -25
+	"Jeanne" = -25
+	"Grace" = -25
+	"Amy" = -25
 }
 
 leader_names = {
-	David Oscar Heather Dennis Timothy 
+	Jon Richard Lisa Joan Marlene Alexander Gottfrid George Thomas
 }
 
 ship_names = {

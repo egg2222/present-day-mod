@@ -20,6 +20,33 @@ culture_group_plains = {
 		}
 	}
 	
+	culture_missourian = {
+		primary = MSR
+		
+		male_names = {
+			Jay Matt Bob Roger Mel John Christopher Joseph Warren James Phil Forrest
+			Lloyd Guy Henry Samuel Arthur Frederick Elliot Herbert Lawrence William
+			David Albert Thomas Charles Silas Benjamin Willard Hamilton Claiborne
+			Hancock Trusten Sterling Austin Meredith Lilburn Daniel Abraham Meriwether
+			Amos Peter Joe Hilary Edward Walter Frank Philip Hiram Wallace Jacob August
+			Stephen Norman Edwin George Wilson Tom Charlie Bill Scott Mike Jeffery Lyle
+			Andrew Don Lyndall 
+ 		} 
+		female_names = {
+			Harriett Tila Holly Kathryn Donna Shelley Lyn Sonya Sue Patrica Diane Linda
+			Cloria Marsha Gina Karla Kimberly Sharon Wanda
+		}
+		dynasty_names = {
+			Flanigan Davis White Reiboldt Lant Fitzpatrick Moon Justus Rowland Rhoads
+			Cookson Richardson Hubrecht McDaniel Rone Rehder Swan Lichtenegger Keeney
+			Fitzwater Pogue Ross Dugger Morris Taylor Phillips Fraker Austin Hough
+			Haahr Burlison Norr Anderson Messenger Crawford Entlicher Kelley Pike
+			Love Miller Franklin Lynch Frederick Chipman Hinson Harris Black Engler
+			Gannon Ruth Shaul Vescovo Roden Matthews Curtman Hill Hicks Sommer
+			Parkinson Conway Wiemann Bahr Allen Koenig
+		}
+	}
+	
 	culture_south_dakotan = {
 		primary = SDK
 		
@@ -170,33 +197,23 @@ culture_group_mountain_west = {
 	}
 }
 
-culture_group_midwest = {
+culture_group_great_lakes = {
 	graphical_culture = westerngfx
 	
-	culture_missourian = {
-		primary = MSR
+	culture_minnesotan = {
+		primary = MST
 		
 		male_names = {
-			Jay Matt Bob Roger Mel John Christopher Joseph Warren James Phil Forrest
-			Lloyd Guy Henry Samuel Arthur Frederick Elliot Herbert Lawrence William
-			David Albert Thomas Charles Silas Benjamin Willard Hamilton Claiborne
-			Hancock Trusten Sterling Austin Meredith Lilburn Daniel Abraham Meriwether
-			Amos Peter Joe Hilary Edward Walter Frank Philip Hiram Wallace Jacob August
-			Stephen Norman Edwin George Wilson Tom Charlie Bill Scott Mike Jeffery Lyle
-			Andrew Don Lyndall 
- 		} 
+			Mark Tim Jesse Arne Rudy Al Wendell Harold Karl Elmer Orville Luther
+			Edward Hjalmar Floyd Theodore Joseph Jacob Winfield Adolph Samuel John
+			Samuel David Knute Andrew Lucius Cushman Horace Henry
+		}
 		female_names = {
-			Harriett Tila Holly Kathryn Donna Shelley Lyn Sonya Sue Patrica Diane Linda
-			Cloria Marsha Gina Karla Kimberly Sharon Wanda
+			Carol Mae Joanne Michelle Tina Yvonne Joanell Marlene 
 		}
 		dynasty_names = {
-			Flanigan Davis White Reiboldt Lant Fitzpatrick Moon Justus Rowland Rhoads
-			Cookson Richardson Hubrecht McDaniel Rone Rehder Swan Lichtenegger Keeney
-			Fitzwater Pogue Ross Dugger Morris Taylor Phillips Fraker Austin Hough
-			Haahr Burlison Norr Anderson Messenger Crawford Entlicher Kelley Pike
-			Love Miller Franklin Lynch Frederick Chipman Hinson Harris Black Engler
-			Gannon Ruth Shaul Vescovo Roden Matthews Curtman Hill Hicks Sommer
-			Parkinson Conway Wiemann Bahr Allen Koenig
+			Dayton Pawlenty Ventura Carlson Perpich Quie Anderson LeVander Rolvaag
+			Andersen Freeman Youngdahl Thye Stassen Benson Petersen Olson Christianson
+			Preus Burnquist Hammond Eberhart Johnson "Van Sant" Lind Clough Nelson Merriam
 		}
 	}
-}
