@@ -1,0 +1,9 @@
+﻿l_english:
+ ELECT_STAY:0 "Keep our current leader! (Note: You will be unable to elect them again)"
+ ELEC_OPT1:0 "We'll go with this random leader!"
+ ELEC_OPT2:0 "How about this random leader?"
+ ELEC_OPT3:0 "Or, maybe this one?"
+ ELECT_1_TITLE:0 "Election Time!"
+ ELECT_1_DESC:0 "The time has come for our great nation to hold an election! Who do you choose?"
+ ELECT_2_TITLE:0 "An Unfortunate Election"
+ ELECT_2_DESC:0 "The unfortunate death of $MONARCH$ brings to our nation times of great despair. We must elect a new leader and bring back stability to our great nation!"

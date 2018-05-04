@@ -1,0 +1,22 @@
+#Caribbean
+culture_group_spanish_south_america = {
+	graphical_culture = westerngfx
+	
+	culture_chilean = {
+		primary = CHL
+		
+		male_names = {
+			Sebastián Ricardo Eduardo Patricio Augusto Salvador Jorge Gabriel
+			Juan Alfredo Vicente Jerónimo Pedro Arturo Abraham Bartolomé
+			Carlos Manuel Emiliano Luis Ramón Elías
+		}
+		female_names = {
+			Michelle Isabel María Gladys Gabriela Irene
+		}
+		dynasty_names = {
+			Piñera Bachelet Lagos "Ruiz-Tagle" Aylwin Pinochet Allende
+			Montalva Alessandri "del Campo" Videla Iribarren Duhalde
+			Merino Ríos Méndez Cerda Oyanedel Blanche Dávila Puga
+		}
+	}
+}

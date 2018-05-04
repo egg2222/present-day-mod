@@ -1,0 +1,61 @@
+country_decisions = {
+
+	kalmar_union_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			tag = DAN
+			is_colonial_nation = no
+		}
+		allow = {
+			adm_tech = 10
+			is_subject = no
+			is_nomad = no
+			is_at_war = no
+			senior_union_with = NOR
+			senior_union_with = SWE
+			owns_core_province = 12
+			owns_core_province = 1983
+			owns_core_province = 14
+			owns_core_province = 1984
+			owns_core_province = 15
+		}
+		effect = {
+			change_tag = KAL
+			inherit = SWE
+			inherit = NOR
+			if = {
+				limit = {
+					is_part_of_hre = yes
+					is_elector = no
+					is_emperor = no
+				}
+				every_owned_province = {
+					limit = {
+						is_part_of_hre = yes
+					}
+					set_in_empire = no
+				}
+			}
+			if = {
+				limit = { NOT = { government_rank = 2 } }
+				set_government_rank = 2
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+			add_prestige = 15
+			scandinavia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = KAL
+			}	
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+}

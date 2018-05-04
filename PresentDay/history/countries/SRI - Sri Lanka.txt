@@ -1,0 +1,17 @@
+government = constitutional_republic
+government_rank = 3
+technology_group = indian
+religion = buddhism
+primary_culture = sinhala
+capital = 572	# Kotte
+
+2015.1.9 = {
+	monarch = {
+		name = "Maithripala"
+		dynasty = "Sirisena"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1951.9.3
+	}
+}

@@ -1,0 +1,14 @@
+owner = FRA
+controller = FRA
+capital = Rennes
+is_city = yes
+culture = breton
+religion = catholic
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 5
+estate = estate_church
+add_core = BRI
+add_core = FRA

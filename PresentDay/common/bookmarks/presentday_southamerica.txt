@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "PD_SOUTH_AMERICA_NAME"
+	desc = "PD_SOUTH_AMERICA_DESC"
+	date = 2018.5.1
+	
+	center = 1803
+	default = no
+	
+	country = UNK
+	country = FRA
+	country = SPA	
+	country = ITA
+	country = GER
+	country = HAB
+	country = POR	
+	country = POL
+	country = DAN
+	country = UKR
+	country = SWE
+}

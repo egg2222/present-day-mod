@@ -1,0 +1,64 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 128 0 128 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mark" = 25
+	"Tim" = 25
+	"Jesse" = 25
+	"Arne" = 25
+	"Rudy" = 25
+	"Al" = 25
+	"Wendell" = 25
+	"Harold" = 25
+	"Karl" = 25
+}
+
+leader_names = {
+	David Oscar Heather Dennis Timothy 
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

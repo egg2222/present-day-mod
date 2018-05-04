@@ -1,0 +1,48 @@
+###############################
+#####EUROPEAN CULTURES
+###############################
+
+
+#Balkans
+culture_group_balkan = {
+	graphical_culture = westerngfx
+	
+	culture_kosovan = {
+		primary = KOS
+		
+		male_names = {
+			Hashim Jakup Behgjet Fatmir Nexhat Ibrahim Hysen Remzi Bajram
+			Branislav Shefqet Kolë Ali Xhavid Ilaz Fadil Stanoje Dušan
+			Pavle Ðordije Ismet Mehmed Isa Agim Adem Ramush Jusuf
+			Daut Nikolla Namzi Ljubomir Riza
+		}
+		female_names = {
+			Kaqusha Atifete
+		}
+		dynasty_names = {
+			Thaçi Jahjaga Krasniqi Pacolli Sejdiu Daci Rugova Kajdomçaj Kolgeci
+			Selani Skembarevic "Nebih Gashi" Shiroka Shukriu Nimani Kurteshi
+			Hoxha Akšic Mugoša Jovicevic Pajkovic Saqiri
+		}
+	}
+	culture_bosnian = {
+		primary = BOS
+		
+		male_names = {
+			Bakir Dragan Mladen Željko Nebojša Haris Sulejman "Ivo Miro" Borislav
+			Mirko Beriz Jozo Alija Ante Obrad Nikola Mato Munir Milanko Branko
+			Raif Ratomir Hamdija Džemal Ðuro Vlado Vojislav Denis Vjekoslav
+			Adnan Zlatko Božidar Martin Spasoje Hasan Mile Jure Marko Josip
+			Gojko Seid Dragutin Rudi Osman Avdo Rodoljub 
+		}
+		female_names = {
+			Azra Nela Šejla Helena Maya Ksenia Bisera Nura
+		}
+		dynasty_names = {
+			Izetbegovic Covic Ivanic Komšic Radmanovic Silajdžic Tihic Paravac
+			Šarovic Belkic Križanovic Radišic Jelavic Piljak Filipovic Andric
+			Mesihovic Renovica Mikulic Dizdarevic Dugonjic Pozderac Bijedic
+			Pucar Šegrt Kecmanovic
+		}
+	}
+}

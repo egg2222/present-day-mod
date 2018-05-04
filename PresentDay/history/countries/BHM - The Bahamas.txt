@@ -1,0 +1,42 @@
+government = parliamentary_republic
+government_rank = 1
+technology_group = western
+religion = protestant
+historical_friend = UNK
+historical_friend = USA
+primary_culture = culture_bahamian
+capital = 482	# Nassau
+
+2007.5.4 = {
+	monarch = {
+		name = "Hubert"
+		dynasty = "Ingraham"
+		adm = 3
+		dip = 3
+		mil = 3
+		religion = protestant
+		birth_date = 1947.8.4
+	}
+}
+
+2012.5.8 = {
+	monarch = {
+		name = "Perry"
+		dynasty = "Christie"
+		adm = 2
+		dip = 2
+		mil = 2
+		religion = protestant
+		birth_date = 1943.8.24
+	}
+}
+
+2017.5.11 = {
+	monarch = {
+		name = "Hubert"
+		dynasty = "Minnis"
+		adm = 4
+		dip = 3
+		mil = 3
+		religion = catholic
+		birth_date = 1954.4.16

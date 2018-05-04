@@ -1,0 +1,77 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 145  9  9 }
+
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	innovativeness_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	administrative_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Raúl" = 25
+	"Fidel" = 25
+	"Osvaldo" = 25
+	"Manuel" = 25
+	"Carlos" = 25
+	"Anselmo" = 25
+	"Fulgencio" = 25
+	"Ramón" = 25
+	"Federico" = 25
+	"Miguel" = 25
+	"José" = 25
+	"Porfirio" = 25
+	"Sergio" = 25
+	"Guillermo" = 25
+	"Alberto" = 25
+	"Gerardo" = 25
+	"Alfredo" = 25
+	"Mario" = 25
+	"William" = 25
+	"Tomás" = 25
+}
+
+leader_names = {
+	Leopoldo Adolfo Alberto Antonio Arnaldo Calixto Carlos Emilio Federico
+	Jesús José Julius Loreta Manuel Máximo Pedro Victor Tomás
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$" Foxtrot Koni "Rio Damuji" "Pauk II" Turya Stenka
+	"SO-1" "Osa I" "Osa II" Sonya Yevgenya "Polnocny B" "Isla de la Juventud"
+}
+
+
+army_names = {
+	"Ejército Revolucionario del $PROVINCENAME$"
+}
+
+fleet_names = {
+	"Armada Revolucionaria de $PROVINCENAME$"
+}

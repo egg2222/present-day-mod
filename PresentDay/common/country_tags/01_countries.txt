@@ -1,0 +1,54 @@
+#################################################
+##### NORTH AMERICA
+#################################################
+
+#US States
+IDA = "countries/Idaho.txt"
+IOW = "countries/Iowa.txt"
+NEB = "countries/Nebraska.txt"
+WYO = "countries/Wyoming.txt"
+MNT = "countries/Montana.txt"
+KNS = "countries/Kansas.txt"
+OKL = "countries/Oklahoma.txt"
+MSR = "countries/Missouri.txt"
+SDK = "countries/South Dakota.txt"
+MNS = "countries/Minnesota.txt"
+
+#Carribean
+CUB = "countries/Cuba.txt"
+BHM = "countries/TheBahamas.txt"
+
+###################################################
+##### EUROPE
+###################################################
+
+#British Isles
+RIR = "countries/RepublicOfIreland.txt"
+UNK = "countries/UnitedKingdom.txt"
+IOM = "countries/IsleOfMan.txt"
+
+#Western Europe and Iberia
+
+#Balkans
+KOS = "countries/Kosovo.txt"
+
+#Eastern Europe
+
+
+#Scandinavia
+KAL = "countries/KalmarUnion.txt"
+
+#South Central Europe (Switzerland/Western Austria and South)
+
+#Turkey
+TRK = "countries/Turkey.txt"
+
+###################################################
+##### ASIA
+###################################################
+
+#Indonesia and Nearby Areas
+PPA = "countries/PapuaNewGuinea.txt"
+
+#India and Surrounding Area
+SRI = "countries/SriLanka.txt"

@@ -1,0 +1,239 @@
+body {
+	padding-bottom: 50px;
+}
+
+header {
+	background-image: url('../images/raphael-school-of-athens.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 -540px;
+	background-size: 100% auto;
+	position: relative;
+	height: 32em;
+	margin-bottom: 10px;
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+	header {
+		background-position: 0 -100px;
+	}
+}
+
+header .container {
+	
+}
+
+header .container h1 {
+	color: #fcfcfc;
+	text-shadow: 0px 0px 2px #333333;
+	margin-bottom: 3px;
+}
+header .container h4  {
+	background: rgba(186, 229, 255, 0.45);
+	color: #fcfcfc;
+	text-shadow: 0px 0px 2px #333333;
+	padding: 5px;
+	border-radius: 6px;
+	display: inline-block;
+	margin-top: 0;
+}
+
+.container .continents h3 {
+	background: rgba(186, 229, 255, 0.45);
+	color: #4D94D0;
+	padding: 5px;
+	border-radius: 6px;
+	outline: none;
+}
+.container .continents h3:hover {
+	cursor: pointer;
+	background: rgba(186, 229, 255, 0.85);
+}
+
+.continents div ol li span.province-color-cnt {
+	padding: 2px;
+	border: 1px solid #aaaaaa;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.continents div ol li span.province-color-cnt .color-tooltip {
+	background: rgba(186, 229, 255, 0.45);
+	color: #4D94D0;
+	padding: 10px;
+	display: none;
+	position: absolute;
+	width: 75px;
+	top: 0;
+	right: 0px;
+	z-index: 1030;
+}
+
+.continents div ol li:hover .color-tooltip {
+	display: block !important;
+}
+
+.continents div ol li span.province-color {
+	display: block;
+	height: 34px;
+	width: 34px;
+}
+
+.continents > div {
+	height: auto !important;
+}
+
+.continents div ol {
+	padding: 0 0 0 0;
+	font-size: 14px;
+}
+
+.continents div ol li {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 10px 0;
+	min-width: 230px;
+	list-style: decimal inside;
+}
+.continents div ol li:before {
+	content:" ";
+	display:list-item;
+	list-style:decimal inside;
+	float:left;
+	padding:0px;
+	margin-left:0;
+	width: 32px;
+}
+
+.continents div ol li span {
+	font-size: 14px;
+}
+
+.continents div ol li span.province-descr-container {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+}
+
+.continents div ol li span.province-id {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.continents div ol li span.province-name {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.generate-color-cnt {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.generate-color-cnt .message {
+	height: 22px;
+	display: block;
+}
+
+.generated-color, .checked-color {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+}
+
+.generated-color-values {
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+}
+
+.generated-color-values span {
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.generated-red {
+	
+}
+
+.generated-green {
+
+}
+
+.generated-blue {
+	
+}
+
+.button {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.button .btn {
+	background: rgba(186, 229, 255, 0.45);
+}
+
+.button .btn:hover { 
+	background: rgba(186, 229, 255, 0.85);
+}
+
+/* Check color form */
+
+.check-color-cnt {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.check-color-cnt .checked-color {
+	border: 1px solid #dff2fe;
+}
+
+.check-color-cnt .check-color {
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0;
+	width: 262px;
+}
+
+.check-color-cnt .check-color li {
+	display: inline-block;
+	vertical-align: top;
+	height: 40px;
+}
+
+.check-color-cnt .check-color li label {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: normal;
+}
+
+.check-color-cnt .check-color li label input {
+	width: 40px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #dff2fe;
+}
+.check-color-cnt .check-color li label input:hover, 
+.check-color-cnt .check-color li label input:active {
+	border: 1px solid #4D94D0;
+}
+
+.check-color-cnt .check-color .button {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.download {
+	background: url('../images/icon-archive.png') no-repeat;
+	line-height: 40px;
+	padding-left: 50px;
+	height: 40px;
+	display: inline-block;}

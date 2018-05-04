@@ -1,0 +1,202 @@
+culture_group_plains = {
+	graphical_culture = westerngfx
+	
+	culture_nebraskan = {
+		primary = NEB
+		
+		male_names = {
+			Pete Dave Mike Ben Kay Robert Charles James Norbert Frank Ralph Victor Dwight
+			Val Arthur Adam Samuel Keith John Chester Ashton George Erza William Silas
+			Lorenzo Albinus David Alvin Algernon Sterling Thomas Mark Francis Othman
+			Nate Roy Theodore Fred Pelham Melville
+		}
+		female_names = {
+			Maxine Kim Deb Hazel Eva Virginia Sue Kate Laura Patty Kathy
+		}
+		dynasty_names = {
+			Foley Nelson Heidemann Sheehy Heineman Maurstad Robak Moul Nichol McGinley Luedtke Whelan Marsh
+			Everroad Sorensen Burney Warner Crosby Johnson Parsons Jurgensen Metcalfe Barrows Howard Saunders
+			Paddock Morton Black Richardson Cuming Izard Burt Clark Lewis Wilkinson Harrison Stoddard Walker
+		}
+	}
+	
+	culture_south_dakotan = {
+		primary = SDK
+		
+		male_names = {
+			Arthur Charles Andrew Samuel Coe Robert Frank Peter William Warren Tom 
+			Harlan Merrill George Sigurd Joe Ralph Archie Nils Frank Dick Harvey 
+			Bill Walter Mike Dennis
+		}
+		female_names = {
+			Angela Catherine Rachael Shannon Leslie Judith Candace Cheryl Peggy Mary
+			Elizabeth Rose 
+		}
+		dynasty_names = {
+			Mellette Sheldon Lee Herreid Elrod Crawford Vessey Byrne Norbeck McMaster Gunderson
+			Bulow Green Berry Jensen Bushfield Sharpe Mickelson Anderson Foss Herseth Gubbrud
+			Boe Farrar Kneip Wollman Janklow Miller Rounds Daugaard
+		}
+	}
+	
+	culture_iowan = {
+		primary = IOW
+		
+		male_names = {
+			Terry Chet Tom Robert Harold Normal Herschel Leo William Bourke George Nelson Clyde
+			Dan John Nathan Beryl Albert Warren Francis Frank Horace Buren Joshua Samuel Cyrus
+			Ansel
+		}
+		female_names = {
+			Kim Patty Sally Joy Jo Joni Linda Megan Mary Helen Ruth Marti Beth Lisa Sharon
+			Patti Nancy Deborah Sandy Kirsten Dawn Cindy
+		}
+		dynasty_names = {
+			Branstad Culver Vilsack Ray Fulton Hughes Erbe Loveless Hoegh Elthon Beardsley Blue
+			Hickenlooper Wilson Kraschel Herring Turner Hammill Kendall Harding Clarke
+			Carroll Garst Cummins Shaw Drake Jackson Boies Larrabee Sherman Gear
+			Newbold Kirkwood Carpenter Merrill Stone Lowe Grimes Hempstead Briggs Ernst
+		}
+	}
+	
+	culture_kansan = {
+		primary = KNS
+		
+		male_names = {
+			Jeff Troy Mark John Gary Jim Jack Thomas Paul Shelby Dave Reynolds James Harold Joseph
+			Fred Frank Jess Carl William Charles Jacob Lanson Ben Sheffield Richard Alexander Harry
+			David Percy Andrew Lyman Melville Elias Peter Ralph Larry
+		}
+		female_names = {
+			Sheila Shannon Sue Sharon "Ponka-We" Janice Gail Kasha Peggy Sydney Annie Barbara
+			Connie Valdenia Melissa Nancy Stephanie Amanda Erin Molly Elaine Carolyn Susan
+			Oletha Leslie Vicki Laura Caryn Mary Julia Kay Marci
+		}
+		dynasty_names = {
+			Brownback Parkinson Sebelius Graves Finney Hayden Carlin Bennett Docking Avery
+			Anderson McCuish Hall Arn Hagaman Carlson Schoeppel Ratner Huxman Landon Woodring
+			Reed Paulen Davis Allen Capper Hodges Stubbs Hoch Bailey Stanley Leedy Morrill
+			Lewelling Humphrey Martin Glick Anthony Osborn Harvey Green Crawford Carney Robinson
+			Medary Denver Walker Geary Shannon Reeder
+		}
+	}
+	culture_oklahoman = {
+		primary = OKL
+		
+		male_names = {
+			Brad Frank David Henry George Dewey James Raymond Johnston Roy Robert Leon Ernest
+			William Martin Jack Lee Charles Thompson Cassius Abraham Brian Mike Mark Corey
+			Jim Ron John Marty Ralph Patrick Bill Eddie Larry Kevin Joseph Roger
+		}
+		female_names = {
+			Mary Stephanie Kim Susan Kay Anastasia Lisa Ann Marian Claudia Katie Sally
+			Jeannie Cyndi Jadine Leslie Pam
+		}
+		dynasty_names = {
+			Fallin Henry Keating Walters Bellmon Nigh Boren Hall Bartlett Edmondson
+			Gary Murray Turner Kerr Phillips Marland Holloway Johnston Trapp Walton
+			Robertson Cruce Haskell Frantz Ferguson Grimes Jenkins Barnes Renfrow
+			Seay Martin Steele Bingman Schulz Allen Anderson Barrington Bass Bice
+			Boggs Brecheen Brooks Brown Crain Dahm David Dossett Fields Floyd Ford
+			Fry Garrison Griffin Halligan Holt Jech Jolley Loveless Sharp Newberry
+			Yen Sparks
+		}
+	}
+}
+
+culture_group_mountain_west = {
+	graphical_culture = westerngfx
+	
+	culture_wyomingite = {
+		primary = WYO
+		
+		male_names = {
+			Matt Dave Jim Mike Edgar Stanley Clifford Jack Frank Arthur Lester
+			Nels Leslie Alonzo Robert Joseph Bryant Fenimore DeForest Amos Francis John Craig
+			Malcolm Gale Clarence Alan Milward Edward
+		}
+		female_names = {
+			Nellie Cynthia Barbara
+		}
+		dynasty_names = {
+			Mead Freudenthal Geringer Sullivan Herschler Hathaway Hansen Gage Henry
+			Hickey Simpson Rogers Barrett Crane Hunt Smith Miller Clark Emerson Ross
+			Carey Houx Kendrick Brooks Chatterton Richards Osborne Barber Warren
+			Barrasso Thomas Wallop McGee O'Mahoney Schwartz Crippa Lummis Cubin
+		}
+	}
+	
+	culture_idahoan = {
+		primary = IDA
+		
+		male_names = {
+			Butch Jim Dirk Phil Cecil John Don Leonard Arnold Charles Barzilla Ben Moses
+			James Frank William George Edward Mason David Alexander Gilman Samuel Caleb
+		}
+		female_names = {
+			Janet Julie Wendy Donna
+		}
+		dynasty_names = {
+			Otter Risch Kempthorne Batt Andrus Evans Samuelson Smylie Jordan Robins
+			Gossett Bottolfsen Clark Moore Davis Hawley Gooding Morrison Hunt Steunenberg
+			William Shoup McConnell Stevenson Bunn Irwin Hoyt Brayman Thompson Bennett 
+			Bowen Conner Marston Bard Ballard Lyon Wallace
+		}
+	}
+	culture_montanan = {
+		primary = MNT
+		
+		male_names = {
+			Steve Brian Marc Stan Ted Thomas Forrest Tim Donald John Sam Roy Elmer Frank
+			Joseph Edwin Robert Benjamin Preston Samuel Wiley James Green Sidney Mike
+			Karl Denny Allen Gordon George Paul Hugh Nelson Archibald Alexander Champ
+			Tom Douglas Bryce David Edward Ron Patrick Galen Chuck Kirk Ryan Jeffrey
+		}
+		female_names = {
+			Judy Angela Kimberly Jenifer Nancy Carolyn Ellie Cathy Liz Edith Kathleen
+			Joanne Margaret Virginia Mary Rae Wendy Kris Clarena Carlie Jean
+			Christy Susan
+		}
+		dynasty_names = {
+			Edmunds Dudik Gursky Wilson Squires Steenberg Hill Coffin Bennett Moore
+			Greef Ballance Ehli Connell Swanson Pierson Miller Galt Eck Hollenbaugh
+			Bangerter Hunter Gibson Wagoner Lynch McClafferty Noonan Welborn Shaw
+			White Washburn Flynn Vance Pomnichowski Williams Woods Wilmer Neill
+			Redfield Howard Blyton Kerns Laszloffy Jones Smith MacDonald Hagstrom
+			Court McCarthy Lenz McNally Kary Zolnikov Fiscus Berry McNiven Ankney
+			"Pease-Lopez" Peppers McChesney Randall Doane Knudsen Lang Warburton
+			Hansen Brockie Harris Osmundson Bullock Schweitzer Martz Racicot Stephens
+		}
+	}
+}
+
+culture_group_midwest = {
+	graphical_culture = westerngfx
+	
+	culture_missourian = {
+		primary = MSR
+		
+		male_names = {
+			Jay Matt Bob Roger Mel John Christopher Joseph Warren James Phil Forrest
+			Lloyd Guy Henry Samuel Arthur Frederick Elliot Herbert Lawrence William
+			David Albert Thomas Charles Silas Benjamin Willard Hamilton Claiborne
+			Hancock Trusten Sterling Austin Meredith Lilburn Daniel Abraham Meriwether
+			Amos Peter Joe Hilary Edward Walter Frank Philip Hiram Wallace Jacob August
+			Stephen Norman Edwin George Wilson Tom Charlie Bill Scott Mike Jeffery Lyle
+			Andrew Don Lyndall 
+ 		} 
+		female_names = {
+			Harriett Tila Holly Kathryn Donna Shelley Lyn Sonya Sue Patrica Diane Linda
+			Cloria Marsha Gina Karla Kimberly Sharon Wanda
+		}
+		dynasty_names = {
+			Flanigan Davis White Reiboldt Lant Fitzpatrick Moon Justus Rowland Rhoads
+			Cookson Richardson Hubrecht McDaniel Rone Rehder Swan Lichtenegger Keeney
+			Fitzwater Pogue Ross Dugger Morris Taylor Phillips Fraker Austin Hough
+			Haahr Burlison Norr Anderson Messenger Crawford Entlicher Kelley Pike
+			Love Miller Franklin Lynch Frederick Chipman Hinson Harris Black Engler
+			Gannon Ruth Shaul Vescovo Roden Matthews Curtman Hill Hicks Sommer
+			Parkinson Conway Wiemann Bahr Allen Koenig
+		}
+	}
+}

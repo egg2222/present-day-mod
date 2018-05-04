@@ -1,0 +1,39 @@
+government = presidential_republic
+government_rank = 2
+primary_culture = albanian
+religion = sunni
+technology_group = western
+capital = 143 # Durrës,Tirana
+
+2007.7.24 = {
+	monarch = {
+		name = "Bamir"
+		dynasty = "Topi"
+		adm = 5
+		dip = 4
+		mil = 3
+		religion = sunni
+	}
+}
+
+2012.7.24 = {
+	monarch = {
+		name = "Bujar"
+		dynasty = "Nishani"
+		adm = 4
+		dip = 5
+		mil = 5
+		religion = shia
+	}
+}
+
+2017.7.24 = {
+	monarch = {
+		name = "Ilir"
+		dynasty = "Meta"
+		adm = 3
+		dip = 5
+		mil = 3
+		religion = shia
+	}
+}

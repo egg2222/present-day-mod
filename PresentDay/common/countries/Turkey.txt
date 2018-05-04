@@ -1,0 +1,75 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 10  194  0 }
+
+historical_idea_groups = {
+	offensive_ideas
+	defensive_ideas
+	humanist_ideas
+	religious_ideas
+	influence_ideas
+	quality_ideas
+	administrative_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Mustafa" = 25
+	"Abdülhalik" = 25
+	"İsmet" = 25
+	"Celâl" = 25
+	"Cemal" = 25
+	"İbrahim" = 25
+	"Cevdet" = 25
+	"Tekin" = 25
+	"Fahri" = 25
+	"İhsan" = 25
+	"Kenan" = 25
+	"Turgut" = 25
+	"Hüsamettin" = 25
+	"Süleyman" = 25
+	"Ahmet" = 25
+	"Abdullah" = 25
+	"Recep" = 25
+}
+
+leader_names = {
+	Işık Akar Çakmak Orbay Omurtak Gürman Yamut Baransel
+	Tunaboylu Mengüç Erdelhun Gümüşpala Sunay Tural Tağmaç
+	Gürler Sancar Evren Ersin Üruğ Torumtay Güreş Karadayı
+	Kıvrıkoğlu Özkök Büyükanıt Başbuğ Koşaner Özel
+}
+
+ship_names = {
+	"Kap $PROVINCE$"
+}
+
+
+army_names = {
+	"Ordu $PROVINCENAME$"
+}
+
+fleet_names = {
+	"Filo $PROVINCENAME$"
+}

@@ -1,0 +1,41 @@
+government = english_monarchy
+government_rank = 2
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = english
+capital = 236 # London
+
+1937.5.12 = {
+	monarch = {
+		name = "George VI"
+		adm = 4
+		dip = 4
+		mil = 4
+		birth_date = 1895.12.14
+	}
+}
+
+1952.2.6 = {
+	monarch = {
+		name = "Elizabeth II"
+		dynasty = "of Windsor"
+		adm = 6
+		dip = 5
+		mil = 4
+		birth_date = 1926.4.21
+		female = yes
+		religion = protestant
+	}
+	
+	heir = {
+		name = "Charles III"
+		dynasty = "of Windsor"
+		birth_date = 1948.11.14
+		claim = 100
+		adm = 3
+		dip = 2
+		mil = 3
+		religion = protestant
+	}
+}

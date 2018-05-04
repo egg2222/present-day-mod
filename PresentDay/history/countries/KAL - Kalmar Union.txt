@@ -1,0 +1,8 @@
+government = administrative_monarchy
+technology_group = western
+primary_culture = danish
+religion = protestant
+add_accepted_culture = finnish
+add_accepted_culture = swedish
+add_accepted_culture = norwegian
+capital = 12 #Sjaelland

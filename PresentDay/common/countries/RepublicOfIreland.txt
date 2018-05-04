@@ -1,0 +1,75 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 16  232  74 }
+
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	exploration_ideas
+	trade_ideas
+	diplomatic_ideas
+	naval_ideas
+	spy_ideas
+	influence_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Douglas" = 25
+	"Seán" = 25
+	"Éamon" = 25
+	"Erskine" = 25
+	"Cearbhall" = 25
+	"Patrick" = 25
+	"Mary" = -25
+	"Michael" = 25
+}
+
+leader_names = {
+	"Kenny" "Coveney" "hatter" "Cuív" "Killeen"
+	"Cowen" "O'Dea" "Smith" "Andrews"
+	"Wilson" "Brady" "Daly" "Haughey"
+	"Lenihan" "Noonan" "O'Toole" "Cooney"
+	"Power" "Tully" "Barrett" "Faulkner"
+	"Molloy" "Flanagan" "Cosgrave" "Donegan"
+	"Cronin" "Gibbons" "Hilliard" "Bartley" "Boland"
+	"Eoin" "Traynor" "O'Higgins" "Aiken" "FitzGerald"
+	"Hughes" "Mulcahy" "Brugha"
+}
+
+ship_names = {
+	"LÉ Aisling" "LÉ Eithne" "LÉ Orla" "LÉ Ciara" "LÉ Róisín" "LÉ Niamh" "LÉ Samuel Beckett"
+	"LÉ James Joyce" "LÉ William Butler Yeats" "LÉ Macha" "LÉ Maev" "LÉ Cliona" "LÉ Grainne"
+	"LÉ Banba" "LÉ Fola" "LÉ Deirdre" "LÉ Setanta" "LÉ Ferdia" "LÉ Emer" "LÉ Aoife"
+}
+
+
+army_names = {
+	"Arm na $PROVINCE$" "1 Infantry Battalion" "3 Infantry Battalion" "6 Infantry Battalion"
+	"7 Infantry Battalion" "12 Infantry Battalion" "27 Infantry Battalion" "28 Infantry Battalion"
+	"1 Mechanised Infantry Company"
+}
+
+fleet_names = {
+	"Flít na Seirbhíse Cabhlaigh ar $PROVINCE$"
+}

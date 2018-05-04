@@ -1,0 +1,108 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 41  117  240 }
+
+historical_idea_groups = {
+	influence_ideas
+	defensive_ideas
+	expansion_ideas
+	religious_ideas
+	diplomatic_ideas
+	administrative_ideas
+	humanist_ideas
+	plutocracy_ideas	
+}
+
+historical_units = {
+	eastern_medieval_infantry
+	eastern_knights
+	slavic_stradioti
+	eastern_militia
+	ottoman_sekban
+	ottoman_reformed_spahi
+	ottoman_reformed_janissary
+	ottoman_toprakli_hit_and_run
+	ottoman_nizami_cedid
+	ottoman_toprakli_dragoon
+	eastern_skirmisher
+	eastern_uhlan
+	eastern_carabinier
+	ottoman_new_model
+	ottoman_lancer
+}
+
+monarch_names = {
+	"Hashim" = 25
+	"Atifete" = -25
+	"Jakup" = 25
+	"Behgjet" = 25
+	"Fatmir" = 25
+	"Nexhat" = 25
+	"Ibrahim" = 25
+	"Hysen" = 25
+	"Remzi" = 25
+	"Bajram" = 25
+	"Branislav" = 25
+	"Shefqet" = 25
+	"Kolë" = 25
+	"Ali" = 25
+	"Xhavid" = 25
+	"Ilaz = 25
+	"Fadil" = 25
+	"Stanoje = 25
+	"Dušan" = 25
+	"Pavle" = 25
+	"Ðordije" = 25
+	"Ismet" = 25
+	"Mehmed" = 25
+}
+
+leader_names = {
+	Plator
+	Lavdi
+	Shebib
+	Gjerg
+	Arbë
+	Bardhanjor
+	Ylldrit
+	Halit
+	Flakim
+	Ammar
+	Pezar
+	Lirjet
+	Agrin
+	Dukagjin
+	Kreshn
+	Kyeart
+	Shasivar
+	Yll
+	Shendver
+	Iliaz
+	Lartore
+	Emirjona
+	Kushtime
+	Amanta
+	Arbrorja
+	Ditlinda
+	Cemtare
+	Flladjeta
+	Dazema
+	Zbardhime
+}
+
+ship_names = {
+	"Prishtina" "Prizren" "Gjilan" "Pejë" "Mitrovicë" "Ferizaj" "Gjakovë" "Vushtrri"
+	"Podujevë" "Rahovec" "Fushë Kosovë" "Suharekë" "Kaçanik" "Skenderaj"
+	"Kamenicë" "Shtime" "Lipjan" "Obiliq" "Drenas" "Junik"
+}
+
+
+army_names = {
+	"Ushtria e $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy e $PROVINCE$"
+}

@@ -1,0 +1,19 @@
+#Oceania
+culture_group_oceania = {
+	graphical_culture = easterngfx
+	
+	culture_pd_papuan = {
+		primary = PPA
+		
+		male_names = {
+			Michael Julius Paias Rabbie John Bill Mekere Sam Peter
+			Tore Kingsford Ignatius Serei Wiwa Silas Paulias Robert
+		}
+		female_names = {
+			Peta Theresa Dika Toea Judith Emi Lara Marina
+		}
+		dynasty_names = {
+			Somare Chan Wingti Giheno Skate Morauta Abal O'Neill
+		}
+	}
+}

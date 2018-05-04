@@ -1,0 +1,96 @@
+#Flavor Events For UK, Specific to this mod
+
+namespace = presentday_ukflavor_namespace
+
+#Unrest in North Ireland
+country_event = {
+	id = presentday_ukflavor_namespace.1
+	title = "NORTH_IRELAND_EVENT_ONE_TITLE"
+	desc = "NORTH_IRELAND_EVENT_ONE_DESC"
+	picture = ANGRY_MOB_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = UNK
+		owns_core_province = 4121
+		owns_core_province = 372
+	}
+
+	mean_time_to_happen = {
+		months = 144
+		
+		modifier = {
+			factor = 1.75
+			stability = 1
+		}
+		
+		modifier = {
+			factor = 2
+			stability = 2
+		}
+		
+		modifier = {
+			factor = 2.25
+			stability = 3
+		}
+		
+		modifier = {
+			factor = 0.75
+			is_at_war = yes
+		}
+		
+		modifier = {
+			factor = 0.5
+			offensive_war_with = RIR
+		}
+		
+		modifier = {
+			factor = 1.25
+			defensive_war_with = RIR
+		}
+		
+		modifier = {
+			factor = 0.65
+			num_of_loans = 3
+		}
+	}
+	
+	option = {
+		name = "UK_NORTH_IRELAND_P1_OP1" #Cede the Province
+		ai_chance = { factor = 30 }
+		random_owned_province = {
+			limit = {
+				is_core = RIR
+			}
+			remove_core = UNK
+			cede_province = RIR
+			set_province_flag = rir_ceded_province
+		}
+		random_owned_province = {
+			limit = {
+				is_core = RIR
+				NOT = { has_province_flag = rir_ceded_province }
+			}
+			remove_core = UNK
+			cede_province = RIR
+		}
+	}
+	option = {
+		name = "UK_NORTH_IRELAND_P1_OP2" #I can deal with a few rebels
+		ai_chance = { factor = 60 }
+		random_owned_province = {
+			limit = {
+				is_core = RIR
+			}
+			set_province_flag = north_ireland_unrest
+			add_unrest = 10
+		}
+		random_owned_province = {
+			limit = {
+				is_core = RIR
+				NOT = { has_province_flag = north_ireland_unrest }
+			}
+			add_unrest = 10
+		}
+	}
+}

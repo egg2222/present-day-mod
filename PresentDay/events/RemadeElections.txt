@@ -1,0 +1,127 @@
+namespace = present_day_event_namespace #This isn't used over all events, despite what the name might make you think. This was my first event and I was following the wiki, so this namespace only applies here.
+
+# Election!
+country_event = {
+	id = present_day_event_namespace.1
+	title = "ELECT_1_TITLE"
+	desc = "ELECT_1_DESC"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { government = dutch_republic }
+	}
+
+	option = {
+		name = "ELECT_STAY"	# Current ruler stays
+		trigger = {
+			has_regency = no
+			NOT = { has_ruler_flag = current_ruler_elected_twice }
+		}
+		ai_chance = { 
+			factor = 60
+			modifier = {
+				factor = 0
+				NOT = { republican_tradition = 0.25 }
+			}	
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 0.5 }
+			}				
+			modifier = {
+				factor = 0.5
+				NOT = { republican_tradition = 0.75 }
+			}	
+			modifier = {
+				factor = 2.0
+				republican_tradition = 0.9
+			}		
+		}
+		if = {
+            limit = {
+                NOT = { has_ruler_flag = current_ruler_elected_once }
+            }
+            set_ruler_flag = current_ruler_elected_once
+        }
+        if = {
+            limit = {
+                has_ruler_flag = current_ruler_elected_once
+            }
+            set_ruler_flag = current_ruler_elected_twice
+        }
+		custom_tooltip = remains_ruler
+		change_adm = 1
+		change_dip = 1
+		change_mil = 1
+	}
+	option = {
+		name = "ELEC_OPT1"	# Random One
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+	}
+	option = {
+		name = "ELEC_OPT2"	# Random Two
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}	
+	}
+	option = {
+		name = "ELEC_OPT3"	# Random Three
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+	}
+}
+
+# Election!
+country_event = {
+	id = present_day_event_namespace.2
+	title = "ELECT_2_TITLE"
+	desc = "ELECT_2_DESC"
+	picture = ELECTION_REPUBLICAN_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = { government = dutch_republic }
+	}
+	
+	option = {
+		name = "ELEC_OPT1"	# Random One
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+	}
+	option = {
+		name = "ELEC_OPT2"	# Random Two
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}	
+	}
+	option = {
+		name = "ELEC_OPT3"	# Random Three
+		ai_chance = { factor = 20 }
+		define_ruler = {
+			adm = 1
+			dip = 1
+			mil = 1
+		}
+	}
+}

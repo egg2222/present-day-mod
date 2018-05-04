@@ -1,0 +1,85 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 68  145  23 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Sam" = 25
+	"Mark" = 25
+	"Kathleen" = -25
+	"Bill" = 25
+	"Joan" = -25
+	"Mike" = 25
+	"John" = 25
+	"Robert" = 25
+	"William" = 25
+	"George" = 25
+	"Fred" = 25
+	"Edward" = 25
+	"Frank" = 25
+	"Andrew" = 25
+	"Payne" = 25
+	"Alfred" = 25
+	"Harry" = 25
+	"Clyde" = 25
+	"Ben" = 25
+	"Johnathan" = 25
+	"Henry" = 25
+	"Arthur" = 25
+	"Willis" = 25
+	"Edmund" = 25
+	"Lorenzo" = 25
+	"Lyman" = 25
+	"Thomas" = 25
+	"Nehemiah" = 25
+	"Samuel" = 25
+	"Charles" = 25
+
+leader_names = {
+	Windham Taylor Navrkal Wright Simpson Murray Baade
+	Twombly Haeffle Tafanelli Krueger Jordan McLean Browne
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

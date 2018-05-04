@@ -1,0 +1,43 @@
+#Caribbean
+culture_group_caribbean = {
+	graphical_culture = westerngfx
+	
+	culture_cuban = {
+		primary = CUB
+		
+		male_names = {
+			Raúl Fidel Osvaldo Manuel Carlos Anselmo Fulgencio Ramón
+			Federico Miguel José Porfirio Sergio Guillermo Alberto
+			Gerardo Alfredo Mario William Tomás Rafael Gustavo
+			Francisco Emilio Enrique Domingo Luis Gonzalo Jorge
+			Andrés Óscar Félix Esteban Ricardo Juan Severo Flavio
+			Blas
+		}
+		female_names = {
+			Mirta Nitza Celia Hilda Loreta Maria Edelmira Marta
+			Vilma Ana Mariela Liaena Alicia Lydia
+		}
+		dynasty_names = {
+			Castro Torrado Lleó Alliegro Batista Socarrás Grau
+			Gómez Barnet Mendieta Sterling Hevia Machado Menocal
+			Magoon Taft Palma "Díaz-Canel" Inclán Pujol Echarte
+			Rubio Brú Hernández Morales Núñez Varona Capote Romero
+		}
+	}
+	
+	culture_bahamian = {
+		primary = BHM
+		
+		male_names = {
+			Roland Lynden Hubert Perry Arthur Clement Orville Frank
+			Brent Philip Peter Milo Gerald Henry Clifford Paul Hugh
+			Charles Francis John Ralph
+		}
+		female_names = {
+			Cynthia Doris Ivy Marguerite Pauline
+		}
+		dynasty_names = {
+			Symonette Pindling Ingraham Christie Minnis Hanna
+			Maynard Turnquest Watson Pratt Davis
+		}
+}

@@ -1,0 +1,39 @@
+# Triggered modifiers are here.
+# these are checked for each countries once/month and then applied.
+#
+# Effects are fully scriptable here.
+
+
+###########################################
+# Conquest of New York City
+###########################################
+conquest_of_new_york_city = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 965	# Manhattan
+	}
+
+	trigger = {
+		owns = 965 # Manhattan
+	}
+
+	global_tax_income = 10
+	prestige = 1
+}
+
+###########################################
+# Conquest of Washington DC
+###########################################
+conquest_of_washington_dc = {
+	potential = {
+		normal_or_historical_nations = yes
+		has_discovered = 4401	# District of Columbia
+	}
+
+	trigger = {
+		owns = 4401 #District of Columbia
+	}
+
+	global_tax_income = 15
+	prestige = 15
+}

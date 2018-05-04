@@ -1,0 +1,13 @@
+#483 - Turks Islands
+
+owner = UNK
+controller = UNK
+add_core = UNK
+culture = british
+religion = catholic
+capital = "Grand Turk"
+trade_goods = unknown
+hre = no
+base_tax = 3
+base_production = 3
+base_manpower = 1

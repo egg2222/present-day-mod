@@ -1,0 +1,27 @@
+#905 - Iowa
+
+owner = IOW
+controller = IOW
+add_core = IOW
+culture = culture_iowan
+religion = protestant
+capital = "Des Moines"
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+
+
+discovered_by = north_american
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = south_american

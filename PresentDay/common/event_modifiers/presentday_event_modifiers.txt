@@ -1,0 +1,38 @@
+#Nebraska Pipeline
+NEB_PIPELINE_VETO = {
+	global_unrest = -1
+	global_regiment_recruit_speed = 0.1
+}
+
+NEB_PIPELINE_ALLOW = {
+	global_unrest = 2
+	global_regiment_recruit_speed = -0.1
+}
+
+#Irish Missions
+rir_retook_north_ireland = {
+	global_unrest = -2
+	prestige_decay = -0.01
+}
+
+#Danish Missions
+dan_restored_kalmar = {
+	prestige_decay = -0.03
+	diplomatic_reputation = 3
+}
+
+#Oklahoma Tornado Research
+OKL_FUNDED_TOR_RESEARCH = {
+	adm_tech_cost_modifier = -0.1
+	global_unrest = -1
+}
+
+OKL_DIDNOT_FUND_TOR_RESEARCH = {
+	global_unrest = 1
+}
+
+#Nebraska: Oil Spill!
+NEB_OIL_SPILL = {
+	global_unrest = 4
+	global_tax_modifier = -0.10
+}

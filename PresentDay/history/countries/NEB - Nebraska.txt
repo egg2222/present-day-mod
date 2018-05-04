@@ -1,0 +1,64 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_nebraskan
+capital = 901	# Lincoln
+
+1987.1.9 = {
+	monarch = {
+		name = "Kay"
+		dynasty = "Orr"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1939.1.2
+		female = yes
+	}
+}
+
+1991.1.9 = {
+	monarch = {
+		name = "Ben"
+		dynasty = "Nelson"
+		adm = 4
+		dip = 2
+		mil = 2
+		birth_date = 1941.5.17
+	}
+}
+
+1999.1.7 = {
+	monarch = {
+		name = "Mike"
+		dynasty = "Johanns"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1950.6.18
+	}
+}
+
+2005.1.20 = {
+	monarch = {
+		name = "Dave"
+		dynasty = "Heineman"
+		adm = 2
+		dip = 3
+		mil = 2
+		birth_date = 1948.5.12
+	}
+}
+
+
+2015.1.8 = {
+	monarch = {
+		name = "Pete"
+		dynasty = "Ricketts"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1964.8.19
+	}
+}

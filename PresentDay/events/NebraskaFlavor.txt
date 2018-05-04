@@ -1,0 +1,101 @@
+#Flavor Events For Nebraska
+namespace = presentday_nebflavor_namespace
+#Keystone Pipeline
+country_event = {
+	id = presentday_nebflavor_namespace.1
+	title = "NEB_PIPELINE_EVENT_ONE_TITLE"
+	desc = "NEB_PIPELINE_EVENT_ONE_DESC"
+	picture = ECONOMY_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = NEB
+		is_at_war = no
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "NEB_PIPELINE_P1_OP1" #Veto the Pipeline
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "NEB_PIPELINE_VETO"
+			duration = 1095
+		}
+	}
+	option = {
+		name = "NEB_PIPELINE_P1_OP2" #Allow the Pipeline
+		ai_chance = { factor = 50 }
+		add_country_modifier = {
+			name = "NEB_PIPELINE_ALLOW"
+			duration = 1095
+		}
+		set_country_flag = neb_allowed_pipeline
+		custom_tooltip = neb_possible_oil_spill_warning
+	}
+}
+
+#Oil Spill!
+country_event = {
+	id = presentday_nebflavor_namespace.2
+	title = "NEB_PIPELINE_EVENT_TWO_TITLE"
+	desc = "NEB_PIPELINE_EVENT_TWO_DESC"
+	picture = ANGRY_MOB_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = NEB
+		has_country_flag = neb_allowed_pipeline
+		is_at_war = no
+	}
+
+	mean_time_to_happen = {
+		months = 120
+		
+		modifier = {
+			factor = 0.75
+			NOT = { stability = 0 }
+		}
+		
+		modifier = {
+			factor = 2
+			stability = 1
+		}
+		
+		modifier = {
+			factor = 2.25
+			stability = 2
+		}
+		
+		modifier = {
+			factor = 2.5
+			stability = 3
+		}
+		
+		modifier = {
+			factor = 0.15
+			stability = -3
+		}
+		
+		modifier = {
+			factor = 0.5
+			num_of_loans = 2
+		}
+		
+		modifier = {
+			factor = 0.05
+			is_bankrupt = yes
+		}
+	}
+	
+	option = {
+		name = "NEB_PIPELINE_P2_OP1" #Dammit!
+		add_country_modifier = {
+			name = "NEB_OIL_SPILL"
+			duration = 3650
+		}
+		add_treasury = -250
+	}
+}

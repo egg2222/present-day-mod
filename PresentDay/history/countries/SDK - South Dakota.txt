@@ -1,0 +1,29 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_south_dakotan
+capital = 2007	# Pierre
+
+2003.1.7 = {
+	monarch = {
+		name = "Mike"
+		dynasty = "Rounds"
+		adm = 2
+		dip = 2
+		mil = 2
+		birth_date = 1954.10.24
+	}
+}
+
+2011.1.8 = {
+	monarch = {
+		name = "Dennis"
+		dynasty = "Daugaard"
+		adm = 3
+		dip = 4
+		mil = 4
+		birth_date = 1953.6.11
+	}
+}

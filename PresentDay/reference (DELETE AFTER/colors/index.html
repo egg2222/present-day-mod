@@ -1,0 +1,289 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>EU4 Provinces Colorpicker</title>
+    <meta name="description" content="A modder's tool, tells you which province colors are taken and suggests you non-used colors for your new EU4 provinces.">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta name="format-detection" content="telephone=no">
+	 
+	 <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="assets/css/custom.css" type="text/css" media="screen" />
+	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	<script src="assets/js/jquery-ui.js"></script>
+	<script src="assets/js/provinceDB.js"></script>
+	<script src="assets/js/continentDB.js"></script>
+	<script>
+		// attach the .equals method to Array's prototype to call it on any array
+		Array.prototype.equals = function (array) {
+			// if the other array is a falsy value, return
+			if (!array)
+				return false;
+
+			// compare lengths - can save a lot of time 
+			if (this.length != array.length)
+				return false;
+
+			for (var i = 0, l=this.length; i < l; i++) {
+				// Check if we have nested arrays
+				if (this[i] instanceof Array && array[i] instanceof Array) {
+					// recurse into the nested arrays
+					if (!this[i].equals(array[i]))
+						return false;       
+				}           
+				else if (this[i] != array[i]) { 
+					// Warning - two different object instances will never be equal: {x:20} != {x:20}
+					return false;   
+				}           
+			}       
+			return true;
+		}  
+
+		//Generate random numbers between a min and max value
+		function getRandomInt(min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		}
+		
+		//Generate three random values between 0 and 255
+		var randRed;
+		var randGreen;
+		var randBlue;
+		var colorFree;
+		
+		$(document).ready(function(){
+			$(".continents").accordion({
+				collapsible: true,
+				active: false
+			});
+			var randProvColor;
+			
+			function generateColor(){
+				randRed = getRandomInt(0, 255);
+			    randGreen = getRandomInt(0, 255);
+				randBlue = getRandomInt(0, 255);
+				
+				var colorFree;
+				
+				//Add them to an array
+				randProvColor = [[randRed],[randGreen],[randBlue]];
+				
+				for (index = 0; index < provinceDB.length; ++index) {
+				
+					var redIdentical = provinceDB[index][1].equals(randProvColor[0]);
+					var greenIdentical = provinceDB[index][2].equals(randProvColor[1]);
+					var blueIdentical = provinceDB[index][3].equals(randProvColor[2]);
+
+					if (redIdentical == true && greenIdentical == true && blueIdentical == true)
+					{
+						//console.log(provinceDB[index][4]+"'s RGB value is the same as the random RGB value");
+						$(".generate-color-cnt .message").html("Unfortunately, this color is already being used by "+provinceDB[index][4]+". Please try again.");
+						colorFree = false;
+					}
+				}
+				
+				if(colorFree != false)
+				{
+					//console.log("This color is free: "+randProvColor[0]+" "+randProvColor[1]+" "+randProvColor[2]);
+					$(".generate-color-cnt .message").hide();
+					$(".generate-color-cnt .message").html("This color is free!");
+					$(".generate-color-cnt .message").fadeIn("slow");
+					$(".generate-color-cnt .generated-color").attr("style","background: rgb("+randProvColor[0]+", "+randProvColor[1]+", "+randProvColor[2]+")");
+					$(".generate-color-cnt .generated-color-values .generated-red").html(randProvColor[0]+", ");
+					$(".generate-color-cnt .generated-color-values .generated-green").html(randProvColor[1]+", ");
+					$(".generate-color-cnt .generated-color-values .generated-blue").html(randProvColor[2]);
+				}
+			}
+			
+			//Checking pre-entered RGB values
+			var checkRed;
+			var checkGreen;
+			var checkBlue;
+			var checkedColorIsFree;
+			
+			function checkColor()
+			{
+				var checkedColor = [[checkRed],[checkGreen],[checkBlue]];
+				checkedColorIsFree = null;
+				for (index = 0; index < provinceDB.length; ++index) 
+				{				
+					var redIdentical = provinceDB[index][1].equals(checkedColor[0]);
+					var greenIdentical = provinceDB[index][2].equals(checkedColor[1]);
+					var blueIdentical = provinceDB[index][3].equals(checkedColor[2]);
+
+					if (redIdentical == true && greenIdentical == true && blueIdentical == true)
+					{
+						//console.log(provinceDB[index][4]+"'s RGB value is the same as the random RGB value");
+						$(".check-color-cnt .message").html("Unfortunately, this color is already being used by "+provinceDB[index][4]+". Please try again.");
+						checkedColorIsFree = false;
+					}
+					
+				}
+				
+				$(".check-color-cnt .checked-color").attr("style","background: rgb("+checkRed+", "+checkGreen+", "+checkBlue+")");
+				
+				if(checkedColorIsFree != false)
+				{
+					$(".check-color-cnt .message").hide();
+					$(".check-color-cnt .message").html("This color is free!");
+					$(".check-color-cnt .message").fadeIn("slow");
+				}
+				
+			} 
+
+			$('.generate-rgb').click(function(){
+				generateColor();
+				$(".generate-color-cnt .generated-color").attr("style","background: rgb("+randProvColor[0]+", "+randProvColor[1]+", "+randProvColor[2]+")");
+			});
+			
+			//In the end I did it with separate loops. Excuse my noobishness.
+			var provincesInEurope = continentDB[0][1].length;
+			var provincesInAsia = continentDB[1][1].length;
+			var provincesInAfrica = continentDB[2][1].length;
+			var provincesInNorthAmerica = continentDB[3][1].length;
+			var provincesInSouthAmerica = continentDB[4][1].length;
+			var provincesInOceania = continentDB[5][1].length;
+
+			function populateAccordion(provincesCount, continentID) {
+					for (index = 0; index < provincesCount; ++index) {
+					var currentProvinceID = continentDB[continentID][1][index][0];
+					--currentProvinceID;
+					$("."+continentDB[continentID][0]+" ol").append("<li><span class='province-color-cnt'><span class='province-color' style='background:rgb("+provinceDB[currentProvinceID][1][0]+", "+provinceDB[currentProvinceID][2][0]+", "+provinceDB[currentProvinceID][3][0]+");'></span><span class='color-tooltip'>R: "+provinceDB[currentProvinceID][1][0]+"<br />G: "+provinceDB[currentProvinceID][2][0]+"<br />B: "+provinceDB[currentProvinceID][3][0]+"</span></span></span><span class='province-descr-container'><span class='province-id'>ID: "+provinceDB[currentProvinceID][0][0]+"</span><br /><span class='province-name'>"+provinceDB[currentProvinceID][4][0]+"</span></span></li>");
+				}
+			}
+			
+			//Print all provinces' values
+			populateAccordion(provincesInEurope,0);
+			populateAccordion(provincesInAsia,1);
+			populateAccordion(provincesInAfrica,2);
+			populateAccordion(provincesInNorthAmerica,3);
+			populateAccordion(provincesInSouthAmerica,4);
+			populateAccordion(provincesInOceania,5);
+
+			generateColor();
+			
+			//Check rgb value
+			$('.check-rgb').click(function(){
+				//Validate the RGB fields
+				$('.check-color-cnt input').each(function(){
+					if($(this).val()=='' || !($.isNumeric($(this).val())) || $(this).val()<0 || $(this).val()>255 ) {
+						$(this).attr("value", 0);
+						$(this).val(0);
+					}
+				});
+				//Assign fields' validated values to variables
+				checkRed = $('.check-color-cnt #red').val();
+				checkGreen = $('.check-color-cnt #green').val();
+				checkBlue = $('.check-color-cnt #blue').val();
+				//Run variables through the RGB check function
+				//alert('rgb: ' + checkRed + ', ' + checkGreen + ', ' + checkBlue+'\r\n');
+				checkColor();
+			});	
+		});
+		
+	</script>
+    
+<body>
+
+	<header>
+      <div class="container">
+        <h1 id="home">Europa Universalis IV Provinces Colorpicker</h1>
+        <h4>A modder's tool, tells you which province colors are taken and suggests you non-used colors for your new EU4 provinces.</h4>
+
+      </div>
+    </header>
+
+	<div class="container">
+			<div class="row right">
+				<p class="text-right">
+					<a class="download" href="eu4-color-picker.zip" title="Always the latest version">Download EU4 Color Picker</a>
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-md-6 generate-color-cnt">
+					<span class="message">
+					</span>
+					<div>
+						<div class="generated-color">
+						</div>
+						<div class="generated-color-values">
+							<span>RGB: </span>
+							<span class="generated-red"></span>
+							<span class="generated-green"></span>
+							<span class="generated-blue"></span>
+						</div>
+						<div class="button">
+							<a class="btn generate-rgb">Generate a new color</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 check-color-cnt">
+					<span class="message">Enter a color to check if it's free:</span>
+					<div>
+						<div class="checked-color" style="background: rgb(255, 255, 255)"></div>
+						<ul class="form check-color">
+							<li><label for="red">R: <input id="red" name="red" type="text" maxlength="3"/></label></li>
+							<li><label for="green">G: <input id="green" name="green" type="text" maxlength="3"/></label></li>
+							<li><label for="blue">B: <input id="blue" name="blue" type="text" maxlength="3"/></label></li>
+						</ul>
+						<div class="button">
+							<a class="btn check-rgb">Check color</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<h2>Current provinces by continent:</h2>
+				<p>(Showing provinces in EU IV v1.9.2)</p>
+			</div>
+			<div class="row">
+				<div class="continents">
+					<h3 title="Click to expand">Europa</h3>
+					<div class="europe">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+					
+					<h3 title="Click to expand">Asia</h3>
+					<div class="asia">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+					
+					<h3 title="Click to expand">Africa</h3>
+					<div class="africa">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+					
+					<h3 title="Click to expand">America Septentrionalis</h3>
+					<div class="north-america">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+					
+					<h3 title="Click to expand">America Meridionalis</h3>
+					<div class="south-america">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+					
+					<h3 title="Click to expand">Oceania</h3>
+					<div class="oceania">
+						<p><em>Right-click on any of the color samples and select "Inspect element" to see its RGB values.</em></p>
+						<ol>
+						</ol>
+					</div>
+				</div>
+			</div>
+			
+	</div>
+</body>
+</html>

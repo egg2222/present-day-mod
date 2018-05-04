@@ -1,0 +1,17 @@
+owner = UNK
+controller = UNK
+add_core = UNK
+capital = Bermuda
+trade_goods = fish
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+culture = english
+religion = catholic
+is_city = yes
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,85 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 118  176  30 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Terry" = 25
+	"Chet" = 25
+	"Tom" = 25
+	"Robert" = 25
+	"Harold" = 25
+	"Norman" = 25
+	"Herschel" = 25
+	"Leo" = 25
+	"William" = 25
+	"Bourke" = 25
+	"George" = 25
+	"Nelson" = 25
+	"Clyde" = 25
+	"Dan" = 25
+	"John" = 25
+	"Nathan" = 25
+	"Beryl" = 25
+	"Warren" = 25
+	"Albert" = 25
+	"L. M." = 25
+	"Francis" = 25
+	"Frank" = 25
+	"Horace" = 25
+	"Buren" = 25
+	"Joshua" = 25
+	"Samuel" = 25
+	"Cyrus" = 25
+}
+
+leader_names = {
+	Timothy Orr William Biddle Ellard Walsh
+	Warren Wood Frank Williams Ray Fountain David
+	Lueck Clayton Hovda Gerald Miller Rodney
+	Hannula Larry Shellito Rick Erlandson
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

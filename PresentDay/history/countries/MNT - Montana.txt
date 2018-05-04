@@ -1,0 +1,18 @@
+government = two_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_montanan
+capital = 2501	# Helena
+
+2013.1.7 = {
+	monarch = {
+		name = "Steve"
+		dynasty = "Bullock"
+		adm = 3
+		dip = 2
+		mil = 2
+		birth_date = 1966.4.11
+	}
+}

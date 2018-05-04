@@ -1,0 +1,87 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 28  116  145 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Pete" = 25
+	"Dave" = 25
+	"Mike" = 25
+	"Ben" = 25
+	"Kay" = -25
+	"Norbert" = 25
+	"Frank" = 25
+	"Ralph" = 25
+	"Victor" = 25
+	"Val" = 25
+	"Dwight" = 25
+	"Robert" = 25
+	"Arthur" = 25
+	"Adam" = 25
+	"Samuel" = 25
+	"Keith" = 25
+	"Chester" = 25
+	"Ashton" = 25
+	"George" = 25
+	"Erza" = 25
+	"Charles" = 25
+	"William" = 25
+	"Silas" = 25
+	"Lorenzo" = 25
+	"John" = 25
+	"James" = 25
+	"Albinus" = 25
+}
+
+leader_names = {
+	Daryl Bohac Judd Lyons Timothy
+	Kadavy Roger Lempke Stanley Heng
+	Edward Binder Michael Navrkal
+	Michael Deger Butler Miltonberger
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$" "92nd Troop Command" "72nd Civil Support Team" "168th Quartermaster Battalion" "1057th Transportation Company"
+	"734th Transportation Battalion" "126th Chemical Battalion" "181st Engineer Team" "317th Engineer Team"
+	"43rd Army Band" "267th Ordnance Company" "1st Squadron" "195th Support Company" "1st Battalion"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

@@ -1,0 +1,106 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 43  213  240 }
+
+historical_idea_groups = {
+	maritime_ideas
+	defensive_ideas
+	exploration_ideas
+	trade_ideas
+	diplomatic_ideas
+	naval_ideas
+	spy_ideas
+	influence_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Richard" = 25
+	"Adam" = 25
+	"Paul" = 25
+	"Ian" = 25
+	"Timothy" = 25
+	"Laurence" = 25
+	"Nigel" = 25
+	"John" = 25
+	"Peter" = 25
+	"Ronald" = 25
+	"Ambrose" = 25
+	"Geoffrey" = 25
+	"William" = 25
+	"Earl" = 25
+	"Montagu" = 25
+	"Claude" = 25
+	"George" = 25
+	"Baron" = 20
+	"Joseph" = 25
+}
+
+leader_names = {
+	"William Fry"
+	"Cecil W. Park"
+	"Sir William Douglas"
+	"Bertram R. Mitford"
+	"Arthur Solly-Flood"
+	"T. Herbert Shoubridge"
+	"Arthur Solly-Flood"
+	"Claude D. H. Moore"
+	"William H. Beach"
+	"Arthur E. McNamara"
+	"Sir Hugh J. Elles"
+	"Kenneth G. Buchanan"
+	"William G. Holmes"
+	"Henry B.D. Willcox"
+	"Eric G. Miles"
+	"Miles C. Dempsey"
+	"John A. Aizlewood"
+	"Geoffrey C. Evans"
+	"Vyvyan Evelegh"
+}
+
+ship_names = {
+	"HMS Daring" "HMS Dauntless" "HMS Diamond" "HMS Dragon" "HMS Defender" "HMS Duncan"
+	"HMS Argyll" "HMS Lancaster" "HMS Iron Duke" "HMS Monmouth" "HMS Monmouth "HMS Westminster"
+	"HMS Northumberland" "HMS Richmond" "HMS Somerset" "HMS Sutherland" "HMS Kent" "HMS Portland"
+	"HMS St Albans" "HMS Mersey" "HMS Severn" "HMS Tyne" "HMS Clyde" "HMS Archer" "HMS Biter"
+	"HMS Smiter" "HMS Pursuer" "HMS Blazer" "HMS Dasher" "HMS Puncher" "HMS Charger" "HMS Ranger"
+	"HMS Trumpeter" "HMS Express" "HMS Example" "HMS Explorer" "HMS Exploit" "HMS Tracker"
+	"HMS Raider" "HMS Scimitar" "HMS Sabre" "HMS Echo" "HMS Enterprise" "HMS Scott" "HMS Protector"
+	"HMSML Gleaner" "HMS Bristol" "HMS Ledbury" "HMS Cattistock" "HMS Brocklesby" "HMS Middleton"
+	"HMS Chiddingfold" "HMS Atherstone" "HMS Hurworth" "HMS Quorn" "HMS Penzance" "HMS Pembroke"
+	"HMS Grimsby" "HMS Bangor" "HMS Ramsey" "HMS Blyth" "HMS Shoreham" "HMS Ocean" "HMS Albion"
+	"HMS Bulwark" "HMS Astute" "HMS Ambush" "HMS Artful" "HMS Torbay" "HMS Trenchant" "HMS Talent"
+	"HMS Triumph" "HMS Vanguard" "HMS Victorious" "HMS Vigilant" "HMS Vengeance" "HMS Victory"
+	"HMS Argus" "HMS Glorious" "HMS Courageous" "HMS Furious" "HMS Eagle" "HMS Hermes"
+	"HMS Ark Royal" "HMS Unicorn" "HMS Illustrious" "HMS Formidable" "HMS Indomitable"
+	"HMS Implacable" "HMS Indefatigable" "HMS Colossus"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Royal Navy of $PROVINCE$"
+}

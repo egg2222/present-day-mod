@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "PD_CANADA_NAME"
+	desc = "PD_CANADA_DESC"
+	date = 2018.5.1
+	
+	center = 2591
+	default = no
+	
+	country = UNK
+	country = FRA
+	country = SPA	
+	country = ITA
+	country = GER
+	country = HAB
+	country = POR	
+	country = POL
+	country = DAN
+	country = UKR
+	country = SWE
+}

@@ -1,0 +1,17 @@
+government = irish_republic
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = catholic
+primary_culture = irish
+capital = 338 # Dublin
+
+2011.11.11 = {
+	monarch = {
+		name = "Michael D. Higgins"
+		adm = 4
+		dip = 4
+		mil = 3
+		birth_date = 1941.4.18
+	}
+}

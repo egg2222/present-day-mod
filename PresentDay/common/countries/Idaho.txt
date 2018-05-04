@@ -1,0 +1,176 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 153  175  242 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	quantity_ideas
+	diplomatic_ideas
+	influence_ideas
+	quality_ideas
+	spy_ideas
+	expansion_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Butch" = 25
+	"Jim" = 25
+	"Dirk" = 25
+	"Phil" = 25
+	"Cecil" = 25
+	"Don" = 25
+	"Robert" = 25
+	"Leonard" = 25
+	"Arnold" = 25
+	"Charles" = 25
+	"C. A." = 25
+	"Chase" = 25
+	"Barzilla" = 25
+	"C. Ben" = 25
+	"H. C." = 25
+	"D. W." = 25
+	"Moses" = 25
+	"James" = 25
+	"Frank" = 25
+	"John" = 25
+	"William" = 25
+	"N. B." = 25
+	"George" = 25
+}
+
+leader_names = {
+	Leon	Tucker
+	Justin	Luna
+	Oliver	Garza
+	Kelvin	Cummings
+	Noah	Beck
+	Freddie	Bates
+	Paul	Long
+	Jared	Gregory
+	Dana	Lawrence
+	Irving	Garcia
+	Santiago	Stevenson
+	Frederick	Page
+	Alex	Watson
+	Danny	Burton
+	Marcos	Summers
+	Shane	Dawson
+	Kristopher	Newton
+	Raymond	Brady
+	Roland	Ballard
+	Alberto	Erickson
+	Bill	Estrada
+	Nicolas	Lyons
+	Nicholas	Newman
+	Johnnie	Caldwell
+	Benjamin	Wong
+	Angelo	Lynch
+	Allan	Wallace
+	Roman	Mcgee
+	Stephen	Owens
+	Moses	Sullivan
+	Eduardo	Murray
+	Kurt	Copeland
+	Simon	Holland
+	Carroll	Fleming
+	Harvey	Woods
+	Stewart	Weber
+	Dewey	Yates
+	Shawn	Hammond
+	Kirk	Rodriquez
+	Alton	Welch
+	William	West
+	Cary	Hubbard
+	Geoffrey	Bennett
+	Fred	Mckenzie
+	Roderick	Vasquez
+	Claude	Curtis
+	Ismael	Richards
+	Clay	Rhodes
+	Jaime	Lewis
+	Kenneth	Fisher
+	Willis	Howell
+	Elbert	Morris
+	Marco	Olson
+	Jerald	Brewer
+	Nelson	Porter
+	Marty	Perez
+	Joshua	Ramsey
+	Daryl	Mclaughlin
+	Rickey	Cohen
+	Leslie	Kim
+	Neil	Gill
+	Pedro	Gonzalez
+	Christian	Dean
+	Blake	Haynes
+	Anthony	Sanders
+	Grady	Blair
+	Manuel	Cox
+	Rene	Watts
+	Lawrence	Castro
+	Orlando	Rowe
+	Shaun	Sharp
+	Rick	Lamb
+	Miguel	Miles
+	Kyle	Armstrong
+	Rudy	Park
+	Rolando	Ray
+	Dominick	Gonzales
+	Arturo	Simpson
+	Tim	Boyd
+	Wilbert	Brock
+	Alejandro	Dunn
+	Alexander	Mack
+	Marlon	Webb
+	Stanley	Oliver
+	Ira	Mason
+	Mario	Bishop
+	Pete	Mcguire
+	Drew	Green
+	Alfredo	Nichols
+	Matt	Carter
+	Pablo	Schneider
+	Charles	Bell
+	Vincent	Thompson
+	Bryan	Roy
+	Ron	Patrick
+	Clint	Williams
+	Terrance	Webster
+	Joe	Mckinney
+	Sylvester	Clark  Mack	Scott
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

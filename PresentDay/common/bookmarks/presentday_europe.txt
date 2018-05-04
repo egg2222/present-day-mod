@@ -1,0 +1,21 @@
+bookmark =
+{
+	name = "PD_EUROPE_NAME"
+	desc = "PD_EUROPE_DESC"
+	date = 2018.5.1
+	
+	center = 79
+	default = yes
+	
+	country = UNK
+	country = RUS
+	country = FRA
+	country = SPA	
+	country = ITA
+	country = GER
+	country = HAB
+	country = POR	
+	country = POL
+	country = DAN
+	country = UKR
+}

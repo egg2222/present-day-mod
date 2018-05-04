@@ -1,0 +1,66 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 39  242  219 }
+
+historical_idea_groups = {
+	trade_ideas
+	economic_ideas
+	innovativeness_ideas
+	quantity_ideas
+	influence_ideas
+	quality_ideas
+	administrative_ideas
+	maritime_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Marguerite" = -25
+	"Arthur" = 25
+	"Paul" = 25
+	"Ivy" = -25
+	"Orville" = 25
+	"Clifford" = 25
+	"Henry" = 25
+	"Gerald" = 25
+	"Doris" = -25
+	"Milo" = 25
+}
+
+leader_names = {
+	Bernard Roderick
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$" Bahamas Nassau "Arthur Dion Hanna" "Durward Knowles" "Leon Livingstone Smith"
+	"Rolly Gray" "Lignum Vitae" Cascarilla "Lawrence W. Major"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

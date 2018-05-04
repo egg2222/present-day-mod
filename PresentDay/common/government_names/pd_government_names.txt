@@ -1,0 +1,142 @@
+irish_republic = {
+	rank = {
+		1 = IR_REPUBLIC
+		#2 = MORE_REPUBLIC
+		#3 = MOST_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = IR_PRESIDENT
+		#2 = IR_MORE_PRESIDENT
+		#3 = IR_MOST_PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = IR_F_PRESIDENT
+		#2 = IR_F_MORE_PRESIDENT
+		#3 = IR_F_MOST_PRESIDENT
+	}
+	
+	trigger = {
+		government = irish_republic
+	}
+}
+
+socialist_state = {
+	rank = {
+		1 = SOCIALIST_STATE_RANK_ONE
+		#2 = MORE_SOCIALIST_STATE
+		#3 = MOST_SOCIALIST_STATE
+	}
+	
+	ruler_male = {
+		1 = SOCIALIST_LEADER
+		#2 = SOCIALIST_MORE_LEADER
+		#3 = SOCIALIST_MOST_LEADER
+	}
+	
+	ruler_female = {
+		1 = SOCIALIST_F_LEADER
+		#2 = SOCIALIST_F_MORE_LEADER
+		#3 = SOCIALIST_F_MOST_LEADER
+	}
+	
+	trigger = {
+		government = socialist_state
+	}
+}
+
+four_year_state_government = {
+	rank = {
+		1 = FOURYEAR_STATE_GOVERNMENT
+		#2 = MORE_FOURYEAR_STATE_GOVERNMENT
+		#3 = MOST_FOURYEAR_STATE_GOVERNMENT
+	}
+	
+	ruler_male = {
+		1 = STATE_GOVERNOR
+		#2 = STATE_GOVERNOR
+		#3 = STATE_GOVERNOR
+	}
+	
+	ruler_female = {
+		1 = STATE_F_GOVERNOR
+		#2 = STATE_F_GOVERNOR
+		#3 = STATE_F_GOVERNOR
+	}
+	
+	trigger = {
+		government = four_year_state_government
+	}
+}
+
+two_year_state_government = {
+	rank = {
+		1 = TWOYEAR_STATE_GOVERNMENT
+		#2 = MORE_TWOYEAR_STATE_GOVERNMENT
+		#3 = MOST_TWOYEAR_STATE_GOVERNMENT
+	}
+	
+	ruler_male = {
+		1 = STATE_GOVERNOR
+		#2 = STATE_GOVERNOR
+		#3 = STATE_GOVERNOR
+	}
+	
+	ruler_female = {
+		1 = STATE_F_GOVERNOR
+		#2 = STATE_F_GOVERNOR
+		#3 = STATE_F_GOVERNOR
+	}
+	
+	trigger = {
+		government = two_year_state_government
+	}
+}
+presidential_republic = {
+	rank = {
+		1 = PRESIDENTIAL_REPUBLIC
+		#2 = MORE_REPUBLIC
+		#3 = MOST_REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = IR_PRESIDENT
+		#2 = IR_MORE_PRESIDENT
+		#3 = IR_MOST_PRESIDENT
+	}
+	
+	ruler_female = {
+		1 = IR_F_PRESIDENT
+		#2 = IR_F_MORE_PRESIDENT
+		#3 = IR_F_MOST_PRESIDENT
+	}
+	
+	trigger = {
+		government = presidential_republic
+	}
+}
+
+parliamentary_republic = {
+	rank = {
+		1 = REPUBLIC
+		#2 = REPUBLIC
+		#3 = REPUBLIC
+	}
+	
+	ruler_male = {
+		1 = PRIME_MINISTER
+		#2 = PRIME_MINISTER
+		#3 = PRIME_MINISTER
+	}
+	
+	ruler_female = {
+		1 = PRIME_MINISTER_F
+		#2 = PRIME_MINISTER_F
+		#3 = PRIME_MINISTER_F
+	}
+	
+	trigger = {
+		government = parliamentary_republic
+	}
+}

@@ -1,0 +1,18 @@
+government = presidential_republic
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = sunni
+primary_culture = culture_turkish
+capital = 326 #Ankara
+
+2014.8.28 = {
+	monarch = {
+		name = "Recep Tayyip Erdogan"
+		adm = 4
+		dip = 2
+		mil = 5
+		religion = sunni
+		birth_date = 1954.2.26
+	}
+}

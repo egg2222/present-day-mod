@@ -1,0 +1,138 @@
+# Do not change tags in here without changing every other reference to them.
+# Do not change tags in here without changing every other reference to them.
+# If adding new groups or ideas, make sure they are unique.
+
+
+
+### Nation specific idea groups
+UNK_ideas = {
+	start = {
+		naval_morale = 0.20
+		privateer_efficiency = 0.15
+	}
+	
+	bonus = {
+		prestige_decay = -0.03
+	}
+	
+	trigger = {
+		primary_culture = english
+	}
+	free = yes
+	
+	unk_island_nation = {
+		navy_tradition_decay = -0.02
+	}
+	
+	unk_national_health_service = {
+		manpower_recovery_speed = 0.15
+	}
+	
+	unk_big_four = {
+		prestige_decay = -0.02
+	}
+	
+	unk_free_education = {
+		adm_tech_cost_modifier = -0.1
+	}
+	
+	unk_labour_reforms = {
+		stability_cost_modifier = -0.1
+	}
+	
+	unk_council_tax = {
+		global_tax_modifier = 0.05
+	}
+	
+	unk_budget_reforms = {
+		global_unrest = -1
+	}
+}
+
+KOS_ideas = {
+	start = {
+		defensiveness = 0.25
+		global_manpower_modifier = 0.05
+	}
+	
+	bonus = {
+		diplomatic_reputation = 2
+	}
+	
+	trigger = {
+		tag = KOS
+	}
+	free = yes
+	
+	kos_united_nations = {
+		diplomats = 1
+	}
+	
+	kos_wartorn_state = {
+		war_exhaustion = -0.1
+	}
+	
+	kos_declared_independence = {
+		prestige_decay = -0.01
+	}
+	
+	kos_eu_agreement = {
+		global_unrest = -2
+	}
+	
+	kos_resolution_1244 = {
+		stability_cost_modifier = -0.15
+	}
+	
+	kos_diplomatic_recognition = {
+		diplomatic_reputation = 1
+	}
+	
+	kos_brussels_agreement = {
+		improve_relation_modifier = 0.20
+	}
+}
+
+IDA_ideas = {
+	start = {
+		development_cost = -0.1
+		spy_offence = 0.1
+	}
+	
+	bonus = {
+		global_unrest = -2
+	}
+	
+	trigger = {
+		tag = IDA
+	}
+	free = yes
+	
+	ida_mining = {
+		production_efficiency = 0.1
+	}
+	
+	ida_mountain_state = {
+		hostile_attrition = 1
+	}
+	
+	ida_second_small_business = {
+		global_tax_modifier = 0.05
+	}
+	
+	ida_potatoes = {
+		trade_efficiency = 0.1
+	}
+	
+	ida_mining_wars = {
+		global_spy_defence = 0.2
+	}
+	
+	ida_tourism = {
+		prestige_decay = -0.02
+	}
+	
+	ida_farthest_inland_port = {
+		global_foreign_trade_power = 0.1
+	}
+}

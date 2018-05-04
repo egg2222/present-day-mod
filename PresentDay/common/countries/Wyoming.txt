@@ -1,0 +1,101 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 115  175  201 }
+
+historical_idea_groups = {
+	offensive_ideas
+	quantity_ideas
+	defensive_ideas
+	expansion_ideas
+	influence_ideas
+	quality_ideas
+	administrative_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Matt" = 25
+	"Dave" = 25
+	"Jim" = 25
+	"Mike" = 25
+	"Edgar" = 25
+	"Stanley" = 25
+	"Clifford" = 25
+	"Jack" = 25
+	"John" = 25
+	"Milward" = 25
+	"Frank" = 25
+	"Arthur" = 25
+	"Lester" = 25
+	"Nels" = 25
+	"Alonzo" = 25
+	"Nellie" = -25
+	"William" = 25
+	"Robert" = 25
+	"Joseph" = 25
+	"Bryant" = 25
+	"Fenimore" = 25
+	"DeForest" = 25
+	"Amos" = 25
+	"Francis" = 25
+	"Thomas" = 25
+	"Elliot" = 25
+	"George" = 25
+}
+
+leader_names = {
+	"Reiner"
+	"Reed"
+	"Mount"
+	"Wright"
+	"Allan"
+	"Grunstad"
+	"Meldrum"
+	"Sedman"
+	"Maupin"
+	"Cooper"
+	"Casey"
+	"Rowley"
+	"Bee"
+	"Snyder"
+	"Daly"
+	"Wheeler"
+	"Winders"
+	"Scribner"
+	"Rodekohr"
+	"Rader"
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

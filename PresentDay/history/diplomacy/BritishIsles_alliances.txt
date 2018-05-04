@@ -1,0 +1,7 @@
+#Isle of Man
+vassal = {
+	first = UNK
+	second = IOM
+	start_date = 1866.1.1
+	end_date = 9999.1.1
+}

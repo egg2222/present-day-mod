@@ -1,0 +1,95 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 21  194  165 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Jay" = 25
+	"Matt" = 25
+	"Bob" = 25
+	"Roger" = 25
+	"Mel" = 25
+	"John" = 25
+	"Christopher" = 25
+	"Joseph" = 25
+	"Warren" = 25
+	"James" = 25
+	"Phil" = 25
+	"Forrest" = 25
+	"Lloyd" = 25
+	"Guy" = 25
+	"Henry" = 25
+	"Samuel" = 25
+	"Arthur" = 25
+	"Frederick" = 25
+	"Elliot" = 25
+	"Herbert" = 25
+	"Alexander" = 25
+	"Lawrence" = 25
+	"David" = 25
+	"Albert" = 25
+	"Thomas" = 25
+	"Charles" = 25
+	"Silas" = 25
+	"Benjamin" = 25
+	"Willard" = 25
+	"Hamilton" = 25
+	"Claiborne" = 25
+	"Robert" = 25
+	"Hancock" = 25
+	"Trusten" = 25
+	"Sterling" = 25
+	"Austin" = 25
+	"Meredith" = 25
+	"Lilburn" = 25
+	"Abraham" = 25
+	"Meriwether" = 25
+}
+
+leader_names = {
+	Richard Eugene Kenneth Stephen David Will Joseph
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

@@ -1,0 +1,38 @@
+#Flavor Events For Oklahoma
+namespace = presentday_oklflavor_namespace
+
+#Fund Tornado Research
+country_event = {
+	id = presentday_oklflavor_namespace.1
+	title = "OKL_FUNDRESEARCH_EVENT_ONE_TITLE"
+	desc = "OKL_FUNDRESEARCH_EVENT_ONE_DESC"
+	picture = INVENTION_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		tag = OKL
+		is_at_war = no
+		treasury = 1000
+	}
+
+	mean_time_to_happen = {
+		months = 16
+	}
+	
+	option = {
+		name = "OKL_TOR_RESEARCH_P1_OP1" #Fund Tornado Research
+		add_country_modifier = {
+			name = "OKL_FUNDED_TOR_RESEARCH"
+			duration = 3652
+		}
+		add_treasury = -2000
+	}
+	option = {
+		name = "OKL_TOR_RESEARCH_P1_OP2" #Don't Fund Tornado Research
+		add_country_modifier = {
+			name = "OKL_DIDNOT_FUND_TOR_RESEARCH"
+			duration = 3652
+			set_country_flag = okl_did_not_fund_tor_research
+		}
+	}
+}

@@ -1,0 +1,302 @@
+nebraska_mission_slot_1_group = {
+  slot = 1
+  generic = no
+  ai = yes
+  potential = {
+    tag = NEB
+  }
+  has_country_shield = yes
+  nebraska_annex_iowa = {
+	position = 1
+    icon = mission_cannons_firing
+    required_missions = { }
+    provinces_to_highlight = {
+      area = iowa_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      iowa_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  pd_south_dakota_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  north_dakota_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+  
+  nebraska_annex_the_dakotas = {
+    icon = mission_cannons_firing
+	position = 2
+    required_missions = { nebraska_annex_iowa }
+    provinces_to_highlight = {
+      area = pd_south_dakota_area
+	  area = north_dakota_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      pd_south_dakota_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 225
+      add_legitimacy = 15
+      add_republican_tradition = 15
+	  wyoming_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  colorado_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  montana_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+  
+  nebraska_expand_west = {
+    icon = mission_cannons_firing
+	position = 3
+    required_missions = { nebraska_annex_the_dakotas }
+    provinces_to_highlight = {
+      area = wyoming_area
+	  area = colorado_area
+	  area = montana_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      wyoming_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  colorado_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  montana_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 250
+      add_legitimacy = 20
+      add_republican_tradition = 20
+	  minnesota_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+	  idaho_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  illinois_country_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  minnesota_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  wisconsin_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+  nebraska_expand_east = {
+    icon = mission_cannons_firing
+	position = 4
+    required_missions = { nebraska_expand_west }
+    provinces_to_highlight = {
+      area = minnesota_area
+	  area = illinois_country_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      minnesota_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  illinois_country_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  wisconsin_area = {
+		type = all
+		country_or_non_sovereign_subject_holds = ROOT
+	  }
+    }
+    effect = {
+      add_mil_power = 275
+      add_legitimacy = 25
+      add_republican_tradition = 25
+	  missouri_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+	  kansas_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+	  oklahoma_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+	  arkansas_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+  
+  nebraska_expand_south = {
+    icon = mission_cannons_firing
+	position = 5
+    required_missions = { nebraska_expand_east }
+    provinces_to_highlight = {
+      area = missouri_area
+	  area = kansas_area
+	  area = oklahoma_area
+	  area = arkansas_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      missouri_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  kansas_country_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  
+	  oklahoma_area = {
+		type = all
+		country_or_non_sovereign_subject_holds = ROOT
+	  }
+	  arkansas_area = {
+		type = all
+		country_or_non_sovereign_subject_holds = ROOT
+	  }
+    }
+    effect = {
+      add_mil_power = 300
+      add_legitimacy = 30
+      add_republican_tradition = 30
+	  texas_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+	  lower_louisiana_area = {
+	   add_permanent_claim = ROOT
+	  }
+	 }
+    }
+  nebraska_southern_coast = {
+	position = 6
+    icon = mission_cannons_firing
+    required_missions = { nebraska_expand_south }
+    provinces_to_highlight = {
+      area = texas_area
+	  area = lower_louisiana_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      lower_louisiana_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  texas_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  alabama_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  mississippi_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  florida_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  american_georgia_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+    }
+  }
+}
+
+nebraska_mission_slot_2_group = {
+  slot = 2
+  generic = no
+  ai = yes
+  potential = {
+    tag = NEB
+  }
+  has_country_shield = yes
+  
+  nebraska_pacific_northwest = {
+	position = 6
+    icon = mission_cannons_firing
+    required_missions = { nebraska_expand_south }
+    provinces_to_highlight = {
+      area = washington_area
+	  area = idaho_area 
+	  area = oregon_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      washington_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  idaho_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  oregon_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  california_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+}
