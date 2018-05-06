@@ -9,16 +9,13 @@ NEB_PIPELINE_ALLOW = {
 	global_regiment_recruit_speed = -0.1
 }
 
-#Irish Missions
-rir_retook_north_ireland = {
-	global_unrest = -2
-	prestige_decay = -0.01
+RETOOK_DISTRICT_OF_COLUMBIA = {
+	prestige = 2
+	land_forcelimit_modifier = 0.25
 }
 
-#Danish Missions
-dan_restored_kalmar = {
-	prestige_decay = -0.03
-	diplomatic_reputation = 3
+US_EXPAND_FIVE_STATES = {
+	core_creation = -0.25
 }
 
 #Oklahoma Tornado Research

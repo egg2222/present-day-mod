@@ -1,11 +1,9 @@
 ﻿l_english:
  NEB_PIPELINE_VETO:0 "Vetoed Keystone XL Pipeline"
  NEB_PIPELINE_ALLOW:0 "Allowed Keystone XL Pipeline"
- rir_retook_north_ireland:0 "Retook North Ireland"
- dan_restored_kalmar:0 "Restored Kalmar Union"
  OKL_FUNDED_TOR_RESEARCH:0 "Funded Tornado Research"
  OKL_DIDNOT_FUND_TOR_RESEARCH:0 "Did Not Fund Tornado Research"
  conquest_of_new_york_city:0 "Conquest of New York City"
  conquest_of_new_york_city_desc:0 "The conquest of New York City will give us much more income and prestige for centuries to come!"
- conquest_of_washington_dc:0 "Conquest of Washington D.C."
- conquest_of_washington_dc_desc:0 "The conquest of the District of Columbia, the capital of the once-great United States, will secure our title as the future reformed United States."
+ RETOOK_DISTRICT_OF_COLUMBIA:0 "Retook District of Columbia"
+ 

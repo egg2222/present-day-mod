@@ -257,6 +257,56 @@ nebraska_mission_slot_1_group = {
 	  
     }
   }
+  nebraska_the_southeast = {
+	position = 7
+    icon = mission_cannons_firing
+    required_missions = { nebraska_southern_coast }
+    provinces_to_highlight = {
+      area = alabama_area
+	  area = mississippi_area
+	  area = florida_area
+	  area = american_georgia_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      alabama_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  mississippi_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  florida_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  american_georgia_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  south_carolina_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  north_carolina_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  tennessee_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  kentucky_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  
+    }
+  }
 }
 
 nebraska_mission_slot_2_group = {
@@ -298,9 +348,91 @@ nebraska_mission_slot_2_group = {
       add_mil_power = 200
       add_legitimacy = 10
       add_republican_tradition = 10
-	  california_area = {
+	  pd_california_area = {
 	   add_permanent_claim = ROOT
 	  }
     }
   }
+  
+  nebraska_annex_california = {
+	position = 7
+    icon = mission_cannons_firing
+    required_missions = { nebraska_pacific_northwest }
+    provinces_to_highlight = {
+      area = pd_california_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      pd_california_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  arizona_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  new_mexico_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  nevada_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  utah_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+  
+  nebraska_unite_the_west = {
+	position = 8
+    icon = mission_cannons_firing
+    required_missions = { nebraska_annex_california }
+    provinces_to_highlight = {
+      area = arizona_area
+	  area = new_mexico_area
+	  area = nevada_area
+	  area = utah_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      pd_california_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  pd_california_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  pd_california_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+	  pd_california_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 300
+      add_legitimacy = 
+      add_republican_tradition = 10
+    }
+  }
 }
+
+# nebraska_mission_slot_5_group = {
+#  slot = 2
+#  generic = no
+#  ai = yes
+#  potential = {
+#    tag = NEB
+#  }
+#}

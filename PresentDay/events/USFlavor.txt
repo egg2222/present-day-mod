@@ -1,0 +1,58 @@
+#Flavor Events For US or States
+namespace = presentday_usstates_namespace
+#Retook DC
+country_event = {
+	id = presentday_usstates_namespace.1
+	title = "US_RETOOK_DC_EVENT_ONE_TITLE"
+	desc = "US_RETOOK_DC_EVENT_ONE_DESC"
+	picture = CITY_VIEW_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		OR = {
+			government = four_year_state_government
+			government = two_year_state_government
+			tag = DOC
+		}
+		NOT = { has_country_flag = retook_dc }
+		is_at_war = no
+		owns = 4401
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OWNS_WASHINGTON_DC__EVT_1_OPT_1"
+		add_country_modifier = {
+			name = "RETOOK_DISTRICT_OF_COLUMBIA"
+			duration = 9125
+		}
+		set_country_flag = retook_dc
+	}
+}
+
+country_event = {
+	id = presentday_usstates_namespace.2
+	title = "US_RETOOK_DC_EVENT_TWO_TITLE"
+	desc = "US_RETOOK_DC_EVENT_TWO_DESC"
+	picture = COUNTRY_COLLAPSE_eventPicture
+	fire_only_once = yes
+
+	trigger = {
+		is_at_war = no
+		NOT = { owns = 4401 }
+		has_country_flag = retook_dc
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = "OWNS_WASHINGTON_DC__EVT_2_OPT_1"
+		remove_country_modifier = RETOOK_DISTRICT_OF_COLUMBIA
+		clr_country_flag = retook_dc
+	}
+}
