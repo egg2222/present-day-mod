@@ -66,6 +66,22 @@ culture_group_plains = {
 		}
 	}
 	
+	culture_north_dakotan = {
+		primary = NDK
+		
+		male_names = {
+			Doug Jack John Ed George Allen Arthur William Clarence Fred Walter Ole Thomas 
+			Ragnvald Lynn Elmore Frederick Eli Roger Frank Joseph Andrew Louis Gilbert
+		}
+		female_names = {
+			Kelly Kathi Berta Heidi Leslie Ruth Rosemarie
+		}
+		dynasty_names = {
+			Burgum Dalrymple Hoeven Schafer Sinner Olson Link Guy Davis Brunsdale Aandahl Moses
+			Langer Welford Moodie Langer Maddock Sorlie Nestos Frazier Hanna Burke Sarles
+		}
+	}
+	
 	culture_iowan = {
 		primary = IOW
 		

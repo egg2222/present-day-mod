@@ -51,6 +51,10 @@ nebraska_mission_slot_1_group = {
         type = all
         country_or_non_sovereign_subject_holds = ROOT
       }
+	  north_dakota_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
     }
     effect = {
       add_mil_power = 225

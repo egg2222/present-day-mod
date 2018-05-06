@@ -1,0 +1,75 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 127 203 80 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Doug" = 25
+	"Jack" = 25
+	"John" = 25
+	"Ed" = 25
+	"George" = 25
+	"Allen" = 25
+	"Arthur" = 25
+	"William" = 25
+	"Clarence" = 25
+	"Fred" = 25
+	"Walter" = 25
+	"Thomas" = 25
+	"Ole" = 25
+	"Ragnvald" = 25
+	"Lynn" = 25
+	"Elmore" = 25
+	"Rosemarie" = -25
+	"Ruth" = -25
+	"Heidi" = -25
+	"Leslie" = -25
+}
+
+leader_names = {
+	Alan Earle "L. R." Alexander Woodrow Robert 
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

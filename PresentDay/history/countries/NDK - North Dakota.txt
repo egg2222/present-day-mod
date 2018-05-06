@@ -1,0 +1,29 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_north_dakotan
+capital = 909 #Bismarck
+
+2010.12.7 = {
+	monarch = {
+		name = "Jack"
+		dynasty = "Dalrymple"
+		adm = 3
+		dip = 3
+		mil = 3
+		birth_date = 1948.10.16
+	}
+}
+
+2016.12.15 = {
+	monarch = {
+		name = "Doug"
+		dynasty = "Burgum"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1956.8.1
+	}
+}

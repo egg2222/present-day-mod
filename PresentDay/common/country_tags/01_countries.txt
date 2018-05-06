@@ -12,6 +12,7 @@ KNS = "countries/Kansas.txt"
 OKL = "countries/Oklahoma.txt"
 MSR = "countries/Missouri.txt"
 SDK = "countries/South Dakota.txt"
+NDK = "countries/North Dakota.txt"
 MST = "countries/Minnesota.txt"
 
 #Carribean
