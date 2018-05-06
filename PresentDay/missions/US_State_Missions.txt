@@ -1,5 +1,5 @@
-us_state_mission_slot_3_group = {
-  slot = 3
+us_state_mission_slot_2_group = {
+  slot = 2
   generic = yes
   ai = yes
   potential = {
@@ -27,4 +27,20 @@ us_state_mission_slot_3_group = {
       }
 	}
   }
+  us_state_annex_five_states = {
+	position = 2
+    icon = mission_conquer_5_states
+    required_missions = {  }
+    trigger = {
+      grown_by_states = 5
+    }
+    effect = {
+      add_prestige = 10
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  add_country_modifier = {
+		name = US_EXPAND_FIVE_STATES
+		duration = 9125 # 25 years
+      }
+	}
 }
