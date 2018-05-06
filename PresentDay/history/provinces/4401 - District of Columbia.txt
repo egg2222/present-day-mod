@@ -1,7 +1,4 @@
-add_core = IOM
-owner = IOM
-controller = IOM
-culture = english
+culture = american
 religion = protestant
 hre = no
 base_tax = 10
@@ -11,6 +8,7 @@ base_manpower = 10
 capital = "Washington"
 is_city = yes
 fort_15th = yes
+
 
 discovered_by = western
 discovered_by = eastern
@@ -27,3 +25,15 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+    add_core = USA
+    owner = USA
+    controller = USA
+}
+
+2018.1.2 = {
+    add_core = DOC
+    owner = DOC
+    controller = DOC
+}

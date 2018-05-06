@@ -1,7 +1,7 @@
 #910 - Duluth
 
 culture = culture_minnesotan
-religion = protestant
+religion = irreligious
 capital = "Duluth"
 trade_goods = fur
 hre = no

@@ -1,7 +1,6 @@
 owner = UNK
 controller = UNK
 add_core = UNK
-add_core = SCO
 culture = scottish
 religion = irreligious
 hre = no
@@ -11,6 +10,7 @@ trade_goods = fish
 base_manpower = 7
 capital = Dundee
 is_city = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -26,3 +26,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+    add_core = UNK
+    owner = UNK
+    controller = UNK
+}

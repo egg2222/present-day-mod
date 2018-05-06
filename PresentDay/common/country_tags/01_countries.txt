@@ -13,7 +13,9 @@ OKL = "countries/Oklahoma.txt"
 MSR = "countries/Missouri.txt"
 SDK = "countries/South Dakota.txt"
 NDK = "countries/North Dakota.txt"
+CLR = "countries/Colorado.txt"
 MST = "countries/Minnesota.txt"
+DOC = "countries/District of Columbia.txt"
 
 #Carribean
 CUB = "countries/Cuba.txt"

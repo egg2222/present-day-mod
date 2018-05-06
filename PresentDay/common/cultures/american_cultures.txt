@@ -169,6 +169,23 @@ culture_group_mountain_west = {
 		}
 	}
 	
+	culture_coloradan = {
+		primary = CLR
+		
+		male_names = {
+			John Alexander Edward Bill Roy Richard Stephen Edwin Daniel Walter William Ralph
+			Teller Clarence Oliver Julius Elias Henry Jesse James Alva Albert Benjamin
+		}
+		female_names = {
+			Donna Barbara Nancy Jane Gail Lucia Angela Rhonda Vicki Beth
+		}
+		dynasty_names = {
+			Hickenlooper Ritter Owens Romer Lamm Vanderhoof Love McNichols Johnson Thornton
+			Knous Vivian Carr Ammons Talbot Adams Morley Sweet Shoup Gunter Carlson Shafroth 
+			McDonald Butchel Peabody Orman
+		}
+	}
+	
 	culture_idahoan = {
 		primary = IDA
 		
@@ -233,3 +250,8 @@ culture_group_great_lakes = {
 			Preus Burnquist Hammond Eberhart Johnson "Van Sant" Lind Clough Nelson Merriam
 		}
 	}
+}
+
+culture_group_mid_atlantic = {
+	graphical_culture = westerngfx
+}

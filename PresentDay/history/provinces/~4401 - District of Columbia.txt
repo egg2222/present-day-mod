@@ -1,14 +1,16 @@
-#910 - Duluth
-
-culture = culture_minnesotan
+add_core = IOM
+owner = IOM
+controller = IOM
+culture = english
 religion = protestant
-capital = "Duluth"
-trade_goods = fur
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 10
+base_production = 10
+trade_goods = fish
+base_manpower = 10
+capital = "Washington"
 is_city = yes
+fort_15th = yes
 
 discovered_by = western
 discovered_by = eastern
@@ -25,15 +27,3 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
-
-2018.1.1 = {
-	add_core = USA
-	owner = USA
-	controller = USA
-}
-
-2018.1.2 = {
-	add_core = MST
-	owner = MST
-	controller = MST
-}

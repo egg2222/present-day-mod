@@ -1,14 +1,14 @@
-#910 - Duluth
+# No previous file for Brainerd
 
+is_city = yes
 culture = culture_minnesotan
-religion = protestant
-capital = "Duluth"
+religion = irreligious
+capital = "Brainerd"
 trade_goods = fur
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 2
-is_city = yes
+base_tax = 2
+base_production = 1
+base_manpower = 1
 
 discovered_by = western
 discovered_by = eastern

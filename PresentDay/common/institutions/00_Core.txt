@@ -9,7 +9,7 @@
 # Friendly is defined as at positive relations or owned by the same country that owns the province.
 
 #######################################
-# Feudalism.  
+# Manned space exploration 
 # 
 # Most in the old world start with it.
 #######################################

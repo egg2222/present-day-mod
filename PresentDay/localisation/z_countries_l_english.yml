@@ -41,3 +41,7 @@
  NDK_ADJ:0 "North Dakotan"
  MST:0 "Minnesota"
  MST_ADJ:0 "Minnesotan"
+ CLR:0 "Colorado"
+ CLR_ADJ:0 "Coloradan"
+ DOC:0 "District of Columbia"
+ DOC_ADJ:0 "Columbian"
