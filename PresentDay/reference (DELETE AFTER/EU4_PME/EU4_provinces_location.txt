@@ -1,0 +1,4 @@
+D:\Steam\SteamApps\common\Europa Universalis IV\history\provinces\
+
+LOCATION MUST END WITH \ (backslash) AND BE IN FIRST LINE OF FILE!
+Exact location of folder with provinces files. 
