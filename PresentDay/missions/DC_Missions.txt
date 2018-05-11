@@ -1,0 +1,25 @@
+dc_mission_slot_1_group = {
+  slot = 1
+  generic = no
+  ai = yes
+  potential = {
+    tag = DOC
+  }
+  has_country_shield = yes
+  
+  dc_secure_alliances = {
+	position = 1
+    icon = mission_alliances
+    required_missions = { }
+    trigger = {
+      num_of_allies = 3
+    }
+    effect = {
+      add_dip_power = 200 
+      add_republican_tradition = 10
+	  maryland_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+}

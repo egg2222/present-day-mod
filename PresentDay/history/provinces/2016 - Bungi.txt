@@ -1,7 +1,7 @@
 # 2016 - Moorhead
 
 is_city = yes
-culture = culture_minnesota
+culture = culture_minnesotan
 religion = protestant
 capital = "Moorhead"
 trade_goods = grain

@@ -2,7 +2,7 @@
 
 is_city = yes
 culture = culture_minnesota
-religion = irreligious
+religion = protestant
 capital = "Moorhead"
 trade_goods = grain
 hre = no

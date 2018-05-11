@@ -1,7 +1,7 @@
 #908 - Minnesota
 
 culture = culture_minnesotan
-religion = protetant
+religion = protestant
 capital = "St. Cloud"
 trade_goods = fur
 hre = no

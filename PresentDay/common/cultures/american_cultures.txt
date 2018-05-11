@@ -250,6 +250,41 @@ culture_group_great_lakes = {
 			Preus Burnquist Hammond Eberhart Johnson "Van Sant" Lind Clough Nelson Merriam
 		}
 	}
+	
+	culture_wisconsinite = {
+		primary = WIS
+		
+		male_names = {
+			Scott Jim Tommy Anthony Oscar Lee Martin Patrick William Warren Gaylord
+			Vernon Walter Orland Julius Philip Albert Fred John Emanuel Francis James
+			Robert Edward George Jeremiah Harrison
+		}
+		female_names = {
+			 Rebecca Barbara Margaret Dawn Cathy Dena
+		}
+		dynasty_names = {
+			Walker Doyle McCallum Thompson Earl Dreyfus Schreiber Lucey Knowles 
+			Reynolds Nelson Kohler Rennebohm Goodland Lumis "La Follette"
+			Schmedeman Zimmerman Blaine Philipp
+		}
+	}
+	
+	culture_illinoisan = {
+		primary = ILN
+		
+		male_names = {
+			Bruce Pat Rod Jim James Dan Richard Samuel Otto William Adlai Dwight John Henry Louis Len 
+			Frank Edward Charles Shelby Ninian
+		}
+		female_names = {
+			  Evelyn Sheila Corrine Jessica Stacy
+		}
+		dynasty_names = {
+			Rauner Quinn Blagojevich Ryan Edgar Thompson Walker Ogilvie Shapiro Kerner Stratton
+			Stevenson Green Stelle Horner Emmerson Small Lowden Dunne Deneen Yates Tanner Altgeld
+			Fifer Oglesby Hamilton Cullom Beveridge Palmer Wood
+		}
+	}
 }
 
 culture_group_mid_atlantic = {

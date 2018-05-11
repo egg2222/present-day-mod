@@ -15,7 +15,11 @@ SDK = "countries/South Dakota.txt"
 NDK = "countries/North Dakota.txt"
 CLR = "countries/Colorado.txt"
 MST = "countries/Minnesota.txt"
+WIS = "countries/Wisconsin.txt"
 DOC = "countries/District of Columbia.txt"
+ILN = "countries/Illinois.txt"
+TEX = "countries/Texas.txt"
+NMX = "countries/New Mexico.txt"
 
 #Carribean
 CUB = "countries/Cuba.txt"
