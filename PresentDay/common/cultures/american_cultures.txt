@@ -20,6 +20,23 @@ culture_group_plains = {
 		}
 	}
 	
+	culture_texan = {
+		primary = TEX
+		
+		male_names = {
+			Greg Rick George David Bill Mark Dolph Preston John Prince Allan Beauford Coke
+			Wilbert James Ross Dan Pat Kay
+		}
+		female_names = {
+			Ann Shelley Sheila Miriam
+		}
+		dynasty_names = {
+			Abbott Perry Bush Richards Clements White Briscoe Smith Connally Daniel Allan Shivers Jester 
+			Stevenson "O'Daniel" Allred Ferguson Sterling Moody Neff Hobby Colquitt Campbell Lanham 
+			Sayers Culberson Hogg Ireland Roberts Hubbard Coke Davis Pease Throckmorton Hamilton
+		}
+	}
+	
 	culture_missourian = {
 		primary = MSR
 		
@@ -289,4 +306,26 @@ culture_group_great_lakes = {
 
 culture_group_mid_atlantic = {
 	graphical_culture = westerngfx
+}
+
+culture_group_desert_southwest = {
+	graphical_culture = westerngfx
+	
+	culture_new_mexican = {
+		primary = NMX
+		
+		male_names = {
+			Bill Gary Bruce Garrey Toney Jerry David  Hacj Tin Edwin John Thomas Clyde Andrew 
+			Arthur Richard James Merritt Octaviano Washington Ezequiel William 
+		}
+		
+		female_names = {
+			Susana 
+		}
+		
+		dynasty_names = {
+			Martinez Richardson Johnson King Carruthers Anaya Apodaca Cargo Campbell Bolack
+			Mechem Burroughs Simms Mabry Dempsey Miles Tingley Hockenhull Seligman Dillon
+			Hannett Hinkle Larrazolo Lindsey "De Baca" McDonald Mills Curry Hagerman Otero Thornton
+		}
 }

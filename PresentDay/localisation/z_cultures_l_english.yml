@@ -27,3 +27,6 @@
  culture_group_mid_atlantic:0 "Mid-Atlantic"
  culture_wisconsinite:0 "Wisconsinite"
  culture_illinoisan:0 "Illinoisan"
+ culture_group_desert_southwest:0 "Desert Southwest"
+ culture_new_mexican:0 "New Mexican"
+ culture_texan:0 "Texan"
