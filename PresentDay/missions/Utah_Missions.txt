@@ -1,0 +1,32 @@
+utah_mission_slot_1_group = {
+  slot = 1
+  generic = no
+  ai = yes
+  potential = {
+    tag = UTH
+  }
+  has_country_shield = yes
+  
+  utah_take_colorado = {
+	position = 1
+    icon = mission_cannons_firing
+    required_missions = { }
+    provinces_to_highlight = {
+      area = colorado_area
+      NOT = {
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    trigger = {
+      colorado_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+    }
+  }
+}

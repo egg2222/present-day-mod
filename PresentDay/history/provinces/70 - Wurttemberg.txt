@@ -1,7 +1,4 @@
 culture = swabian
-owner = WUR
-controller = WUR
-add_core = WUR
 capital = "Stuttgart"
 religion = catholic
 trade_goods = grain
@@ -26,3 +23,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

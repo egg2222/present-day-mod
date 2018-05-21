@@ -1,8 +1,4 @@
 # 67 - Franken
-
-owner = NUM
-controller = NUM
-add_core = NUM
 culture = franconian
 religion = catholic
 base_tax = 8
@@ -28,3 +24,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

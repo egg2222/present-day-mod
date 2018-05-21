@@ -1,8 +1,4 @@
 #74 - Baden
-
-owner = BAD
-controller = BAD
-add_core = BAD
 capital = "Baden"
 trade_goods = wine
 religion = catholic
@@ -28,3 +24,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

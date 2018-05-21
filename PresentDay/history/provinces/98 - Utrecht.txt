@@ -9,8 +9,8 @@ base_tax = 7
 base_production = 7
 trade_goods = cloth
 base_manpower = 3
-add_core = UTR
 fort_15th = yes
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -26,3 +26,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = NED
+	owner = NED
+	controller = NED
+}

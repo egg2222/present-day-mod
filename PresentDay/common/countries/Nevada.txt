@@ -1,0 +1,85 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 193  42  0 }
+
+historical_idea_groups = {
+	offensive_ideas
+	quantity_ideas
+	defensive_ideas
+	expansion_ideas
+	influence_ideas
+	quality_ideas
+	administrative_ideas
+	trade_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Brian" = 25
+	"Jim" = 25
+	"Kenny" = 25
+	"Bob" = 25
+	"Richard" = 25
+	"Robert" = 25
+	"Mike" = 25
+	"Paul" = 25
+	"Grant" = 25
+	"Charles" = 25
+	"Vail" = 25
+	"Edward" = 25
+	"Richard" = 25
+	"Morley" = 25
+	"Fred" = 25
+	"James" = 25
+	"Emmet" = 25
+	"Tasker" = 25
+	"Denver" = 25
+	"John" = 25
+	"Reinhold" = 25
+	"Roswell" = 25
+	"Frank" = 25
+	"Charles" = 25
+	"Jewett" = 25
+	"Lorraine" = -25
+	"Sue" = -25
+	"Kathleen" = -25
+	"Patricia" = -25
+}
+
+leader_names = {
+	Brian Jim Kenny Bob Richard Robert Mike Paul Charles Vail Edward Richard Emmet
+	Morley Fred James Tasker Denver John Reinhold Roswell Frank Charles Jewett
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

@@ -11,7 +11,6 @@ trade_goods = naval_supplies
 base_manpower = 3
 capital = "Kholm"
 is_city = yes
-add_core = NOV
 
 discovered_by = western
 discovered_by = eastern
@@ -28,3 +27,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = RUS
+	owner = RUS
+	controller = RUS
+}

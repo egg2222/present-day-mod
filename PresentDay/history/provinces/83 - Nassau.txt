@@ -1,6 +1,3 @@
-owner = NSA
-controller = NSA
-add_core = NSA
 capital = "Wiesbaden"
 trade_goods = copper
 hre = yes
@@ -26,3 +23,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

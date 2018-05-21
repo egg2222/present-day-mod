@@ -13,8 +13,6 @@ capital = "Volodymyr"
 estate = estate_nobles
 is_city = yes
 fort_15th = yes #Lutsk Upper Castle - Main Lithuanian Fortress in the south.
-add_core = VOL
-add_core = LIT
 
 discovered_by = western
 discovered_by = eastern
@@ -31,3 +29,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = UKR
+	owner = UKR
+	controller = UKR
+}

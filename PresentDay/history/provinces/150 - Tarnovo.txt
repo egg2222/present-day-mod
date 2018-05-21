@@ -12,8 +12,6 @@ base_production = 6
 base_manpower = 3
 estate = estate_nobles
 is_city = yes
-add_core = TUR
-add_core = BUL
 
 discovered_by = western
 discovered_by = eastern
@@ -30,3 +28,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = BUL
+	owner = BUL
+	controller = BUL
+}

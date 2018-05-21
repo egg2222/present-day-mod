@@ -13,8 +13,7 @@ capital = "Kamienec"
 is_city = yes
 estate = estate_nobles
 fort_15th = yes #Kamianets-Podilskyi Castle, Khotyn Fortress
-add_core = VOL
-add_core = POL
+
 discovered_by = western
 discovered_by = eastern
 discovered_by = ottoman
@@ -30,3 +29,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = UKR
+	owner = UKR
+	controller = UKR
+}

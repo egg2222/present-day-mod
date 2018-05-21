@@ -1,8 +1,4 @@
 #Ingermanland, incl. Ivangorod, Jama, and Kopore.
-
-owner = NOV
-controller = NOV
-add_core = NOV
 culture = novgorodian
 religion = orthodox
 hre = no
@@ -28,3 +24,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = RUS
+	owner = RUS
+	controller = RUS
+}

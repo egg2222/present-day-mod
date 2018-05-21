@@ -1,0 +1,19 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_oregonian
+capital = 872	# Salem
+
+2015.2.18 = {
+	monarch = {
+		name = "Kate"
+		dynasty = "Brown"
+		adm = 3
+		dip = 3
+		mil = 3
+		female = yes
+		birth_date = 1960.6.21
+	}
+}

@@ -59,7 +59,7 @@ irish_republic = {
 	}
 }
 
-presidental_republic = {
+presidential_republic = {
 	republic = yes
 	
 	color = { 35 185 220 }
@@ -86,7 +86,7 @@ presidental_republic = {
 
 	has_parliament = yes
 	
-	max_states = 3
+	max_states = 5
 	
 	rank = {
 		1 = {

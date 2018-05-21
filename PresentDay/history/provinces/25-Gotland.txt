@@ -1,10 +1,4 @@
 #Gotland- Visby etc
-
-owner = DAN 
-controller = DAN
-add_core = GOT
-add_core = DAN
-add_core = SWE
 culture = swedish
 religion = catholic
 hre = no
@@ -33,3 +27,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = SWE
+	owner = SWE
+	controller = SWE
+}

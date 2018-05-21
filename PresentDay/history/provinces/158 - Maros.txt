@@ -12,8 +12,6 @@ base_tax = 3
 base_production = 3
 base_manpower = 2
 is_city = yes
-add_core = HUN
-add_core = TRA
 
 discovered_by = western
 discovered_by = eastern
@@ -30,3 +28,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = RMN
+	owner = RMN
+	controller = RMN
+}

@@ -1,0 +1,23 @@
+bookmark =
+{
+	name = "PD_UNIFIED_NAME"
+	desc = "PD_UNIFIED_DESC"
+	date = 2018.1.1
+	
+	center = 898
+	default = yes
+	
+	country = USA
+	country = FRA
+	country = SPA	
+	country = ITA
+	country = GER
+	country = HAB
+	country = POR	
+	country = POL
+	country = KNS
+	country = MNT
+	country = IOW
+	
+	easy_country = USA
+}

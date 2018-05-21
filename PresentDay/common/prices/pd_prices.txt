@@ -1,0 +1,27 @@
+# base_price = X			base price in $. (default is 1.0 if not specified
+# goldtype = yes/no			This resource works like 'gold' if yes, using prices from mine-value in province instead of supply/demand and baseprice. Also creates gold-inflation
+
+
+oil = {
+	base_price = 4
+}
+
+gasoline = {
+	base_price = 3
+}
+
+computer_parts = {
+	base_price = 2.5
+}
+
+weapons = {
+	base_price = 2
+}
+
+aircraft = {
+	base_price = 2.5
+}
+
+vehicles = {
+	base_price = 2
+}

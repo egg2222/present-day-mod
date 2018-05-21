@@ -304,7 +304,7 @@ culture_group_great_lakes = {
 	}
 }
 
-culture_group_mid_atlantic = {
+culture_group_american_northeast = {
 	graphical_culture = westerngfx
 }
 
@@ -328,4 +328,140 @@ culture_group_desert_southwest = {
 			Mechem Burroughs Simms Mabry Dempsey Miles Tingley Hockenhull Seligman Dillon
 			Hannett Hinkle Larrazolo Lindsey "De Baca" McDonald Mills Curry Hagerman Otero Thornton
 		}
+	}
+	
+	culture_utahn = {
+		primary = UTH
+		
+		male_names = {
+			Gary Jon Mike Norman Scott Calvin George Joseph Herbert Charles Simon
+			William Heber Caleb ARthur Eli Samuel Vernon
+		}
+		
+		female_names = {
+			Karen Enid Reva Olene
+		}
+		
+		dynasty_names = {
+			Herbert Huntsman Walker Leavitt Bangerter Matheson Rampton Clyde Lee Maw
+			Blood Dern Mabey Bamberger Spry Cutler Wells West Thomas Murray Emery Axtell
+			Woods Vaughan Shaffer Durkee Doty Harding Dawson Cumming Young
+		}
+	}
+	
+	culture_nevadan  = {
+		primary = NVD
+		
+		male_names = {
+			Brian Jim Kenny Bob Richard Robert Mike Paul Charles Vail Edward Richard Emmet
+			Morley Fred James Tasker Denver John Reinhold Roswell Frank Charles Jewett
+		}
+		
+		female_names = {
+			Lorraine Kathleen Patricia Sue
+		}
+		
+		dynasty_names = {
+			Sandoval Gibbons Guinn Miller Bryan List "O'Callaghan" Laxalt Sawyer Russell 
+			Pittman Carville Kirman Griswold Balzar Boyle Oddie Dickerson Sparks Sadler
+			Jones Colcord Bell Stevenson Adams Kinkead Bradley Blasdel
+		}
+	}
+	
+	culture_arizonian  = {
+		primary = ARI
+		
+		male_names = {
+			Doug Fife Evan Bruce Wesley Raul Jack Samuel Paul 
+			Ernest John Dan Sidney Benjamin George Thomas Richard Joseph Alexander
+		}
+		
+		female_names = {
+			Jan Janet Jane Rose
+		}
+		
+		dynasty_names = {
+			Ducy Brewwer Napolitano Hull Symington Mofford Mecham Babbitt Bolin Castro
+			Williams Goddard Fannin McFarland Pyle Garvey Osborn Jones Stanford Moeur 
+			Hunt Phillips Campbell Sloan Kibbey Brodie Murphy McCord Franklin Hughes
+		}
+	}
+}
+
+culture_group_na_pacific = {
+	graphical_culture = westerngfx
+	
+	culture_urban_californian  = {
+		primary = CAL
+		
+		male_names = {
+			Jerry Arnold Gray Pete George Ronald Pat Goodwin Earl Culbert Frank James Clement 
+			Friend William Hiram Henry Robert Washington Romualdo Newton Henry Frederick
+		}
+		
+		female_names = {
+			Mona Kathleen Elizabeth Kamala Barbara Maxine Nanette
+		}
+		
+		dynasty_names = {
+			Brown Schwarzenegger Davis Wilson Deukmejian Reagan Knight Warren Olson Merriam 
+			Rolph Young Richardson Stephens Johnson Gillett Pardee Gage Budd Markham Waterman
+			Bartlett Stoneman Perkins Irwin Pacheco Booth Haight Low
+		}
+	}
+	
+	culture_rural_californian  = {
+		
+		male_names = {
+			Jerry Arnold Gray Pete George Ronald Pat Goodwin Earl Culbert Frank James Clement 
+			Friend William Hiram Henry Robert Washington Romualdo Newton Henry Frederick
+		}
+		
+		female_names = {
+			Mona Kathleen Elizabeth Kamala Barbara Maxine Nanette
+		}
+		
+		dynasty_names = {
+			Brown Schwarzenegger Davis Wilson Deukmejian Reagan Knight Warren Olson Merriam 
+			Rolph Young Richardson Stephens Johnson Gillett Pardee Gage Budd Markham Waterman
+			Bartlett Stoneman Perkins Irwin Pacheco Booth Haight Low
+		}
+	}
+	
+	culture_oregonian = {
+		primary = ORE
+		
+		male_names = {
+			John Ted Barbara Neil Victor Robert Tom Mark Elmo Douglas Earl Charles 
+			Julius Walter Ben Oswald Jay Frank Sylvester Stephen "La Fayette" Kintzing
+		}
+		
+		female_names = {
+			Kate Barbara Jeanne Kate Norma 
+		}
+		
+		dynasty_names = {
+			Brown Kitzhaber Kulongoski Roberts Goldschimdt Straub McCall Hatfield Holmes
+			Smith Patterson McKay Hall Sprague Martin Meier Norblad Patterson Pierce Olcott
+			Withycombe West Bowerman Chamberlain Geer Lord Pennoyer Moody Thayer Chadwick
+		}
+	}
+	
+	culture_washingtonian = {
+		primary = WAS 
+		
+		male_names = {
+			Jay Gary Mike Booth John Dixy Daniel Albert Arthut Monrad Clarence Roland
+			Louis Marion Ernest Samuel Genry Elisha Miles Eugene Watson Alvan Marshall 
+			Richard LaFayette Isaac
+		}
+		
+		female_names = {
+			Christine Patty Maria Suzan Jaime Pramila Cathy 
+		}
+		
+		dynasty_names = {
+			Inslee Gregoire Locke Lowry Gardner Spellman Ray Evans Rosellini Langlie
+			Wallgren Martin Hartley Hart Lister Hay Cosgrove Mead McBride Rogers McGraw
+			Ferry Moore Semple Squire Newell Ferry Salomon Flanders Cole Pickering Wallace
 }

@@ -29,7 +29,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-extra_cost = 20
+2018.1.1 = {
+	add_core = SPA
+	owner = SPA
+	controller = SPA
+}
 
 add_permanent_province_modifier = {
 	name = guadiana_estuary_modifier

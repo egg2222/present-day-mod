@@ -12,9 +12,6 @@ base_manpower = 5
 fort_15th = yes #Numerous forts, Castello Maniace and Castello di Milazzo being the prominent.
 capital = "Messina"
 is_city = yes 
-add_core = SIC
-add_core = NAP
-add_core = ITA
 
 discovered_by = western
 discovered_by = eastern
@@ -31,3 +28,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = ITA
+	owner = ITA
+	controller = ITA
+}

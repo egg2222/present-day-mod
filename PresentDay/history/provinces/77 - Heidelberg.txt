@@ -4,13 +4,10 @@ capital = "Heidelberg"
 culture = hessian
 religion = catholic
 trade_goods = wine
-owner = PAL
 base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-controller = PAL
-add_core = PAL
 hre = yes
 
 discovered_by = western
@@ -28,3 +25,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

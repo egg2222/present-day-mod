@@ -59,9 +59,8 @@ monarch_names = {
 }
 
 leader_names = {
-	Bryan
-	Fox
-	Michael
+	Steve Brian Judy Marc Stan Ted Thomas Forrest Tim Donald Wiley
+	John Sam Roy Elmer Joseph Edwin Benjamin Preston Platt Sydney
 }
 
 ship_names = {

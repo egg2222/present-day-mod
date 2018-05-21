@@ -1,7 +1,7 @@
 #2020 - Bannock
 
 culture = culture_idahoan
-religion = protestant
+religion = mormon
 capital = "Idaho Falls"
 trade_goods = fur 
 hre = no 

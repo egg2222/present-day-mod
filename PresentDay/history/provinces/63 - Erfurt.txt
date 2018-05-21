@@ -1,7 +1,4 @@
 #63 - Erfurt
-
-owner = SAX
-controller = SAX 
 culture = saxon
 religion = catholic
 capital = "Erfurt"
@@ -12,8 +9,6 @@ base_production = 3
 base_manpower = 1
 is_city = yes
 estate = estate_nobles
-add_core = SAX
-add_core = THU
 
 discovered_by = western
 discovered_by = eastern
@@ -30,3 +25,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

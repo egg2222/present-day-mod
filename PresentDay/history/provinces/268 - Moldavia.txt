@@ -11,7 +11,6 @@ capital = "Suceava"
 is_city = yes
 trade_goods = wool
 base_manpower = 2
-add_core = MOL
 
 discovered_by = western
 discovered_by = eastern
@@ -28,3 +27,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = RMN
+	owner = RMN
+	controller = RMN
+}

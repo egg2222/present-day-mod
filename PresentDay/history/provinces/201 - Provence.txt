@@ -29,7 +29,12 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
-extra_cost = 10
+
+2018.1.1 = {
+	add_core = FRA
+	owner = FRA
+	controller = FRA
+}
 
 add_permanent_province_modifier = {
 	name = rhone_estuary_modifier

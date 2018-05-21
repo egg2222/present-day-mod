@@ -1,7 +1,4 @@
 #358 - Alexandria
-
-owner = MAM
-controller = MAM
 culture = al_misr_arabic
 religion = sunni
 capital = "Al Iskandirya"
@@ -12,7 +9,6 @@ base_production = 7
 base_manpower = 5
 is_city = yes
 estate = estate_burghers
-add_core = MAM
 
 discovered_by = western
 discovered_by = eastern
@@ -29,3 +25,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = EGY
+	owner = EGY
+	controller = EGY
+}

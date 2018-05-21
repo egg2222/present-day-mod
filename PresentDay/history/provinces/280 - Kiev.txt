@@ -11,8 +11,6 @@ trade_goods = grain
 base_manpower = 2
 capital = "Kiev"
 is_city = yes
-add_core = KIE
-add_core = LIT
 
 discovered_by = western
 discovered_by = eastern
@@ -29,3 +27,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = UKR
+	owner = UKR
+	controller = UKR
+}

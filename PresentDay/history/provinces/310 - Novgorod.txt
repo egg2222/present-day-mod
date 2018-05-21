@@ -12,7 +12,6 @@ base_manpower = 6
 capital = "Novgorod"
 is_city = yes
 fort_15th = yes #Novgorod Kremlin
-add_core = NOV
 
 discovered_by = western
 discovered_by = eastern
@@ -30,7 +29,11 @@ discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
 
-extra_cost = 10
+2018.1.1 = {
+	add_core = RUS
+	owner = RUS
+	controller = RUS
+}
 
 add_permanent_province_modifier = {
 	name = inland_center_of_trade_modifier

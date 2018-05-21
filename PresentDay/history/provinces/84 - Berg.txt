@@ -1,8 +1,4 @@
 # 84 - Berg
-
-owner = KLE #In reality Kleves and Berg are not united before 1510.
-controller = KLE
-add_core = KLE
 culture = hessian
 religion = catholic
 trade_goods = cloth
@@ -27,3 +23,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

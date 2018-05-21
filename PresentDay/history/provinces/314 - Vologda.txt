@@ -11,11 +11,6 @@ trade_goods = iron
 base_manpower = 2
 capital = "Vologda"
 is_city = yes
-add_core = MOS
-add_core = NOV # Novgorodian claims
-discovered_by = eastern
-discovered_by = western
-discovered_by = nomad_group
 
 discovered_by = western
 discovered_by = eastern
@@ -32,3 +27,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = RUS
+	owner = RUS
+	controller = RUS
+}

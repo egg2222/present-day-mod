@@ -1,8 +1,4 @@
 #68 - Memmingen
-
-owner = MEM
-controller = MEM
-add_core = MEM
 culture = swabian
 religion = catholic
 hre = yes
@@ -28,3 +24,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = GER
+	owner = GER
+	controller = GER
+}

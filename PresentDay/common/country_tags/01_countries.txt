@@ -20,6 +20,12 @@ DOC = "countries/District of Columbia.txt"
 ILN = "countries/Illinois.txt"
 TEX = "countries/Texas.txt"
 NMX = "countries/New Mexico.txt"
+UTH = "countries/Utah.txt"
+NVD = "countries/Nevada.txt"
+ARI = "countries/Arizona.txt"
+CAL = "countries/California.txt"
+ORE = "countries/Oregon.txt"
+WAS = "countries/Washington.txt"
 
 #Carribean
 CUB = "countries/Cuba.txt"

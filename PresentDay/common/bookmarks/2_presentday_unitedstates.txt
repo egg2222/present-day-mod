@@ -1,0 +1,24 @@
+bookmark =
+{
+	name = "PD_UNITED_STATES_NAME"
+	desc = "PD_UNITED_STATES_DESC"
+	date = 2018.5.1
+	
+	center = 898
+	default = no
+	
+	country = TEX
+	country = CAL
+	country = FRA
+	country = SPA	
+	country = ITA
+	country = GER
+	country = HAB
+	country = POR	
+	country = POL
+	country = KNS
+	country = MNT
+	
+	easy_country = TEX
+	easy_country = CAL
+}
