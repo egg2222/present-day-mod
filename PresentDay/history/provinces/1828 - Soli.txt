@@ -1,6 +1,6 @@
 owner = BOS
 controller = BOS
-culture = culture_bosnian
+culture = croatian
 religion = orthodox
 capital = Jajce
 trade_goods = wool

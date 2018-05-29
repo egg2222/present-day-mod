@@ -1,32 +1,38 @@
 #919 - Chickasaw
-
-owner = CHI
-controller = CHI
-culture = chickasaw
-religion = totemism
-capital = "Chickasaw"
+culture = culture_mississippian
+religion = protestant
+capital = "Tupelo"
 trade_goods = grain
 hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = CHI
-native_size = 20
-native_ferocity = 8
-native_hostileness = 2
 
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = sub_saharan
 discovered_by = north_american
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+discovered_by = high_american
 
-1540.1.1 = { discovered_by = SPA } # Hernando De Soto
-1670.1.1 = { discovered_by = FRA } # Robert Cavelier de La Salle
-
-1786.1.10= {
+2018.1.1 = {
+	add_core = USA
 	owner = USA
 	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant
-} #Treaty of Hopewell (with the Chickasaw), come under US authority
+}
+
+2018.1.2 = {
+	add_core = MIS
+	owner = MIS
+	controller = MIS
+}

@@ -5,9 +5,9 @@ add_core = MSR
 culture = culture_missourian
 religion = protestant
 capital = "Kansas City"
-trade_goods = grain
+trade_goods = vehicles
 hre = no
-base_tax = 5
+base_tax = 4
 base_production = 4
 base_manpower = 4
 

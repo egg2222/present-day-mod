@@ -1,0 +1,18 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_louisianian
+capital = 921 # Baton Rouge
+
+2011.1.10 = {
+	monarch = {
+		name = "Asa"
+		dynasty = "Hutchinson"
+		adm = 5
+		dip = 3
+		mil = 4
+		birth_date = 1950.12.3
+	}
+}

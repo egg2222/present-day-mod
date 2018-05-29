@@ -1,4 +1,4 @@
-l_spanish:
+﻿l_spanish:
  culture_group_plains:0 "Planicies"
  culture_group_great_lakes:0 "Grandes Lagos"
  culture_nebraskan:0 "Nebraskeño"
@@ -38,3 +38,9 @@ l_spanish:
  culture_rural_californian:0 "Californiano Rural"
  culture_washingtonite:0 "Washingtoniano"
  culture_oregonian:0 "Oregonés"
+ culture_mississippian:0 "Misisipiano"
+ culture_alabaman:0 "Alabamiense"
+ culture_louisianian:0 "Luisiano"
+ culture_georgian:0 "Georgiano"
+ culture_floridian:0 "Floridano"
+ culture_south_carolinian:0 "Surcarolinés"

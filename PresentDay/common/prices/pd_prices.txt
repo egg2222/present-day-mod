@@ -25,3 +25,7 @@ aircraft = {
 vehicles = {
 	base_price = 2
 }
+
+ships = {
+	base_price = 2
+}

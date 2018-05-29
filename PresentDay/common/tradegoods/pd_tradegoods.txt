@@ -89,3 +89,16 @@ vehicles = {
 		factor = 35
 	}
 }
+
+ships = {
+	color = { 0.86 0.86 0.86 }
+	modifier = {
+		global_ship_cost = -0.1
+	}
+	province = {
+		ship_recruit_speed = -0.15
+	}
+	chance = {
+		factor = 35
+	}
+}

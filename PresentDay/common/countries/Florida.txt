@@ -1,0 +1,102 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255  199  0 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Rick" = 25
+	"Charlie" = 25
+	"Jeb" = 25
+	"Buddy" = 25
+	"Lawton" = 25
+	"Bob" = 25
+	"Reubin" = 25
+	"Claude" = 25
+	"William" = 25
+	"Cecil" = 25
+	"LeRoy" = 25
+	"Charley" = 25
+	"Daniel" = 25
+	"Fuller" = 25
+	"Millard" = 25
+	"Spessard" = 25
+	"Fred" = 25
+	"David" = 25
+	"Doyle" = 25
+	"John" = 25
+	"Cary" = 25
+	"Sidney" = 25
+	"Park" = 25
+	"Albert" = 25
+	"Napoleon" = 25
+	"Henry" = 25
+	"Francis" = 25
+	"Edward" = 25
+	"George" = 25
+	"Marcellus" = 25
+	"Ossian" = 25
+	"Harrison" = 25
+	"Abraham" = 25
+	"Madison" = 25
+	"James" = 25
+	"Thomas" = 25
+	"Richard" = 25
+	"Robert" = 25
+	"Andrew" = 25
+	"Jennifer" = -25
+	"Toni" = -25
+	"Alex" = -25
+	"Paula" = -25
+	"Frederica" = -25
+	"Debbie" = -25
+}
+
+leader_names = {
+	Rick Charlie Jeb Buddy Lawton Bob Reubin Claude William Cecil LeRoy Charley Daniel Fuller Toni Frederica
+	Millard Spessard Fred David Doyle John Cary Sidney Park Albert Napoleon Henry Francis Edward Alex Debbie
+	George Marcellus Ossian Harrison Abraham Madison James Thomas Richard Robert Andrew Jennifer Paula 
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

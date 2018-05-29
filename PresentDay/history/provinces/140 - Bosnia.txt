@@ -1,6 +1,6 @@
 owner = BOS
 controller = BOS
-culture = culture_bosnian
+culture = serbian
 religion = sunni
 capital = Doboj
 trade_goods = salt

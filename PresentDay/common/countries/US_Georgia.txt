@@ -1,0 +1,115 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255  229  180 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Nathan" = 25
+	"George" = 25
+	"Roy" = 25
+	"Zell" = 25
+	"Joe" = 25
+	"Jimmy" = 25
+	"Lester" = 25
+	"Carl" = 25
+	"Ernest" = 25
+	"Marvin" = 25
+	"Herman" = 25
+	"Melvin" = 25
+	"Eugene" = 25
+	"Ellis" = 25
+	"Eurith" = 25
+	"Richard" = 25
+	"Lamartine" = 25
+	"Clifford" = 25
+	"Thomas" = 25
+	"Hugh" = 25
+	"Nathaniel" = 25
+	"Joseph" = 25
+	"Hoke" = 25
+	"Allen" = 25
+	"William" = 25
+	"Henry" = 25
+	"James" = 25 
+	"Alexander" = 25
+	"Alfred" = 25
+	"Benjamin" = 25
+	"Rufus" = 25
+	"Charles" = 25
+	"Herschel" = 25
+	"Wilson" = 25
+	"Matthew" = 25
+	"David" = 25
+	"Peter" = 25
+	"Jared" = 25
+	"Josiah" = 25
+	"Edward" = 25
+	"Samuel" = 25
+	"Lyman" = 25
+	"John" = 25
+	"Myrick" = 25
+	"Stephen" = 25
+	"Humphrey" = 25
+	"Button" = 25
+	"Archibald" = 25
+	"Gloria" = -25
+	"Renee" = -25
+	"Gail" = -25
+	"Tonya" = -25
+	"Elena" = -25
+	"Horacena" = -25
+	"Nan" = -25
+	"Donzella" = -25
+	"Valencia" = -25
+}
+
+leader_names = {
+	Nathan George Roy Zell Joe Jimmy Lester Carl Ernest Marvin Herman Melvin Eugene Ellis Eurith Richard Lamartine 
+	Clifford Thomas Hugh Nathaniel Joseph Hoke Allen William Henry James Alexander Alfred Benjamin Rufus Charles 
+	Herschel Wilson Matthew David Peter Jared Josiah Edward Samuel Lyman John Myrick Stephen Humphrey Button 
+	Archibald Gloria Renee Gail Tonya Elena Horacena Nan Donzella Valencia
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

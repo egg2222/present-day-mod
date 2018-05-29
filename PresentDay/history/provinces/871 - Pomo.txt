@@ -1,13 +1,13 @@
 #871 - Pomo
 
-culture = piman 
-religion = totemism
-capital = "Pomo" 
-trade_goods = unknown 
+culture = culture_rural_californian
+religion = protestant
+capital = "Santa Rosa" 
+trade_goods = computer_parts
 hre = no 
-base_tax = 1 
-base_production = 1
-base_manpower = 1 
+base_tax = 3
+base_production = 2
+base_manpower = 2
 
 discovered_by = western
 discovered_by = eastern

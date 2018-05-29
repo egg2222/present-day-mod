@@ -1,0 +1,101 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 0  52  102 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Henry" = 25
+	"Nikki" = -25
+	"Mark" = 25
+	"Jim" = 25
+	"David" = 25
+	"Carroll" = 25
+	"Richard" = 25
+	"James" = 25
+	"John" = 25
+	"Robert" = 25
+	"Donald" = 25
+	"Ernest" = 25
+	"George" = 25
+	"Strom" = 25
+	"Ransome" = 25
+	"Olin" = 25
+	"Joseph" = 25
+	"Burnet" = 25
+	"Ibra" = 25
+	"Thomas" = 25
+	"Wilson" = 25
+	"Charles" = 25
+	"Coleman" = 25
+	"Martin" = 25
+	"Duncan" = 25
+	"Miles" = 25
+	"William" = 25
+	"Benjamin" = 25
+	"Hugh" = 25
+	"Johnson" = 25
+	"Wade" = 25
+	"Daniel" = 25
+	"Franklin" = 25
+	"Milledge" = 25
+	"Francis" = 25
+	"Whitemarsh" = 25 
+	"Barnabas" = 25
+	"Patrick" = 25
+	"Pierce" = 25
+	"Stephen" = 25
+	"Andrew" = 25
+	"Arnoldus" = 25
+	"Rawlins" = 25
+}
+
+leader_names = {
+	Henry Nikki Mark Jim David Carroll Richard James John Robert Donald Ernest George Strom Ransome 
+	Olin Joseph Burnet Ibra Thomas Wilson Charles Coleman Martin Duncan Miles William Benjamin Hugh 
+	Johnson Wade Daniel Franklin Milledge Francis Whitemarsh Barnabas Patrick Pierce Stephen Andrew
+	Arnoldus Rawlins
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

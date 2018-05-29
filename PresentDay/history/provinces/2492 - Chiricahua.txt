@@ -3,7 +3,7 @@
 culture = culture_nevadan
 religion = protestant
 capital = "Las Vegas"
-trade_goods = unknown
+trade_goods = aircraft
 hre = no
 base_tax = 5
 base_production = 5

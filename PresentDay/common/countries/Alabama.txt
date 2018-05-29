@@ -1,0 +1,105 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 170  7  7 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Kay" = -25
+	"Robert" = 25
+	"Bob" = 25
+	"Don" = 25
+	"Fob" = 25
+	"Jim" = 25
+	"Harold" = 25
+	"George" = 25
+	"Albert" = 25
+	"Lurleen" = -25
+	"John" = 25
+	"Gordon" = 25
+	"Chauncey" = 25
+	"Frank" = 25
+	"Bibb" = 25
+	"Benjamin" = 25
+	"William" = 25
+	"Thomas" = 25
+	"Charles" = 25
+	"Emmet" = 25
+	"Braxton" = 25
+	"Joseph" = 25
+	"Edward" = 25
+	"Rufus" = 25
+	"David" = 25
+	"Wager" = 25
+	"Lewis" = 25
+	"Andrew" = 25
+	"Henry" = 25
+	"Reuben" = 25
+	"Joshua" = 25
+	"Arthur" = 25
+	"Hugh" = 25
+	"Clement" = 25
+	"Samuel" = 25
+	"Gabriel" = 25
+	"Israel" = 25
+	"Lucy" = -25
+	"Vivian" = -25
+	"Priscilla" = -25
+	"Harri" = -25
+	"Linda" = -25
+	"Terri" = -25
+	"Connie" = -25
+	"Laura" = -25
+	"Patricia" = -25
+	"Mary" = -25
+	"Pebblin" = -25
+}
+
+leader_names = {
+	Kay Robert Bob Don Fob Jim Harold George Albert Lurleen John Gordon Chauncey Frank Bibb Benjamin Mary Pebblin
+	William Thomas Charles Emmet Braxton Joseph Edward Rufus David Wager Lewis Andrew Henry Reuben Patricia 
+	Joshua Arthur Hugh Clement Samuel Gabriel Israel Lucy Vivian Priscilla Harri Linda Terri Connie Laura 
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

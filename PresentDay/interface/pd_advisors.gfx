@@ -1,0 +1,197 @@
+spriteType = {
+    name = "GFX_advisor_westerngfx_treasurer"
+    texturefile = "gfx//interface//advisors//pd_western_treasurer.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_theologian"
+    texturefile = "gfx//interface//advisors//pd_western_theologian.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_natural_scientist"
+    texturefile = "gfx//interface//advisors//pd_western_natural_scientist.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_master_of_mint"
+    texturefile = "gfx//interface//advisors//pd_western_master_of_mint.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_inquisitor"
+    texturefile = "gfx//interface//advisors//pd_western_inquisitor.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_philosopher"
+    texturefile = "gfx//interface//advisors//pd_western_philosopher.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_artist"
+    texturefile = "gfx//interface//advisors//pd_western_artist.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_trader"
+    texturefile = "gfx//interface//advisors//pd_western_trader.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_navigator"
+    texturefile = "gfx//interface//advisors//pd_western_navigator.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_naval_reformer"
+    texturefile = "gfx//interface//advisors//pd_western_naval_reformer.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_spymaster"
+    texturefile = "gfx//interface//advisors//pd_western_spymaster.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_statesman"
+    texturefile = "gfx//interface//advisors//pd_western_statesman.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_diplomat"
+    texturefile = "gfx//interface//advisors//pd_western_diplomat.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_fortification_expert"
+    texturefile = "gfx//interface//advisors//pd_western_fortification_expert.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_army_organizer"
+    texturefile = "gfx//interface//advisors//pd_western_army_organizer.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_quartermaster"
+    texturefile = "gfx//interface//advisors//pd_western_quartermaster.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_grand_captain"
+    texturefile = "gfx//interface//advisors//pd_western_grand_captain.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_commandant"
+    texturefile = "gfx//interface//advisors//pd_western_commandant.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_recruitmaster"
+    texturefile = "gfx//interface//advisors//pd_western_recruitmaster.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_army_reformer"
+    texturefile = "gfx//interface//advisors//pd_western_army_reformer.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_inquisitor"
+    texturefile = "gfx//interface//advisors//pd_african_inquisitor.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}
+
+spriteType = {
+    name = "GFX_advisor_westerngfx_african_philosopher"
+    texturefile = "gfx//interface//advisors//pd_african_philosopher.dds"
+    noOfFrames = 1
+    norefcount = yes
+    effectFile = "gfx/FX/buttonstate.lua"
+    loadType = "INGAME"
+}

@@ -2,7 +2,7 @@
 culture = culture_texan
 religion = protestant
 capital = "Houston"
-trade_goods = unknown
+trade_goods = oil
 hre = no
 base_tax = 8
 base_production = 8

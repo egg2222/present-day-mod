@@ -1,0 +1,19 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_alabaman
+capital = 924 # Montgomery
+
+2017.4.10 = {
+	monarch = {
+		name = "Kay"
+		dynasty = "Ivey"
+		adm = 4
+		dip = 2
+		mil = 3
+		female = yes
+		birth_date = 1944.10.15
+	}
+}

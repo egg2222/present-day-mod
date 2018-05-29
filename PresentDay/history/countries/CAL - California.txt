@@ -4,6 +4,7 @@ mercantilism = 0.25
 technology_group = western
 religion = catholic
 primary_culture = culture_urban_californian
+add_accepted_culture = culture_rural_californian
 capital = 2479 # Sacramento
 
 2011.1.3 = {
