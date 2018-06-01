@@ -34,6 +34,10 @@ GRG = "countries/US_Georgia.txt"
 ALA = "countries/Alabama.txt"
 FLO = "countries/Florida.txt"
 SOC = "countries/South Carolina.txt"
+NOC = "countries/North Carolina.txt"
+TEN = "countries/Tennessee.txt"
+KEN = "countries/Kentucky.txt"
+VIR = "countries/Virginia.txt"
 
 #Carribean
 CUB = "countries/Cuba.txt"

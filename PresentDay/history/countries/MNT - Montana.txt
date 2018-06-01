@@ -1,4 +1,4 @@
-government = two_year_state_government
+government = four_year_state_government
 government_rank = 1
 mercantilism = 0.25
 technology_group = western

@@ -1,12 +1,8 @@
 #903 - Omaha
-
-owner = NEB
-controller = NEB
-add_core = NEB
 culture = culture_nebraskan
-religion = catholic
+religion = protestant
 capital = "Omaha"
-trade_goods = wine
+trade_goods = grain
 hre = no
 base_tax = 4
 base_production = 4

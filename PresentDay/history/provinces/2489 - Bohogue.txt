@@ -1,9 +1,6 @@
 # No previous file for Bohogue
 
 culture = culture_idahoan
-owner = IDA
-controller = IDA
-add_core = IDA
 religion = protestant
 capital = "Boise"
 trade_goods = computer_parts

@@ -4,7 +4,7 @@ mercantilism = 0.25
 technology_group = western
 religion = protestant
 primary_culture = culture_nebraskan
-capital = 901	# Lincoln
+capital = 901 # Lincoln
 
 2005.1.20 = {
 	monarch = {

@@ -1,0 +1,100 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 110 180 240 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ralph" = 25
+	"Terry" = 25
+	"Bob" = 25
+	"Tim" = 25
+	"Mark" = 25
+	"Jim" = 25
+	"George" = 25
+	"Douglas" = 25
+	"Gerald" = 25
+	"Chuck" = 25
+	"John" = 25
+	"Mills" = 25
+	"Linwood" = 25
+	"Albertis" = 25
+	"James" = 25
+	"Thomas" = 25
+	"William" = 25
+	"Colgate" = 25
+	"Harry" = 25
+	"Elbert" = 25
+	"Westmoreland" = 25
+	"Henry" = 25
+	"Claude" = 25
+	"Andrew" = 25
+	"Charles" = 25
+	"Philip" = 25
+	"Fitzhugh" = 25
+	"Frederick" = 25
+	"Gilbert" = 25
+	"Francis" = 25
+	"Joseph" = 25
+	"David" = 25
+	"Wyndham" = 25
+	"Littleton" = 25
+	"Wilson" = 25
+	"Peyton" = 25
+	"Hardin" = 25
+	"Robert" = 25
+	"Beverley" = 25
+	"Edmund" = 25
+	"Patrick" = 25
+	"Benjamin" = 25
+}
+
+leader_names = {
+	 Ralph Terry Bob Tim Mark Jim George Douglas Gerald Chuck John Mills Linwood Albertis
+	 James Thomas William Colgate Harry Elbert Westmoreland Henry Claude Andrew Charles 
+	 Philip Fitzhugh Frederick Gilbert Francis Joseph David Wyndham Littleton Wilson 
+	 Peyton Hardin Robert Beverley Edmund Patrick Benjamin
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

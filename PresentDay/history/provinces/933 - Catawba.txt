@@ -1,7 +1,7 @@
 #933 - Catawba
 
 culture = culture_south_carolinian
-religion = protestamt
+religion = protestant
 capital = "Columbia"
 trade_goods = tobacco
 hre = no

@@ -1,8 +1,4 @@
 #North Idaho
-
-add_core = IDA
-owner = IDA
-controller = IDA
 culture = culture_idahoan
 religion = catholic
 hre = no

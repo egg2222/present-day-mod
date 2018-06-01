@@ -1,8 +1,4 @@
 # 2019 - Nimiipu
-
-owner = IDA
-controller = IDA
-add_core = IDA
 culture = culture_idahoan
 religion = catholic
 capital = "Grangeville" 

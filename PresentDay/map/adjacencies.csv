@@ -90,4 +90,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 3003;164;sea;1319;3190;1287;3191;1286;Euboea - Cyclades
 31;4113;lake;1884;3232;1827;3235;1835;Savolax - Rovaniemi
 1751;226;sea;1293;-1;-1;-1;-1;Ceuta-Gibraltar
+87;235;sea;1271;-1;-1;-1;-1;Calais-Kent
+1240;4402;sea;1697;-1;-1;-1;-1;Hawaii-Maui
+4402;4403;sea;1697;-1;-1;-1;-1;Maui-Honolulu
+4403;4404;sea;1697;-1;-1;-1;-1;Honolulu-Kauai
 -1;-1;;-1;-1;-1;-1;-1;-1;

@@ -1,0 +1,94 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 180  255  0 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Matt" = 25
+	"Steve" = 25
+	"Ernie" = 25
+	"Paul" = 25
+	"Brereton" = 25
+	"Wallace" = 25
+	"Martha" = -25
+	"John" = 25
+	"Julian" = 25
+	"Wendell" = 25
+	"Louie" = 25
+	"Ned" = 25
+	"Bert" = 25
+	"Happy" = 25
+	"Lawrence" = 25
+	"Earle" = 25
+	"Simeon" = 25
+	"Keen" = 25
+	"Ruby" = 25
+	"Flem" = 25
+	"William" = 25
+	"Edwin" = 25
+	"James" = 25
+	"Augustus" = 25
+	"Simon" = 25
+	"Luke" = 25
+	"Preston" = 25
+	"Thomas" = 25
+	"Beriah" = 25
+	"Charles" = 25
+	"Lazarus" = 25
+	"Robert" = 25
+	"Joseph" = 25
+	"Gabriel" = 25
+	"George" = 25
+	"Isaac" = 25
+	"Christopher" = 25
+}
+
+leader_names = {
+	 Matt Sneve Ernie Paul Brereton Wallace Martha John Julian Wendell Louie Ned Bert Happy 
+	 Lawrence Earle Simeon Keen Ruby Flem William Edwin James Augustus Simon Luke Preston 
+	 Thomas Beriah Charles Lazarus Robert Joseph Gabriel George Isaac Christopher
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

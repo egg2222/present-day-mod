@@ -8,11 +8,11 @@ capital = 921 # Baton Rouge
 
 2011.1.10 = {
 	monarch = {
-		name = "Asa"
-		dynasty = "Hutchinson"
-		adm = 5
-		dip = 3
+		name = "John Bel"
+		dynasty = "Edwards"
+		adm = 4
+		dip = 4
 		mil = 4
-		birth_date = 1950.12.3
+		birth_date = 1966.9.16
 	}
 }

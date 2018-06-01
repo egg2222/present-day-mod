@@ -1,0 +1,95 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 9  128  0 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Bill" = 25
+	"Phil" = 25
+	"Don" = 25
+	"Ned" = 25
+	"Lamar" = 25
+	"Ray" = 25
+	"Winfield" = 25
+	"Buford" = 25
+	"Frank" = 25
+	"Gordon" = 25
+	"Jim" = 25
+	"Prentice" = 25
+	"Hill" = 25
+	"Henry" = 25
+	"Austin" = 25
+	"Alfred" = 25
+	"Albert" = 25
+	"Thomas" = 25
+	"Ben" = 25
+	"Malcolm" = 25
+	"John" = 25
+	"James" = 25
+	"Benton" = 25
+	"Robert" = 25
+	"Peter" = 25
+	"William" = 25
+	"Alvin" = 25
+	"Dewitt" = 25
+	"Edward" = 25
+	"Andrew" = 25
+	"Isham" = 25
+	"Neill" = 25
+	"Aaron" = 25
+	"Newton" = 25
+	"Sam" = 25
+	"Joseph" = 25
+	"Willie" = 25
+	"Archibald" = 25
+}
+
+leader_names = {
+	 Bill Phil Don Ned Lamar Ray Winfield Buford Frank Gordon Jim Prentice Hill Henry Austin
+	 Alfred Albert Thomas Ben Malcolm John James Benton Robert Peter William Alvin Dewitt 
+	 Edward Andrew Isham Neill Aaron Newton Sam Joseph Willie Archibald
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

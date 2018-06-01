@@ -1,32 +1,38 @@
 #935 - Cherokee
-
-owner = CHE
-controller = CHE
-culture = cherokee
-religion = totemism
-capital = "Cherokee"
+culture = culture_tennessean
+religion = protestant
+capital = "Knoxville"
 trade_goods = naval_supplies
 hre = no
-base_tax = 2 
+base_tax = 3
 base_production = 2
-base_manpower = 1
+base_manpower = 2
 is_city = yes
-add_core = CHE
-native_size = 10
-native_ferocity = 7
-native_hostileness = 2
 
-
-
+discovered_by = western
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+discovered_by = central_african
+discovered_by = chinese
+discovered_by = nomad_group
+discovered_by = sub_saharan
 discovered_by = north_american
+discovered_by = mesoamerican
+discovered_by = south_american
+discovered_by = andean
+discovered_by = high_american
 
-1673.1.1 = { discovered_by = ENG } # James Needham and Gabriel Arthur
-1707.5.12 = { discovered_by = GBR } 
-
-1791.7.2 = {
+2018.1.1 = {
+	add_core = USA
 	owner = USA
 	controller = USA
-	add_core = USA
-	culture = american
-	religion = protestant 
-}	#Treaty of Fort Holston, end of Chickamauga wars and Cherokee resistance
+}
+
+2018.1.2 = {
+	add_core = TEN
+	owner = TEN
+	controller = TEN
+}

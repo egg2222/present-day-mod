@@ -1,14 +1,10 @@
 # No previous file for Kitkehaki
-
-owner = KNS
-controller = KNS
-add_core = KNS
 culture = culture_kansan
-religion = catholic
+religion = protestant
 capital = "Hays"
-trade_goods = cloth
+trade_goods = aircraft
 hre = no
-base_tax = 1 
+base_tax = 2
 base_production = 1
 base_manpower = 1
 

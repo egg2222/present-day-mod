@@ -1,12 +1,8 @@
 #2009 - Teton
-
-owner = NEB
-controller = NEB
-add_core = NEB
 culture = culture_nebraskan
 religion = protestant
 capital = "Scottsbluff"
-trade_goods = sugar
+trade_goods = livestock
 hre = no
 base_tax = 1 
 base_production = 1

@@ -1,0 +1,97 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255  202  0 }
+
+historical_idea_groups = {
+	defensive_ideas
+	offensive_ideas
+	trade_ideas
+	diplomatic_ideas
+	influence_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas	
+}
+
+historical_units = {
+	western_medieval_infantry
+	chevauchee
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Roy" = 25
+	"Pat" = 25
+	"Beverly" = -25
+	"Mike" = 25
+	"James" = 25
+	"Robert" = 25
+	"Dan" = 25
+	"Terry" = 25
+	"Luther" = 25
+	"William" = 25
+	"Robert" = 25
+	"Joseph" = 25
+	"Clyde" = 25
+	"John" = 25
+	"Oliver" = 25
+	"Angus" = 25
+	"Cameron" = 25
+	"Thomas" = 25
+	"Locke" = 25
+	"Charles" = 25
+	"Daniel" = 25
+	"Alfred" = 25
+	"Zebulon" = 25
+	"Curtis" = 25
+	"Tod" = 25
+	"Johnathan" = 25
+	"Henry" = 25
+	"Warren" = 25
+	"David" = 25
+	"Edward" = 25
+	"Richard" = 25
+	"Montfort" = 25
+	"Hutchins" = 25
+	"Gabriel" = 25
+	"Jesse" = 25
+	"Benjamin" = 25
+	"Nathaniel" = 25
+	"Samuel" = 25
+	"Alexander" = 25
+	"Abner" = 25
+}
+
+leader_names = {
+	Roy Pat Beverly Mike James Robert Dan Terry Luther William Robert Joseph Clyde John Oliver 
+	Angus Cameron Thomas Locke Charles Daniel Alfred Zebulon Curtis Tod Johnathan Henry Warren 
+	David Edward Richard Montfort Hutchins Gabriel Jesse Benjamin Nathaniel Samuel Alexander Abner 
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

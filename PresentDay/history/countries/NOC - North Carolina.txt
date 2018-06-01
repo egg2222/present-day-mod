@@ -1,0 +1,18 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_north_carolinian
+capital = 937 # Raleigh
+
+2017.1.1 = {
+	monarch = {
+		name = "Roy"
+		dynasty = "Cooper"
+		adm = 3
+		dip = 3
+		mil = 2
+		birth_date = 1957.6.13
+	}
+}

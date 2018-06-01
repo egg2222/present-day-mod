@@ -16,7 +16,7 @@
  STATE_F_GOVERNOR:0 "Governor"
  two_year_state_government:0 "US State"
  two_year_state_government_desc:0 "A state government that holds an election every two years."
- TWOYEAR_STATE_GOVERNMENT:0 "State Government (Two Years)"
+ TWOYEAR_STATE_GOVERNMENT:0 "US State"
  presidential_republic:0 "Presidential Republic"
  presidential_republic_desc:0 "A republic run by an elected official known as a President."
  PRESIDENTIAL_REPUBLIC:0 "Presidential Republic"

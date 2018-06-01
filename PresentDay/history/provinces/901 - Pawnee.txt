@@ -1,16 +1,11 @@
 #901 - Pawnee
-
-add_core = NEB
-owner = NEB
-controller = NEB
 culture = culture_nebraskan
 religion = protestant
 capital = "Lincoln"
-trade_goods = grain
+trade_goods = computer_parts
 hre = no
 base_tax = 3
 base_production = 2
-is_city = yes
 base_manpower = 2
 
 discovered_by = western

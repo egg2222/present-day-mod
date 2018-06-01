@@ -5,7 +5,7 @@ country_event = {
 	id = presentday_usstates_namespace.1
 	title = "US_RETOOK_DC_EVENT_ONE_TITLE"
 	desc = "US_RETOOK_DC_EVENT_ONE_DESC"
-	picture = CITY_VIEW_eventPicture
+	picture = DC_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -37,7 +37,7 @@ country_event = {
 	id = presentday_usstates_namespace.2
 	title = "US_RETOOK_DC_EVENT_TWO_TITLE"
 	desc = "US_RETOOK_DC_EVENT_TWO_DESC"
-	picture = COUNTRY_COLLAPSE_eventPicture
+	picture = DC_eventPicture
 	fire_only_once = yes
 
 	trigger = {
@@ -54,5 +54,82 @@ country_event = {
 		name = "OWNS_WASHINGTON_DC__EVT_2_OPT_1"
 		remove_country_modifier = RETOOK_DISTRICT_OF_COLUMBIA
 		clr_country_flag = retook_dc
+	}
+}
+
+#Tornado!
+province_event = {
+	id = presentday_usstates_namespace.3
+	title = "US_TORNADO_EVENT_TITLE"
+	desc = "US_TORNADO_EVENT_DESC"
+	picture = TORNADO_eventPicture
+
+	trigger = {
+		OR = {
+			region = us_plains_region
+			region = us_southeast_region
+			region = us_great_lakes_region
+			owner = {
+				tag = WYO
+				tag = COL
+				tag = NMX
+			}
+		}
+		
+		OR = {
+			is_month = 3
+			is_month = 4
+			is_month = 5
+			is_month = 6
+			is_month = 7
+			is_month = 8
+			is_month = 9
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 450
+		modifier = {
+			factor = 0.6
+			region = us_plains_region
+			OR = {
+				is_month = 5
+				is_month = 6
+			}
+		}
+		
+		modifier = {
+			factor = 0.6
+			region = us_southeast_region
+			OR = {
+				is_month = 3
+				is_month = 4
+			}
+		}
+		
+		modifier = {
+			factor = 0.8
+			region = us_southeast_region
+		}
+	}
+	
+	option = {
+		name = "TORNADO_EVT_OPT_1"
+		add_treasury = -300
+		add_province_modifier = {
+			name = "HAPPY_CITIZENS"
+			duration = 1826
+		}
+	}
+	
+	option = {
+		name = "TORNADO_EVT_OPT_2"
+		add_base_manpower = -3
+		add_base_production = -3
+		add_base_tax = -3
+		add_province_modifier = {
+			name = "UNHAPPY_CITIZENS"
+			duration = 1826
+		}
 	}
 }

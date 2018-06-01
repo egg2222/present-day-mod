@@ -39,7 +39,7 @@ discovered_by = high_american
 }
 
 2018.1.2 = {
-	add_core = SCA
-	owner = SCA
-	controller = SCA
+	add_core = SOC
+	owner = SOC
+	controller = SOC
 }

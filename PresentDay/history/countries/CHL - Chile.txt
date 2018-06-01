@@ -1,6 +1,6 @@
 government = presidential_republic
 government_rank = 3
-primary_culture = chilean
+primary_culture = castilian
 religion = catholic
 technology_group = western
 capital = 787	# Santiago

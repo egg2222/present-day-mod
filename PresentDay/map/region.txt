@@ -862,22 +862,15 @@ southeast_america_region =  {
 		chesapeake_area
 		great_valley_area
 		piedmont_north_america_area
-		american_georgia_area 
-		florida_area
-		carolinas_area
 	}
 }
 
 mississippi_region = {
 	areas = {
-		lower_louisiana_area
 		west_florida_area
 		ozarks_area
 		upper_louisiana_area
-		alabama_area
-		kentucky_area
 		appalachia_area
-		mississippi_area
 	}
 }
 
@@ -894,24 +887,19 @@ great_plains_region = {
 
 california_region = {
 	areas = {
-		california_area
 		baja_california_area
-		arizona_area
 		colorado_plateau_area
-		new_mexico_area
 		central_valley_area
 	}
 }
 
 cascadia_region = {
 	areas = {
-		oregon_area
 		columbia_river_area
 		snake_river_area
 		salish_sea_area
 		interior_plateau_area
 		hecate_strait_area
-		alaska_area
 	}
 }
 
@@ -933,7 +921,6 @@ mexico_region = {
 		michoacan_area
 		guerrero_area
 		oaxaca_area
-		texas_area
 		rio_grande_area
 		northeast_mexico_area
 		durango_area
@@ -1116,5 +1103,70 @@ south_atlantic_region = {
 		south_atlantic_area
 		skeleton_coast_area
 		cape_of_storms_area
+	}
+}
+
+us_plains_region = {
+	areas = {
+		texas_area
+		oklahoma_area
+		kansas_area
+		nebraska_area
+		pd_south_dakota_area
+		north_dakota_area
+		missouri_area
+		iowa_area
+	}
+}
+
+desert_southwest_region = {
+	areas = {
+		nevada_area
+		utah_area
+		new_mexico_area
+		arizona_area
+	}
+}
+
+mountain_west_region = {
+	areas = {
+		colorado_area
+		montana_area
+		wyoming_area
+		idaho_area
+	}
+}
+
+us_pacific_region = {
+	areas = {
+		california_area
+		oregon_area
+		washington_area
+		alaska_area
+		hawaii_area
+	}
+}
+
+us_southeast_region = {
+	areas = {
+		south_carolina_area
+		american_georgia_area
+		carolinas_area
+		alabama_area
+		mississippi_area
+		florida_area
+		lower_louisiana_area
+		choctaw_area
+		kentucky_area
+		arkansas_area
+	}
+}
+
+us_great_lakes_region = {
+	areas = {
+		illinois_area
+		indiana_area
+		minnesota_area
+		wisconsin_area
 	}
 }

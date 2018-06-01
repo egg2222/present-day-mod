@@ -1,8 +1,4 @@
 #898 - Kansas
-
-owner = KNS
-controller = KNS
-add_core = KNS
 culture = culture_kansan
 religion = protestant
 capital = "Topeka"
