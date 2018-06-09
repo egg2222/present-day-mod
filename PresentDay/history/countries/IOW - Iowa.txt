@@ -63,8 +63,7 @@ capital = 905	# Des Moines
 
 2017.5.24 = {
 	monarch = {
-		name = "Kim"
-		dynasty = "Reynolds"
+		name = "Kim Reynolds"
 		adm = 2
 		dip = 5
 		mil = 4

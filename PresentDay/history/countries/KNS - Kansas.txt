@@ -30,8 +30,7 @@ capital = 898 # Topeka
 
 2018.1.31 = {
 	monarch = {
-		name = "Jeff"
-		dynasty = "Coyler"
+		name = "Jeff Coyler"
 		adm = 2
 		dip = 5
 		mil = 4

@@ -8,8 +8,7 @@ capital = 952	# Richmond
 
 2018.1.13 = {
 	monarch = {
-		name = "Ralph"
-		dynasty = "Northam"
+		name = "Ralph Northam"
 		adm = 4
 		dip = 4
 		mil = 3

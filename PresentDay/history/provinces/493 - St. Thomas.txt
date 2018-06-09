@@ -1,13 +1,13 @@
 #493 - St. Thomas
 
-culture = american
+culture = culture_virgin_islander
 religion = protestant
 capital = "St. Thomas"
 trade_goods = fish
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 1
+base_tax = 6
+base_production = 6
+base_manpower = 6
 
 discovered_by = western
 discovered_by = eastern
@@ -29,4 +29,10 @@ discovered_by = high_american
 	add_core = USA
 	owner = USA
 	controller = USA
+}
+
+2018.1.2 = {
+	add_core = UVI
+	owner = UVI
+	controller = UVI
 }

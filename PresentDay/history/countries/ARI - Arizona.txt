@@ -8,8 +8,7 @@ capital = 876 # Phoenix
 
 2011.1.1 = {
 	monarch = {
-		name = "Doug"
-		dynasty = "Ducey"
+		name = "Doug Ducey"
 		adm = 5
 		dip = 3
 		mil = 3

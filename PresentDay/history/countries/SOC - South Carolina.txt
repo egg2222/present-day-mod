@@ -8,8 +8,7 @@ capital = 933 # Columbia
 
 2017.1.24 = {
 	monarch = {
-		name = "Henry"
-		dynasty = "McMaster"
+		name = "Henry McMaster"
 		adm = 3
 		dip = 3
 		mil = 2

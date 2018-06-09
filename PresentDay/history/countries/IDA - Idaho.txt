@@ -8,8 +8,7 @@ capital = 2489	# Idaho
 
 2007.1.1 = {
 	monarch = {
-		name = "Butch"
-		dynasty = "Otter"
+		name = "Butch Otter"
 		adm = 3
 		dip = 2
 		mil = 2

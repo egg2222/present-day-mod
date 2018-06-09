@@ -20,8 +20,7 @@ capital = 901 # Lincoln
 
 2015.1.8 = {
 	monarch = {
-		name = "Pete"
-		dynasty = "Ricketts"
+		name = "Pete Ricketts"
 		adm = 2
 		dip = 2
 		mil = 2

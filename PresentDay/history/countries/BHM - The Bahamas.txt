@@ -33,8 +33,7 @@ capital = 482	# Nassau
 
 2017.5.11 = {
 	monarch = {
-		name = "Hubert"
-		dynasty = "Minnis"
+		name = "Hubert Minnis"
 		adm = 4
 		dip = 3
 		mil = 3

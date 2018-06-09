@@ -8,8 +8,7 @@ capital = 2485	# Olympia
 
 2013.1.16 = {
 	monarch = {
-		name = "Jay"
-		dynasty = "Inslee"
+		name = "Jay Inslee"
 		adm = 5
 		dip = 3
 		mil = 4

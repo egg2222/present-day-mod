@@ -41,8 +41,7 @@ capital = 2514	# Jefferson City
 
 2017.1.9 = {
 	monarch = {
-		name = "Eric"
-		dynasty = "Greitens"
+		name = "Eric Greitens"
 		adm = 2
 		dip = 5
 		mil = 5

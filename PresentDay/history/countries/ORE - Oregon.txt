@@ -8,8 +8,7 @@ capital = 872	# Salem
 
 2015.2.18 = {
 	monarch = {
-		name = "Kate"
-		dynasty = "Brown"
+		name = "Kate Brown"
 		adm = 3
 		dip = 3
 		mil = 3

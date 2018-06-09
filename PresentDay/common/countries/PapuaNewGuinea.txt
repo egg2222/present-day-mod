@@ -51,7 +51,7 @@ leader_names = {
 }
 
 ship_names = {
-	"Vessel of $PROVINCE$" Salamaua Buna Rabaul Dreger Seeadler
+	"$RANDOM_OLD_MONARCH$-class Ship" Salamaua Buna Rabaul Dreger Seeadler
 	Moresby
 }
 

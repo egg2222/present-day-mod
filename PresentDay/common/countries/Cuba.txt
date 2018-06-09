@@ -63,7 +63,7 @@ leader_names = {
 }
 
 ship_names = {
-	"Vessel of $PROVINCE$" Foxtrot Koni "Rio Damuji" "Pauk II" Turya Stenka
+	"$RANDOM_OLD_MONARCH$-class Ship" Foxtrot Koni "Rio Damuji" "Pauk II" Turya Stenka
 	"SO-1" "Osa I" "Osa II" Sonya Yevgenya "Polnocny B" "Isla de la Juventud"
 }
 

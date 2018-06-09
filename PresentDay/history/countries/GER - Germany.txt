@@ -10,8 +10,7 @@ capital = 50	# Berlin
 
 2017.3.19 = {
 	monarch = {
-		name = "Frank-Walter"
-		dynasty = "Steinmeier"
+		name = "Frank-Walter Steinmeier"
 		birth_date = 1956.1.5
 		adm = 3
 		dip = 2

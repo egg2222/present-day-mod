@@ -121,3 +121,7 @@
  HAW_ADJ: "Hawaiian"
  AKA: "Alaska"
  AKA_ADJ: "Alaskan"
+ PRT: "Puerto Rico" 
+ PRT_ADJ: "Puerto Rican"
+ UVI: "US Virgin Islands"
+ UVI_ADJ: "Virgin Islander"

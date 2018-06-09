@@ -52,7 +52,7 @@ leader_names = {
 }
 
 ship_names = {
-	"Vessel of $PROVINCE$" Bahamas Nassau "Arthur Dion Hanna" "Durward Knowles" "Leon Livingstone Smith"
+	"$RANDOM_OLD_MONARCH$-class Ship" Bahamas Nassau "Arthur Dion Hanna" "Durward Knowles" "Leon Livingstone Smith"
 	"Rolly Gray" "Lignum Vitae" Cascarilla "Lawrence W. Major"
 }
 

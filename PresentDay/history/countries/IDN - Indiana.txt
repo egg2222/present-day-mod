@@ -8,8 +8,7 @@ capital = 2523 # Indianapolis
 
 2017.1.9 = {
 	monarch = {
-		name = "Eric"
-		dynasty = "Holcomb"
+		name = "Eric Holcomb"
 		adm = 3
 		dip = 3
 		mil = 4

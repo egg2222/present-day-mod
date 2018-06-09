@@ -8,8 +8,7 @@ capital = 2526 # Frankfort
 
 2015.12.8 = {
 	monarch = {
-		name = "Matt"
-		dynasty = "Bevin"
+		name = "Matt Bevin"
 		adm = 2
 		dip = 4
 		mil = 3

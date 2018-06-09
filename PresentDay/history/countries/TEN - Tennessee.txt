@@ -8,8 +8,7 @@ capital = 934 # Nashville
 
 2011.1.15 = {
 	monarch = {
-		name = "Bill"
-		dynasty = "Haslam"
+		name = "Bill Haslam"
 		adm = 2
 		dip = 4
 		mil = 3

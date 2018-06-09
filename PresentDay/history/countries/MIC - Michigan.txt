@@ -8,8 +8,7 @@ capital = 2522 # Lansing
 
 2011.1.1 = {
 	monarch = {
-		name = "Rich"
-		dynasty = "Snyder"
+		name = "Rich Snyder"
 		adm = 3
 		dip = 4
 		mil = 3

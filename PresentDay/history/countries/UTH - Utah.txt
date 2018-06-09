@@ -8,8 +8,7 @@ capital = 939 # Salt Lake City
 
 2009.8.11 = {
 	monarch = {
-		name = "Gary"
-		dynasty = "Herbert"
+		name = "Gary Herbert"
 		adm = 2
 		dip = 3
 		mil = 4

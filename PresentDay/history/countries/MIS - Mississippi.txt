@@ -8,8 +8,7 @@ capital = 2529 # Jackson
 
 2012.1.10 = {
 	monarch = {
-		name = "Phil"
-		dynasty = "Bryant"
+		name = "Phil Bryant"
 		adm = 2
 		dip = 4
 		mil = 3

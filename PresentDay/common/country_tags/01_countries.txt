@@ -55,6 +55,9 @@ MNE = "countries/Maine.txt"
 AKA = "countries/Alaska.txt"
 HAW = "countries/Hawaii.txt"
 
+PRT = "countries/Puerto Rico.txt"
+UVI = "countries/US Virgin Islands.txt"
+
 #Carribean
 CUB = "countries/Cuba.txt"
 BHM = "countries/TheBahamas.txt"

@@ -1,0 +1,94 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 66 134 244 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Kenneth" = 25
+	"John" = 25
+	"Charles" = 25
+	"Roy" = 25
+	"Alexander" = 25
+	"Juan" = 25
+	"Cyril" = 25
+	"Melvin" = 25
+	"Ralph" = 25
+	"Walter" = 25
+	"Archibald" = 25
+	"Morris" = 25
+	"William" = 25
+	"Robert" = 25
+	"Lawrence" = 25
+	"Paul" = 25
+	"Waldo" = 25
+	"Martin" = 25
+	"Philip" = 25
+	"Henry" = 25
+	"Sumner" = 25
+	"Joseph" = 25
+	"James" = 25
+	"Edwin" = 25
+}
+
+leader_names = {
+	Kenneth John Charles Roy Alexander Juan Cyril Melvin Ralph Walter Archibald Morris William Robert
+	Lawrence Paul Waldo Martin Philip Henry Sumner Joseph James Edwin
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Saint Thomas-class Vessel"
+	"Charlotte-class Vessel"
+	"Cruz Bay-class Vessel"
+	"Coral Bay-class Vessel"
+	"Saint Croix-class Vessel"
+	"Virgin Island-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of the US Virgin Islands"
+}

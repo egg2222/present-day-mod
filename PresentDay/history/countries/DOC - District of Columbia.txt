@@ -8,8 +8,7 @@ capital = 4401 # DC
 
 2017.1.21 = {
 	monarch = {
-		name = "Donald"
-		dynasty = "Trump"
+		name = "Donald Trump"
 		adm = 2
 		dip = 1
 		mil = 3

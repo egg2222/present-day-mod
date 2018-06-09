@@ -93,6 +93,31 @@ two_year_state_government = {
 		government = two_year_state_government
 	}
 }
+
+us_territory_government = {
+	rank = {
+		1 = US_TERRITORY_GOVERNMENT_NAME
+		#2 = MORE_FOURYEAR_STATE_GOVERNMENT
+		#3 = MOST_FOURYEAR_STATE_GOVERNMENT
+	}
+	
+	ruler_male = {
+		1 = TERRITORY_GOVERNOR
+		#2 = STATE_GOVERNOR
+		#3 = STATE_GOVERNOR
+	}
+	
+	ruler_female = {
+		1 = TERRITORY_GOVERNOR
+		#2 = STATE_F_GOVERNOR
+		#3 = STATE_F_GOVERNOR
+	}
+	
+	trigger = {
+		government = us_territory_government
+	}
+}
+
 presidential_republic = {
 	rank = {
 		1 = PRESIDENTIAL_REPUBLIC

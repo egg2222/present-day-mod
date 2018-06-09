@@ -8,8 +8,7 @@ capital = 928 # Tallahassee
 
 2011.1.4 = {
 	monarch = {
-		name = "Rick"
-		dynasty = "Scott"
+		name = "Rick Scott"
 		adm = 2
 		dip = 4
 		mil = 3

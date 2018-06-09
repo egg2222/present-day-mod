@@ -601,10 +601,9 @@ government_rank = 2
 
 2012.5.7 = {
 	monarch = {
-		name = "Vladimir"
-		dynasty = Putin
+		name = "Vladimir Putin"
 		adm = 5
-		dip = 4
-		mil = 4
+		dip = 3
+		mil = 5
 	}
 }

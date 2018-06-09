@@ -8,8 +8,7 @@ capital = 2494 # Reno (province name is Reno, though capital is Carson City, in 
 
 2009.8.11 = {
 	monarch = {
-		name = "Brian"
-		dynasty = "Sandoval"
+		name = "Brian Sandoval"
 		adm = 3
 		dip = 3
 		mil = 3

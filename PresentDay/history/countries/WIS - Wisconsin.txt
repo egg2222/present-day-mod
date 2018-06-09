@@ -19,8 +19,7 @@ capital = 913 # Madison
 
 2011.1.3 = {
 	monarch = {
-		name = "Scott"
-		dynasty = "Walker"
+		name = "Scott Walker"
 		adm = 2
 		dip = 2
 		mil = 3

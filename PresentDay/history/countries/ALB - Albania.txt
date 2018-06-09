@@ -29,8 +29,7 @@ capital = 143 # Durrës,Tirana
 
 2017.7.24 = {
 	monarch = {
-		name = "Ilir"
-		dynasty = "Meta"
+		name = "Ilir Meta"
 		adm = 3
 		dip = 5
 		mil = 3

@@ -1,16 +1,12 @@
 #492 - Puerto Rico
-
-owner = USA
-controller = USA
-add_core = USA
-culture = american
+culture = culture_puerto_rican
 religion = catholic
-capital = "Puerto Rico"
+capital = "San Juan"
 trade_goods = sugar
 hre = no
-base_tax = 4
-base_production = 5
-base_manpower = 1
+base_tax = 9
+base_production = 9
+base_manpower = 9
 
 discovered_by = western
 discovered_by = eastern
@@ -27,3 +23,15 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = USA
+	owner = USA
+	controller = USA
+}
+
+2018.1.2 = {
+	add_core = PRT
+	owner = PRT
+	controller = PRT
+}

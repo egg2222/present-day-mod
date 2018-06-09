@@ -18,7 +18,7 @@ capital = 236 # London
 
 1952.2.6 = {
 	monarch = {
-		name = "Elizabeth II"
+		name = "Elizabeth #2"
 		dynasty = "of Windsor"
 		adm = 6
 		dip = 5
@@ -27,9 +27,11 @@ capital = 236 # London
 		female = yes
 		religion = protestant
 	}
-	
+}
+
+1952.2.7 = {
 	heir = {
-		name = "Charles III"
+		name = "Charles #3"
 		dynasty = "of Windsor"
 		birth_date = 1948.11.14
 		claim = 100

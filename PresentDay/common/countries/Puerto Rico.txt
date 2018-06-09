@@ -1,0 +1,116 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 31 93 193 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Ricardo" = 25
+	"Alejandro" = 25
+	"Luis" = 25
+	"Aníbal" = 25
+	"Sila" = -25
+	"Pedro" = 25
+	"Rafael" = 25
+	"Carlos" = 25
+	"Roberto" = 25
+	"Jesús" = 25
+	"Rexford" = 25
+	"José" = 25
+	"Guy" = 25
+	"William" = 25
+	"Blanton" = 25
+	"Benjamin" = 25
+	"James" = 25
+	"Theodore" = 25
+	"Horace" = 25
+	"Juan" = 25
+	"Emmet" = 25
+	"Arthur" = 25
+	"Regis" = 25
+	"Beekman" = 25
+	"Charles" = 25
+	"Manuel" = 25
+	"Andrés" = 25
+	"Sabas" = 25
+	"Emilio" = 25
+	"Antonio" = 25
+	"Romualdo" = 25
+	"Miguel" = 25
+	"Segundo" = 25
+	"Eulogio" = 25
+	"Joaquín" = 25
+	"Simón" = 25
+	"Ramón" = 25
+	"Gabriel" = 25
+	"Julián" = 25
+	"Félix" = 25
+	"Gamir" = 25
+	"Fernándo" = 25
+	"Santiago" = 25
+	"Javier" = 25
+}
+
+leader_names = {
+	Ricardo Alejandro Luis Aníbal Sila Pedro Rafael Carlos Roberto Jesús Rexford José Guy 
+	William Blanton Benjamin James Theodore Horace Juan Emmet Arthur Regis Beekman Charles 
+	Manuel Andrés Sabas Emilio Antonio Romualdo Miguel Segundo Eulogio Joaquín Simón Ramón
+	Gabriel Julián Félix Gamir Fernándo Santiago Javier 
+}
+
+ship_names = {
+	"Ticonderoga-class Buque"
+	"Arleigh Burke-class Buque"
+	"Zumwalt-class Buque"
+	"Blue Ridge-class Buque"
+	"Harpers Ferry-class Buque"
+	"Nimitz-class Buque"
+	"Gerald R Ford-class Buque"
+	"Hamilton-class Buque"
+	"Reliance-class Buque"
+	"San Juan-class Buque"
+	"Ponce-class Buque"
+	"Bayamón-class Buque"
+	"Mayagüez-class Buque"
+	"Carolina-class Buque"
+	"Puerto Rico-class Buque"
+}
+
+
+army_names = {
+	"Ejército de $PROVINCE$"
+}
+
+fleet_names = {
+	"Marina de Puerto Rico"
+}

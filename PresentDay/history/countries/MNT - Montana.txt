@@ -8,8 +8,7 @@ capital = 2501	# Helena
 
 2013.1.7 = {
 	monarch = {
-		name = "Steve"
-		dynasty = "Bullock"
+		name = "Steve Bullock"
 		adm = 3
 		dip = 2
 		mil = 2

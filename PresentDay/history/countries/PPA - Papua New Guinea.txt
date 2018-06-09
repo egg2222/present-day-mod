@@ -8,8 +8,7 @@ capital = 1237	# Port Moresby
 
 2011.8.2 = {
 	monarch = {
-		name = "Peter"
-		dynasty = "O'Neil"
+		name = "Peter O'Neil"
 		adm = 2
 		dip = 2
 		mil = 2

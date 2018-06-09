@@ -1088,8 +1088,7 @@ capital = 183 # Paris
 
 2017.5.14 = {
 	monarch = {
-		name = "Emmanuel"
-		dynasty = "Macron"
+		name = "Emmanuel Macron"
 		birth_date = 1977.12.21
 		adm = 4
 		dip = 4

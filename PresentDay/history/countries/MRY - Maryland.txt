@@ -8,8 +8,7 @@ capital = 953	# Baltimore
 
 2015.1.21 = {
 	monarch = {
-		name = "Larry"
-		dynasty = "Hogan"
+		name = "Larry Hogan"
 		adm = 4
 		dip = 3
 		mil = 3

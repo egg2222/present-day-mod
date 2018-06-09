@@ -19,8 +19,7 @@ capital = 916 # Springfield
 
 1957.2.18 = {
 	monarch = {
-		name = "Bruce"
-		dynasty = "Rauner"
+		name = "Bruce Rauner"
 		adm = 4
 		dip = 3
 		mil = 3

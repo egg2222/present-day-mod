@@ -9,8 +9,7 @@ capital = 2479 # Sacramento
 
 2011.1.3 = {
 	monarch = {
-		name = "Jerry"
-		dynasty = "Brown"
+		name = "Jerry Brown"
 		adm = 5
 		dip = 4
 		mil = 3

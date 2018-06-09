@@ -19,8 +19,7 @@ capital = 909 #Bismarck
 
 2016.12.15 = {
 	monarch = {
-		name = "Doug"
-		dynasty = "Burgum"
+		name = "Doug Burgum"
 		adm = 4
 		dip = 3
 		mil = 3

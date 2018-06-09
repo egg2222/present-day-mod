@@ -198,6 +198,50 @@ two_year_state_government = {
 	}
 }
 
+us_territory_government = {
+	republic = yes
+	
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0	
+	
+	color = { 140 200 240 }
+	
+	duration = 4
+	
+	fixed_rank = 1
+	
+	unique_government = yes
+
+	republican_name = yes
+	royal_marriage = no
+	
+	ai_will_do = {
+		factor = 0
+	}
+	ai_importance = 1
+
+	#bonus
+	max_states = 5
+	
+	rank = {
+		1 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05
+		}
+		2 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05	
+			global_autonomy = -0.025
+		}
+		3 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05
+			global_autonomy = -0.05
+		}
+	}
+}
+
 parliamentary_republic = {
 	republic = yes
 	

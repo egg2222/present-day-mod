@@ -8,8 +8,7 @@ capital = 2507	# Cheyenne
 
 2011.1.3 = {
 	monarch = {
-		name = "Matt"
-		dynasty = "Mead"
+		name = "Matt Mead"
 		adm = 2
 		dip = 2
 		mil = 4

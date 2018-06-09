@@ -8,8 +8,7 @@ capital = 937 # Raleigh
 
 2017.1.1 = {
 	monarch = {
-		name = "Roy"
-		dynasty = "Cooper"
+		name = "Roy Cooper"
 		adm = 3
 		dip = 3
 		mil = 2
