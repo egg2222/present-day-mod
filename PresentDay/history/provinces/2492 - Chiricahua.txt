@@ -5,9 +5,9 @@ religion = protestant
 capital = "Las Vegas"
 trade_goods = aircraft
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 8
+base_production = 8
+base_manpower = 8
 
 discovered_by = western
 discovered_by = eastern

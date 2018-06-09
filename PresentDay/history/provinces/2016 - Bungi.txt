@@ -6,9 +6,9 @@ religion = protestant
 capital = "Moorhead"
 trade_goods = grain
 hre = no
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
 discovered_by = western
 discovered_by = eastern

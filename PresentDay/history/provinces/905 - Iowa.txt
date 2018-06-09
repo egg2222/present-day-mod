@@ -1,16 +1,12 @@
 #905 - Iowa
-
-owner = IOW
-controller = IOW
-add_core = IOW
 culture = culture_iowan
 religion = protestant
 capital = "Des Moines"
 trade_goods = fish
 hre = no
-base_tax = 3
-base_production = 2
-base_manpower = 2
+base_tax = 6
+base_production = 6
+base_manpower = 6
 
 discovered_by = western
 discovered_by = eastern

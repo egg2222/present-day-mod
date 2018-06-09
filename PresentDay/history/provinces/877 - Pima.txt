@@ -4,9 +4,9 @@ religion = protestant
 capital = "Tuscon" 
 trade_goods = salt 
 hre = no 
-base_tax = 5
-base_production = 4
-base_manpower = 4
+base_tax = 8
+base_production = 7
+base_manpower = 7
 is_city = yes
 
 discovered_by = western

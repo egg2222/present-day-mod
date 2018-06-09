@@ -1,16 +1,13 @@
 #891 - Jicarilla
 
-owner = OKL
-controller = OKL
-add_core = OKL
 culture = culture_oklahoman
 religion = protestant
 capital = "Enid"
 trade_goods = grain
 hre = no
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 3
+base_manpower = 3
 
 discovered_by = western
 discovered_by = eastern

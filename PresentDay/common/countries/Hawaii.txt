@@ -1,0 +1,85 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 73 96 18 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"David" = 25
+	"Neil" = 25
+	"Linda" = -25
+	"Ben" = 25
+	"John" = 25
+	"George" = 25
+	"William" = 25
+	"Samuel" = 25
+	"Oren" = 25
+	"Ingram" = 25
+	"Joseph" = 25
+	"Lawrence" = 25
+	"Wallace" = 25
+	"Charles" = 25
+	"Lucius" = 25
+	"Sanford" = 25
+}
+
+leader_names = {
+	David Neil Linda Ben John George William Samuel Oren Ingram Joseph Lawrence Wallace Charles Lucius Sanford
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Honolulu-class Vessel"
+	"Hilo-class Vessel"
+	"Maui-class Vessel"
+	"Kahului-class Vessel"
+	"Oahu-class Vessel"
+	"Hawaii-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of Hawaii"
+}

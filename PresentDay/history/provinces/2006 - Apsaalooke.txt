@@ -1,14 +1,11 @@
-add_core = MNT
-owner = MNT
-controller = MNT
 culture = culture_montanan
-religion = catholic
-capital = Butte
-trade_goods = fur
+religion = protestant
+capital = "Butte"
+trade_goods = gasoline
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 discovered_by = western

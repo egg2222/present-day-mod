@@ -2965,6 +2965,10 @@ utah_area = {
 	939 2490 875
 }
 
+chesapeake_area = { #4 Virginia
+    950 952 2549 2550 2011 949 2548
+}
+
 saskatchewan_area = { #3
     1011 1813 2005 2595 2596 2597 2598
 }
@@ -3048,6 +3052,11 @@ oregon_area = { #4
     872 2481 2482 2483 873
 }
 
+miami_river_area = { #4
+	942 943 2523 2524
+}
+
+
 alaska_area = {  #4
     978 2611 2612 1810 979 976 2613
 }
@@ -3087,12 +3096,19 @@ choctaw_area = { #3 Tennessee
 
 }
 
+west_virginia_area = {
+	951 2551 2552
+}
+
+pennsylvania_area = {
+	954 955 956 2023 2555 2556 2556
+
 hudson_valley_area = { #4
     963 965 2558 2639
 }
 
 delaware_valley_area = { #5
-    955 956 957 962 2023
+    955 956 957 962
 }
 
 iroquoisia_area = { #5
@@ -3104,15 +3120,7 @@ south_iroquoisia_area = { #3
 }
 
 susquehanna_area = { #4
-    954 2555 2556 2557
-}
-
-chesapeake_area = { #4
-    950 952 2549 2550
-}
-
-great_valley_area = { #3
-    949 2011 2552
+    
 }
 
 piedmont_north_america_area = { #3
@@ -3128,7 +3136,7 @@ north_florida_area = { #3
 }
 
 appalachia_area = { #3
-    951 2551
+    
 }
 
 south_appalachia_area = { #3
@@ -3137,10 +3145,6 @@ south_appalachia_area = { #3
 
 west_florida_area = { #5
     
-}
-
-miami_river_area = { #4
-	942 943 2523 2524
 }
 
 lake_superior_area = { #4
@@ -3271,7 +3275,7 @@ inner_ontario_area = { #5
 }
 
 hudson_bay_area = { #5
-    1005 1006 1009 2594 1811
+    1005 1006 1009 2594 1811 4407 4408
 }
 
 red_river_area = { #5
@@ -3390,7 +3394,7 @@ lucayan_area = { #2
 }
 
 leeward_islands_area = { #5
-    493 494 495 496 1881
+    493 4405 4406 494 495 496 1881
 }
 
 windward_islands_area = { #5

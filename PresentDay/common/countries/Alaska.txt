@@ -1,0 +1,105 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 15 32 75 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Bill" = 25
+	"Sean" = 25
+	"Sarah" = -25
+	"Frank" = 25
+	"Tony" = 25
+	"Wally" = 25
+	"Steve" = 25
+	"Jay" = 25
+	"William" = 25
+	"Keith" = 25
+	"Waino" = 25
+	"Mike" = 25
+	"Benjamin" = 25
+	"Ernest" = 25
+	"John" = 25
+	"George" = 25
+	"Scott" = 25
+	"Thomas" = 25
+	"Walter" = 25
+	"Wilford" = 25
+	"James" = 25
+	"Lyman" = 25
+	"Alfred" = 25
+	"Henry" = 25
+	"Joseph" = 25
+	"Edgar" = 25
+	"Frederick" = 25
+	"Lester" = 25
+	"Mottrom" = 25
+	"Montgomery" = 25
+	"Arthur" = 25
+	"Harvey" = 25
+	"Jefferson" = 25
+}
+
+leader_names = {
+	Bill Sean Sarah Frank Tony Wally Steve Jay William Keith Waino 
+	Mike Benjamin Ernest John George Scott Thomas Walter Wilford 
+	James Lyman Alfred Henry Joseph Edgar Frederick Lester Montgomery 
+	Arthur Harvey Jefferson
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Anchorage-class Vessel"
+	"Fairbanks-class Vessel"
+	"Nome-class Vessel"
+	"Kodiak-class Vessel"
+	"Juneau-class Vessel"
+	"Alaska-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of Alaska"
+}

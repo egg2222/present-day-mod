@@ -1,10 +1,10 @@
 culture = american
 religion = protestant
 hre = no
-base_tax = 10
-base_production = 10
+base_tax = 14
+base_production = 14
 trade_goods = fish
-base_manpower = 10
+base_manpower = 13
 capital = "Washington"
 is_city = yes
 fort_15th = yes

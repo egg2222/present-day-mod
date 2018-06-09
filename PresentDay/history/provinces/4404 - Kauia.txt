@@ -1,13 +1,12 @@
 culture = culture_hawaiian
 religion = protestant
 hre = no
-base_tax = 1
-base_production = 1
+base_tax = 3
+base_production = 3
 trade_goods = fish
-base_manpower = 1
+base_manpower = 3
 capital = "Kapaʻa"
 is_city = yes
-
 
 discovered_by = western
 discovered_by = eastern
@@ -24,3 +23,15 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.1 = {
+	add_core = USA
+	owner = USA
+	controller = USA
+}
+
+2018.1.2 = {
+	add_core = HAW
+	owner = HAW
+	controller = HAW
+}

@@ -1,0 +1,17 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 1
+technology_group = western
+religion = protestant
+primary_culture = culture_hawaiian
+capital = 4403 # Honolulu
+
+2014.12.1 = {
+	monarch = {
+		name = "David Ige"
+		adm = 4
+		dip = 3
+		mil = 3
+		birth_date = 1957.1.15
+	}
+}

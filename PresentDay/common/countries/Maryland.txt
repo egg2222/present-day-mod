@@ -1,0 +1,92 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 234 171 0 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Lawrence" = 25
+	"Martin" = 25
+	"Robert" = 25
+	"Parris" = 25
+	"William" = 25
+	"Harry" = 25
+	"Blair" = 25
+	"Marvin" = 25
+	"Spiro" = 25
+	"John" = 25
+	"Theodore" = 25
+	"Herbert" = 25
+	"Albert" = 25
+	"Emerson" = 25
+	"Phillips" = 25
+	"Austin" = 25
+	"Edwin" = 25
+	"Lloyd" = 25
+	"Elihu" = 25
+	"James" = 25
+	"Oden" = 25
+	"Thomas" = 25
+	"Augustus" = 25
+	"Enoch" = 25
+	"Philip" = 25
+	"Francis" = 25
+	"George" = 25
+	"Daniel" = 25
+	"Joseph" = 25
+	"Samuel" = 25
+	"Charles" = 25
+	"Levin" = 25
+	"Edward" = 25
+	"Benjamin" = 25
+}
+
+leader_names = {
+	Lawrence Martin Robert Parris William Harry Blair Marvin Spiro John Theodore
+	Herbert Albert Emerson Phillips Austin Edwin Lloyd Elihu James Oden Thomas 
+	Augustus Enoch Philip Francis George Daniel Joseph Samuel Charles Levin Edward 
+	Benjamin
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

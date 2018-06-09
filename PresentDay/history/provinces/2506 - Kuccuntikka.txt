@@ -1,16 +1,13 @@
 # No previous file for Kuccuntikka
 
-owner = WYO
-controller = WYO
-add_core = WYO
 culture = culture_wyomingite
 religion = protestant
 capital = "Jackson"
 trade_goods = fur
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 2
+base_tax = 3
+base_production = 3
+base_manpower = 5
 
 discovered_by = western
 discovered_by = eastern

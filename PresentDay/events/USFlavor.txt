@@ -27,7 +27,7 @@ country_event = {
 		name = "OWNS_WASHINGTON_DC__EVT_1_OPT_1"
 		add_country_modifier = {
 			name = "RETOOK_DISTRICT_OF_COLUMBIA"
-			duration = 9125
+			duration = -1
 		}
 		set_country_flag = retook_dc
 	}
@@ -88,7 +88,7 @@ province_event = {
 	}
 
 	mean_time_to_happen = {
-		months = 450
+		months = 600
 		modifier = {
 			factor = 0.6
 			region = us_plains_region
@@ -115,7 +115,7 @@ province_event = {
 	
 	option = {
 		name = "TORNADO_EVT_OPT_1"
-		add_treasury = -300
+		owner = { add_treasury = -100 }
 		add_province_modifier = {
 			name = "HAPPY_CITIZENS"
 			duration = 1826

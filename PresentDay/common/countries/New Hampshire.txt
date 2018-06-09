@@ -1,0 +1,125 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 204 157 104 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Chris" = 25
+	"Chuck" = 25
+	"Maggie" = -25
+	"John" = 25
+	"Craig" = 25
+	"Jeanne" = -25
+	"Steve" = 25
+	"Ralph" = 25
+	"Judd" = 25
+	"Vesta" = -25
+	"Hugh" = 25
+	"Meldrim" = 25
+	"Walter" = 25
+	"Wesley" = 25
+	"Lane" = 25
+	"Sherman" = 25
+	"Charles" = 25
+	"Robert" = 25
+	"Francis" = 25
+	"Styles" = 25
+	"Huntley" = 25
+	"Fred" = 25
+	"Albert" = 25
+	"Henry" = 25
+	"Rolland" = 25
+	"Nahum" = 25
+	"Chester" = 25
+	"Frank" = 25
+	"George" = 25
+	"Hiram" = 25
+	"David" = 25
+	"Moody" = 25
+	"Samuel" = 25
+	"Natt" = 25
+	"Person" = 25
+	"James" = 25
+	"Ezekiel" = 25
+	"Onslow" = 25
+	"Frederick" = 25
+	"Joseph" = 25
+	"Nathaniel" = 25
+	"Ichabod" = 25
+	"Ralph" = 25
+	"Noah" = 25
+	"Jared" = 25
+	"Anthony" = 25
+	"Isaac" = 25
+	"Matthew" = 25
+	"Benjamin" = 25
+	"Levi" = 25
+	"Jeremiah" = 25
+	"Josiah" = 25
+	"Meshech" = 25
+}
+
+leader_names = {
+	Chris Chuck Maggie John Craig Jeanne Steve Ralph Judd Vesta Hugh Meldrim Walter Wesley Lane 
+	Sherman Charles Robert Francis Styles Huntley Fred Albert Henry Rolland Nahum Chester Frank 
+	George Hiram David Moody Samuel Natt Person James Ezekiel Onslow Frederick Joseph Nathaniel
+	Ichabod Ralph Noah Jared Anthony Isaac Matthew Benjamin Levi Jeremiah Josiah Meshech
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Manchester-class Vessel"
+	"Concord-class Vessel"
+	"Nashua-class Vessel"
+	"Portsmouth-class Vessel"
+	"Lancaster-class Vessel"
+	"New Hampshire-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of New Hampshire"
+}

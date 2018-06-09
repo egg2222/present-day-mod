@@ -1,14 +1,11 @@
-owner = MNT
-controller = MNT
-add_core = MNT
 culture = culture_montanan
 religion = protestant
 capital = "Miles City"
-trade_goods = fur
+trade_goods = livestock
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 discovered_by = western
 discovered_by = eastern

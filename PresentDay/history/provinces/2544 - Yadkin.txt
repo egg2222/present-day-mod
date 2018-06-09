@@ -5,9 +5,9 @@ religion = protestant
 capital = "Charlotte"
 trade_goods = gasoline
 hre = no
-base_tax = 7
-base_production = 6
-base_manpower = 6
+base_tax = 10
+base_production = 9
+base_manpower = 9
 
 discovered_by = western
 discovered_by = eastern

@@ -5,9 +5,9 @@ religion = catholic
 capital = "Chicago"
 trade_goods = grain
 hre = no
-base_tax = 9
-base_production = 9
-base_manpower = 9
+base_tax = 11
+base_production = 11
+base_manpower = 11
 is_city = yes
 
 discovered_by = western

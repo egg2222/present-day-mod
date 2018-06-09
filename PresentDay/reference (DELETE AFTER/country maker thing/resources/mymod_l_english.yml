@@ -1,8 +1,0 @@
-﻿l_english:
- TAG: "The Name of your Country goes here"
- TAG_ADJ: "The adjusted Name of your Country goes here"
-
- # change 'TAG' to the Tag for your country and the content between the " " into the name of your country and the adjusted name
- # after you changed the values, save this file and put it into the localisation folder in your mymod folder 
- # it will only work in the english version, so if your game is German, change 'l_english' to 'l_german' and 'mymod_l_english.yml'
- # to 'mymod_l_german.yml'. 

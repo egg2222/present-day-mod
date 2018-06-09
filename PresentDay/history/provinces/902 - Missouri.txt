@@ -1,15 +1,11 @@
-
-owner = MSR
-controller = MSR
-add_core = MSR
 culture = culture_missourian
 religion = protestant
 capital = "Kansas City"
 trade_goods = vehicles
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 8
+base_production = 7
+base_manpower = 7
 
 discovered_by = western
 discovered_by = eastern

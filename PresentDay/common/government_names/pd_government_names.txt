@@ -96,20 +96,20 @@ two_year_state_government = {
 presidential_republic = {
 	rank = {
 		1 = PRESIDENTIAL_REPUBLIC
-		#2 = MORE_REPUBLIC
-		#3 = MOST_REPUBLIC
+		2 = PRESIDENTIAL_REPUBLIC
+		3 = PRESIDENTIAL_REPUBLIC
 	}
 	
 	ruler_male = {
 		1 = IR_PRESIDENT
-		#2 = IR_MORE_PRESIDENT
-		#3 = IR_MOST_PRESIDENT
+		2 = IR_PRESIDENT
+		3 = IR_PRESIDENT
 	}
 	
 	ruler_female = {
 		1 = IR_F_PRESIDENT
-		#2 = IR_F_MORE_PRESIDENT
-		#3 = IR_F_MOST_PRESIDENT
+		2 = IR_F_PRESIDENT
+		3 = IR_F_PRESIDENT
 	}
 	
 	trigger = {

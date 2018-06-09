@@ -1,0 +1,118 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 230 163 0 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Charlie" = 25
+	"Deval" = 25
+	"Mitt" = 25
+	"Jane" = -25
+	"Paul" = 25
+	"Bill" = 25
+	"Michael" = 25
+	"Edward" = 25
+	"Francis" = 25
+	"John" = 25
+	"Endicott" = 25
+	"Foster" = 25
+	"Christian" = 25
+	"Maurice" = 25
+	"Leverett" = 25
+	"James" = 25
+	"Charles" = 25
+	"Joseph" = 25
+	"Frank" = 25
+	"Alvan" = 25
+	"Channing" = 25 
+	"Calvin" = 25
+	"Samuel" = 25
+	"David" = 25
+	"Eugene" = 25
+	"Eben" = 25
+	"Curtis" = 25
+	"William" = 25
+	"Winthrop" = 25
+	"Roger" = 25
+	"Frederic" = 25
+	"Oliver" = 25
+	"George" = 25
+	"Benjamin" = 25
+	"Thomas" = 25
+	"Alexander" = 25
+	"Nathaniel" = 25
+	"Henry" = 25
+	"Emory" = 25
+	"Marcus" = 25
+	"Levi" = 25
+	"Caleb" = 25
+	"Elbridge" = 25
+	"Christopher" = 25
+	"Moses" = 25
+	"Increase" = 25
+}
+
+leader_names = {
+	Charlie Deval Mitt Jane Paul Bill Michael Edward Francis John Endicott Foster Christian Maurice
+	Leverett James Charles Joseph Frank Alvan Channing Calvin Samuel David Eugene Eben Curtis William 
+	Winthrop Roger Frederic Oliver George Benjamin Thomas Alexander Nathaniel Henry Emory Marcus Levi 
+	Caleb Elbridge Christopher Moses Increase
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Boston-class Vessel"
+	"Plymouth-class Vessel"
+	"Springfield-class Vessel"
+	"Pittsfield-class Vessel"
+	"Worcester-class Vessel"
+	"Massachusetts-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of Massachusetts"
+}

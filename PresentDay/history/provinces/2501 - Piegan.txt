@@ -1,14 +1,11 @@
-owner = MNT
-controller = MNT
-add_core = MNT
 culture = culture_montanan
-religion = catholic
-capital = Helena
+religion = protestant
+capital = "Helena"
 trade_goods = copper
 hre = no
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 3
+base_manpower = 3
 
 discovered_by = western
 discovered_by = eastern

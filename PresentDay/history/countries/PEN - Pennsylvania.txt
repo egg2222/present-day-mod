@@ -1,0 +1,17 @@
+government = four_year_state_government
+government_rank = 1
+mercantilism = 0.25
+technology_group = western
+religion = protestant
+primary_culture = culture_pennsylvanian
+capital = 955	# Harrisburg
+
+2015.1.20 = {
+	monarch = {
+		name = "Tom Wolf"
+		adm = 5
+		dip = 4
+		mil = 3
+		birth_date = 1948.11.17
+	}
+}

@@ -1,0 +1,96 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 235 104 109 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"John" = 25
+	"Ted" = 25
+	"Bob" = 25
+	"Nancy" = -25
+	"George" = 25
+	"Dick" = 25
+	"Jim" = 25
+	"Michael" = 25
+	"Frank" = 25
+	"Thomas" = 25
+	"Martin" = 25
+	"Myers" = 25
+	"Alvin" = 25
+	"Harry" = 25
+	"James" = 25
+	"Judson" = 25
+	"Andrew" = 25
+	"Myron" = 25
+	"Asa" = 25
+	"Joseph" = 25
+	"Charles" = 25
+	"Richard" = 25
+	"Rutherford" = 25
+	"Edward" = 25
+	"Jacob" = 25
+	"David" = 25
+	"Salmon" = 25
+	"Reuben" = 25
+	"Seabury" = 25
+	"Mordecai" = 25
+	"Wilson" = 25
+	"Robert" = 25
+	"Duncan" = 25
+	"Allen" = 25
+	"Jeremiah" = 25
+	"Ethan" = 25
+	"Othniel" = 25
+	"Return" = 25
+	"Samuel" = 25
+}
+
+leader_names = {
+	John Ted Bob Nancy George Dick Jim Michael Frank Thomas Martin Myers Alvin Harry James Judson
+	Andrew Myron Asa Joseph Charles Richard Rutherford Edward Jacob David Salmon Reuben Seabury
+	Mordecai Wilson Robert Duncan Allen Jeremiah Ethan Othniel Return Samuel
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

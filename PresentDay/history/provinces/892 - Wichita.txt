@@ -1,16 +1,12 @@
 #892 - Oklahoma City
-
-owner = OKL
-controller = OKL
-add_core = OKL
 culture = culture_oklahoman
 religion = protestant
 capital = "Oklahoma City"
 trade_goods = oil
 hre = no
-base_tax = 5
-base_production = 5
-base_manpower = 5
+base_tax = 8
+base_production = 8
+base_manpower = 8
 
 discovered_by = western
 discovered_by = eastern

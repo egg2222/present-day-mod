@@ -4,9 +4,9 @@ religion = protestant
 capital = "Houston"
 trade_goods = oil
 hre = no
-base_tax = 8
-base_production = 8
-base_manpower = 8
+base_tax = 11
+base_production = 11
+base_manpower = 11
 
 discovered_by = western
 discovered_by = eastern

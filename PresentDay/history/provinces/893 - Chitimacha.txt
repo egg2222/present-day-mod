@@ -5,9 +5,9 @@ religion = catholic
 capital = "New Orleans"
 trade_goods = gasoline
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 7
+base_production = 7
+base_manpower = 7
 
 extra_cost = 10
 

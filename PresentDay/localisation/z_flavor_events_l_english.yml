@@ -10,6 +10,6 @@
  US_RETOOK_DC_EVENT_TWO_DESC:0 "We have lost the District of Columbia and the respect it gave us. While we know we are the true successor of the US, the rest of the world doesn't agree. We will have to retake control if we want them to."
  OWNS_WASHINGTON_DC__EVT_2_OPT_1:0 "Dammit!"
  US_TORNADO_EVENT_TITLE:0 "Tornado!"
- US_TORNADO_EVENT_DESC:0 "A devastating tornado has hit $PROVINCENAME$ and destroyed much of the town of $PROVINCECAPITAL$. We can either choose to send money to the town and repair it, or leave it to themselves."
+ US_TORNADO_EVENT_DESC:0 "A devastating tornado has hit $PROVINCENAME$. We can either choose to send money to the town and repair it, or leave it to themselves."
  TORNADO_EVT_OPT_1:0 "Contribute to the town and help them rebuild."
  TORNADO_EVT_OPT_2:0 "Let them deal with it themselves."

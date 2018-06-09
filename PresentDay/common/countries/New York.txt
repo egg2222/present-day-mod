@@ -1,0 +1,95 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 255 53 21 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Andrew" = 25
+	"David" = 25
+	"Eliot" = 25
+	"George" = 25
+	"Mario" = 25
+	"Hugh" = 25
+	"Malcolm" = 25
+	"Nelson" = 25
+	"William" = 25
+	"Thomas" = 25
+	"Charles" = 25
+	"Herbert" = 25
+	"Franklin" = 25
+	"Al" = 25
+	"Nathan" = 25
+	"Martin" = 25
+	"Horace" = 25
+	"Frank" = 25
+	"Benjamin" = 25
+	"Theodore" = 25
+	"Levi" = 25
+	"Roswell" = 25
+	"Grover" = 25
+	"Alonzo" = 25
+	"Lucius" = 25
+	"Samuel" = 25
+	"Reuben" = 25
+	"Horatio" = 25
+	"Myron" = 25
+	"Washington" = 25
+	"Hamilton" = 25
+	"Silas" = 25
+	"Enos" = 25
+	"Nathaniel" = 25
+	"DeWitt" = 25
+	"Joseph" = 25
+	"Morgan" = 25
+	"John" = 25
+}
+
+leader_names = {
+	Andrew David Eliot George Mario Hugh Malcolm Nelson William Thomas Charles Herbert Franklin Al Nathan Martin 
+	Horace Frank Benjamin Theodore Levi Roswell Grover Alonzo Lucius Samuel Reuben Horatio Myron Washington Silas 
+	Hamilton Silas Enos Nathaniel DeWitt Joseph Morgan John
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

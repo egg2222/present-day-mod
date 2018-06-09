@@ -1,8 +1,4 @@
 #482 - Bahamas
-
-owner = BHM
-controller = BHM
-add_core = BHM
 culture = culture_cuban
 religion = protestant
 capital = "Nassau"
@@ -27,3 +23,9 @@ discovered_by = mesoamerican
 discovered_by = south_american
 discovered_by = andean
 discovered_by = high_american
+
+2018.1.2 = {
+	add_core = BHM
+	owner = BHM
+	controller = BHM
+}

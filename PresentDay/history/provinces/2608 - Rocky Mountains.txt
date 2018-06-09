@@ -1,14 +1,11 @@
-owner = MNT
-controller = MNT
-add_core = MNT
 culture = culture_montanan
 religion = protestant
-capital = Kalispell
+capital = "Kalispell"
 trade_goods = fur
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 5
 
 discovered_by = western
 discovered_by = eastern

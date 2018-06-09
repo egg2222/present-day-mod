@@ -2,12 +2,12 @@
 
 culture = culture_texan
 religion = protestant
-capital = "Lipan"
-trade_goods = unknown
+capital = "San Antonio"
+trade_goods = gasoline
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 11
+base_production = 11
+base_manpower = 11
 
 discovered_by = western
 discovered_by = eastern

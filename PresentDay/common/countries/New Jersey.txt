@@ -1,0 +1,103 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 174 99 37 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Phil" = 25
+	"Chris" = 25
+	"Jon" = 25
+	"Richard" = 25
+	"Jim" = 25
+	"John" = 25
+	"Donald" = 25
+	"Christine" = -25
+	"James" = 25
+	"Thomas" = 25
+	"Brendan" = 25
+	"William" = 25
+	"Robert" = 25
+	"Alfred" = 25
+	"Walter" = 25
+	"Charles" = 25
+	"Arthur" = 25
+	"Harold" = 25
+	"Horace" = 25
+	"Clifford" = 25
+	"Morgan" = 25
+	"George" = 25
+	"Edward" = 25
+	"Clarence" = 25
+	"Leon" = 25
+	"Woodrow" = 25
+	"Franklin" = 25
+	"Foster" = 25
+	"David" = 25
+	"Joseph" = 25
+	"Theodore" = 25
+	"Marcus" = 25
+	"Joel" = 25
+	"Rodman" = 25
+	"Daniel" = 25
+	"Philemon" = 25
+	"Peter" = 25
+	"Elias" = 25
+	"Samuel" = 25
+	"Peter" = 25
+	"Garret" = 25
+	"Isaac" = 25
+	"Mahlon" = 25
+	"Aaron" = 25
+	"Elisha" = 25
+}
+
+leader_names = {
+	Phil Chris Jon Jim John Donald Christine James Thomas Brendan William Robert Alfred Walter
+	Charles Arthur Harold Horace Clifford Morgan George Edward Clarence Leon Woodrow Franklin 
+	Foster David Joseph Theodore Marcus Joel Rodman Daniel Philemon Peter Elias Samuel Peter 
+	Garret Isaac Mahlon Aaron Elisha
+}
+
+ship_names = {
+	"Vessel of $PROVINCE$"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of $PROVINCE$"
+}

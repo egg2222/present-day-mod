@@ -5,9 +5,9 @@ religion = catholic
 capital = "Sacramento"
 trade_goods = computer_parts
 hre = no
-base_tax = 5
-base_production = 4
-base_manpower = 4
+base_tax = 8
+base_production = 7
+base_manpower = 7
 
 discovered_by = western
 discovered_by = eastern

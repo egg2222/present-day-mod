@@ -5,9 +5,9 @@ religion = protestant
 capital = "Tampa"
 trade_goods = ships
 hre = no
-base_tax = 4
-base_production = 3
-base_manpower = 3
+base_tax = 7
+base_production = 6
+base_manpower = 6
 
 discovered_by = western
 discovered_by = eastern

@@ -1,17 +1,12 @@
 #896 - Ozark
-
-owner = OKL
-controller = OKL
-add_core = OKL
-
 culture = culture_oklahoman
 religion = protestant
 capital = "Tulsa"
 trade_goods = gasoline
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 4
+base_tax = 7
+base_production = 7
+base_manpower = 7
 
 discovered_by = western
 discovered_by = eastern

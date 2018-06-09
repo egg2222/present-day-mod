@@ -5,9 +5,9 @@ religion = catholic
 capital = "Los Angeles" 
 trade_goods = computer_parts 
 hre = no 
-base_tax = 10
-base_production = 10
-base_manpower = 10
+base_tax = 11
+base_production = 11
+base_manpower = 11
 
 discovered_by = western
 discovered_by = eastern

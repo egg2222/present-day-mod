@@ -1,13 +1,13 @@
 # No previous file for Denver
 
 culture = culture_coloradan
-religion = catholic
+religion = protestant
 capital = "Denver"
 trade_goods = gold
 hre = no
-base_tax = 6
-base_production = 6
-base_manpower = 6
+base_tax = 9
+base_production = 9
+base_manpower = 9
 
 discovered_by = western
 discovered_by = eastern

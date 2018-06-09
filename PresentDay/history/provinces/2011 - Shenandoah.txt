@@ -4,9 +4,9 @@ culture = culture_virginian
 religion = protestant
 capital = "Harrisonburg"
 trade_goods = grain
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 5
+base_production = 3
+base_manpower = 3
 hre = no
 
 discovered_by = western

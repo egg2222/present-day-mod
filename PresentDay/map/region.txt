@@ -838,9 +838,6 @@ canada_region = {
 
 great_lakes_region = {
 	areas = {
-		ohio_country_area
-		illinois_country_area
-		michigan_area
 		lake_superior_area 
 	}
 }
@@ -848,10 +845,6 @@ great_lakes_region = {
 northeast_america_region = {
 	areas = {
 		great_woods_area
-		massachusetts_bay_area
-		connecticut_valley_area
-		hudson_valley_area
-		delaware_valley_area
 		iroquoisia_area
 		susquehanna_area
 	}
@@ -1158,15 +1151,27 @@ us_southeast_region = {
 		lower_louisiana_area
 		choctaw_area
 		kentucky_area
-		arkansas_area
+		mississippi_plain_area
 	}
 }
 
 us_great_lakes_region = {
 	areas = {
-		illinois_area
+		illinois_country_area
 		indiana_area
 		minnesota_area
 		wisconsin_area
+		michigan_area
+		ohio_country_area
+		miami_river_area
+	}
+}
+
+us_northeast_region = {
+	areas = {
+		maryland_area
+		dc_area
+		delaware_valley_area
+		pennsylvania_area
 	}
 }

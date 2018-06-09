@@ -5,9 +5,9 @@ religion = protestant
 capital = "Gulfport"
 trade_goods = ships
 hre = no
-base_tax = 2
-base_production = 3
-base_manpower = 2
+base_tax = 5
+base_production = 6
+base_manpower = 5
 
 discovered_by = western
 discovered_by = eastern

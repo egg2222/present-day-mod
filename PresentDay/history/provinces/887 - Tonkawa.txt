@@ -2,12 +2,12 @@
 
 culture = culture_texan
 religion = protestant
-capital = "Tonkawa"
-trade_goods = unknown
+capital = "Austin"
+trade_goods = computer_parts
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 11
+base_production = 10
+base_manpower = 10
 
 discovered_by = western
 discovered_by = eastern

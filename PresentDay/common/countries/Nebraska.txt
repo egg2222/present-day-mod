@@ -16,8 +16,8 @@ historical_idea_groups = {
 }
 
 historical_units = {
-	western_medieval_infantry
-	chevauchee
+	m4
+	m1abrams
 	western_longbow
 	gaelic_mercenary
 	gaelic_free_shooter
@@ -65,23 +65,34 @@ monarch_names = {
 }
 
 leader_names = {
-	Daryl Bohac Judd Lyons Timothy
-	Kadavy Roger Lempke Stanley Heng
-	Edward Binder Michael Navrkal
-	Michael Deger Butler Miltonberger
+	Pete Dave Mike Ben Kay Norbert Frank Ralph Victor Val Dwight Robert
+	Arthur Adam Samuel Keith Chester Ashton George Erza Charles William
+	Silas Lorenzo John James Albinus
 }
 
 ship_names = {
-	"Vessel of $PROVINCE$"
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Lincoln-class Vessel"
+	"Omaha-class Vessel"
+	"Bellevue-class Vessel"
+	"Grand Island-class Vessel"
+	"North Platte-class Vessel"
+	"Nebraska-class Vessel"
 }
 
 
 army_names = {
-	"Army of $PROVINCE$" "92nd Troop Command" "72nd Civil Support Team" "168th Quartermaster Battalion" "1057th Transportation Company"
-	"734th Transportation Battalion" "126th Chemical Battalion" "181st Engineer Team" "317th Engineer Team"
-	"43rd Army Band" "267th Ordnance Company" "1st Squadron" "195th Support Company" "1st Battalion"
+	"Army of $PROVINCE$"
 }
 
 fleet_names = {
-	"Navy of $PROVINCE$"
+	"Navy of Nebraska"
 }

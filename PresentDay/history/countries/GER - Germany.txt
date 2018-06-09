@@ -1,0 +1,21 @@
+government = feudal_monarchy
+technology_group = western
+primary_culture = prussian
+religion = protestant
+capital = 50	# Berlin
+
+1750.1.1 = { government = constitutional_republic }
+
+1949.5.23 = { government = presidential_republic } 
+
+2017.3.19 = {
+	monarch = {
+		name = "Frank-Walter"
+		dynasty = "Steinmeier"
+		birth_date = 1956.1.5
+		adm = 3
+		dip = 2
+		mil = 3
+		religion = reformed
+	}
+}

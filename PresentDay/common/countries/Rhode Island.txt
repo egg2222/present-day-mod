@@ -1,0 +1,111 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 66 134 244 }
+
+historical_idea_groups = {
+	plutocracy_ideas
+	expansion_ideas
+	economic_ideas
+	diplomatic_ideas
+	quality_ideas
+	trade_ideas
+	administrative_ideas
+	innovativeness_ideas
+}
+
+historical_units = {
+	m4
+	m1abrams
+	western_longbow
+	gaelic_mercenary
+	gaelic_free_shooter
+	french_caracolle
+	irish_charge
+	anglofrench_line
+	french_dragoon
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Gina" = -25
+	"Lincoln" = 25
+	"Donald" = 25
+	"Bruce" = 25
+	"Edward" = 25
+	"John" = 25
+	"Philip" = 25
+	"Frank" = 25
+	"Christopher" = 25
+	"Dennis" = 25
+	"James" = 25
+	"William" = 25
+	"Robert" = 25
+	"Theodore" = 25
+	"Norman" = 25
+	"Aram" = 25
+	"Emery" = 25
+	"Robert" = 25
+	"George" = 25
+	"Lucius" = 25
+	"Charles" = 25
+	"Elisha" = 25
+	"Daniel" = 25
+	"Herbert" = 25
+	"Royal" = 25
+	"Augustus" = 25
+	"Alfred" = 25
+	"Henry" = 25
+	"Seth" = 25
+	"Ambrose" = 25
+	"Thomas" = 25
+	"Elisha" = 25
+	"Francis" = 25
+	"Byron" = 25
+	"Samuel" = 25
+	"Lemuel" = 25
+	"Nehemiah" = 25
+	"Isaac" = 25
+	"Arthur" = 25
+	"Nicholas" = 25
+}
+
+leader_names = {
+	Gina Lincoln Donald Bruce Edward John Philip Frank Christopher Dennis James William Robert George Lucius Charles 
+	Elisha Daniel Herbert Royal Augustus Alfred Henry Seth Ambrose Thomas Elisha Francis Byron Samuel Lemuel Nehemiah 
+	Isaac Arthur Nicholas
+}
+
+ship_names = {
+	"Ticonderoga-class Vessel"
+	"Arleigh Burke-class Vessel"
+	"Zumwalt-class Vessel"
+	"Blue Ridge-class Vessel"
+	"Harpers Ferry-class Vessel"
+	"Nimitz-class Vessel"
+	"Gerald R Ford-class Vessel"
+	"Hamilton-class Vessel"
+	"Reliance-class Vessel"
+	"Providence-class Vessel"
+	"Warwick-class Vessel"
+	"Newport-class Vessel"
+	"Narragansett-class Vessel"
+	"Pawtucket-class Vessel"
+	"Rhode Island-class Vessel"
+}
+
+
+army_names = {
+	"Army of $PROVINCE$"
+}
+
+fleet_names = {
+	"Navy of Rhode Island"
+}

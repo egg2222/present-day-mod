@@ -2,12 +2,12 @@
 
 culture = culture_texan
 religion = protestant
-capital = "Karankawa"
-trade_goods = unknown
+capital = "Corpus Christi"
+trade_goods = oil
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 7
+base_production = 6
+base_manpower = 6
 
 discovered_by = western
 discovered_by = eastern
