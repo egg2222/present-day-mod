@@ -1,0 +1,32 @@
+russia_mission_slot_1_group = {
+  slot = 1
+  generic = no
+  ai = yes
+  has_country_shield = yes
+  potential = {
+    tag = RUS
+  }
+  
+  russia_rival_united_states = {
+	position = 1
+    icon = mission_unite_home_region
+    required_missions = { }
+    trigger = {
+      iowa_area = {
+        type = all
+        country_or_non_sovereign_subject_holds = ROOT
+      }
+    }
+    effect = {
+      add_mil_power = 200
+      add_legitimacy = 10
+      add_republican_tradition = 10
+	  pd_south_dakota_area = {
+	   add_permanent_claim = ROOT
+	  }
+	  north_dakota_area = {
+	   add_permanent_claim = ROOT
+	  }
+    }
+  }
+}
